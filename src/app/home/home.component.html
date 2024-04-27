@@ -1,0 +1,26 @@
+<div class="lookup-container">
+    <div class="page-title">
+        Champion Mastery Viewer
+    </div>
+    <p>
+        View your champions' masteries with filtering functionality based on level and role. <br>
+        See your mastery related challenges progress all in one place.
+    </p>
+
+    <div class="d-flex align-items-center">
+
+        <div ngbDropdown>
+            <button type="button" class="btn btn-light" id="region-dropdown" ngbDropdownToggle>
+                {{selectedRegion.name}}
+            </button>
+            <div ngbDropdownMenu aria-labelledby="region-dropdown">
+                <button (click)="selectRegion(item)" *ngFor="let item of regions" class="nav-link px-3" ngbDropdownItem>{{item.name}}</button>
+            </div>
+        </div>
+        <input class="ml-1" (keydown)="onEnter($event)" [(ngModel)]="inputText" placeholder="{{placeholder}}">
+
+        <i class="position-absolute bi bi-search"></i>
+        <i style="position: absolute;left: 95px;font-size: 20px; top: 12px; display: none" class="fa-solid fa-spinner fa-spin"></i>
+
+    </div>
+</div>
