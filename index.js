@@ -1,6 +1,6 @@
 import express  from 'express';
 import path from 'path';
-import { getAccountInfo, getMasteryFull }   from './controllers.js';
+import { getAccountInfo, getMasteryFull, getMasteryChallenges }   from './controllers.js';
 const app = express();
 const port = process.env.PORT || 4000;
 const apiKey = 'RGAPI-36231895-8e16-4eb8-9a6a-364f508f2c71';
@@ -30,7 +30,8 @@ app.listen(port, () => {
 
 
 
+app.post('/account', getAccountInfo)
 
+app.post('/mastery', getMasteryFull)
 
-app.post('/mastery', getAccountInfo, getMasteryFull)
-
+app.post('/mastery-challenges', getMasteryChallenges)

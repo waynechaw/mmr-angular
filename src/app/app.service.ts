@@ -107,13 +107,18 @@ export class AppService {
     let activeProfile = localStorage.getItem("activeprofile");
 
     if (activeProfile && activeProfile != 'undefined' && this.profiles[activeProfile]) {
+      this.activeProfileID = activeProfile;
         this.activeProfileInfo = this.profiles[activeProfile];
     }
   }
 
-
+  getAccount(body) {
+    return this.http.post('/account', body);
+  }
   getMastery(body) {
     return this.http.post('/mastery', body);
   }
-
+  getMasteryChallengeData(body) {
+    return this.http.post('/mastery-challenges', body);
+  }
 }

@@ -1,0 +1,27 @@
+<h2>{{item.name}}</h2>
+
+<div class="img-wrapper">
+	<img src="https://ddragon.leagueoflegends.com/cdn/14.3.1/img/champion/{{item.name}}.png"/>
+</div>
+
+
+@if (item.tokensEarned > 0) {
+	<div class="tokens-container">
+		<i [style.color]="tokenColor" *ngIf="item.tokensEarned > 0" class="bi bi-patch-check-fill"></i>
+		<i [style.color]="tokenColor" *ngIf="item.tokensEarned > 1" class="bi bi-patch-check-fill"></i>
+		<i [style.color]="tokenColor" *ngIf="item.tokensEarned > 2" class="bi bi-patch-check-fill"></i>
+	</div>
+} @else {
+	<hr/>
+}
+
+<h4 [style.color]="masteryColor">Mastery {{item.championLevel}}</h4>
+
+@if (item.championPointsUntilNextLevel == 0) {
+	<h4 class="points">{{item.championPoints}}</h4>
+} @else {
+	<div class="progress-box">
+		<div [style.width]="progressPercent" class="inner-bar"></div>
+	</div>
+	<div class="progress-text">{{item.championPointsSinceLastLevel}}/{{pointsRequired}}</div>
+}

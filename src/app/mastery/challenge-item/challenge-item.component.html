@@ -1,0 +1,5 @@
+<div (click)="challengeClicked()" class="challenge-item" [ngClass]="{'selected': userChallengeData.selected}">
+	<h4>{{challengeDetails.translation.name}}</h4>
+	<h6 [style.color]="rankColor">{{userChallengeData.level}}</h6>
+	<h5>{{userChallengeData.value}}<span *ngIf="nextUpgrade">/{{nextUpgrade}}</span> </h5>
+</div>

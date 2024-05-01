@@ -19,3 +19,23 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+challenge-item {
+    width: 11%;
+    margin: 12px 0px;
+}
+
+
+
+
+@media (max-width: 992px) {
+    challenge-item {
+        width: 24%;
+    }
+}
+
+@media (max-width: 720px) {
+    challenge-item {
+        width: 45%;
+    }
+}

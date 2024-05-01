@@ -1,0 +1,46 @@
+.challenge-item {
+	background: #8fa7ff75;
+    padding: 16px 12px 6px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid transparent;
+    &:hover {
+    	background-color: #8fa7ffa6;
+    }
+
+    h4 {
+	    color: white;
+	    font-size: 13px;
+	    text-wrap: nowrap;
+    }
+
+    h6 {
+    	font-size: 19px;
+    }
+
+    h5 {
+	    color: #ffc966;
+	    font-size: 22px;
+    }
+}
+
+.selected {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border: 3px solid white;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
