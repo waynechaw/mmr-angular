@@ -93,7 +93,15 @@ export class AppService {
           id: 'NA1'
         };
     } else {
-        this.selectedRegion = JSON.parse(selectedRegion);
+        try {
+          this.selectedRegion = JSON.parse(selectedRegion);
+        } catch(error) {
+          let fullRegionData = this.regions.find(region => {
+            return region.name == selectedRegion;
+          })
+          this.selectedRegion = fullRegionData;
+          localStorage.setItem("selectedRegion", JSON.stringify(this.selectedRegion));
+        }
     }
 
 
