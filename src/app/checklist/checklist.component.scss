@@ -1,0 +1,86 @@
+.challenge-selection-container {
+	background: #0a0218eb;
+    border-radius: 12px;
+    margin-top: 24px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .desc {
+    	font-size: 22px;
+    	color: gold;
+    }
+
+    .current-rank {
+    	font-size: 24px;
+    	margin-bottom: 0;
+    }
+    .current-progress {
+    	font-size: 20px;
+    	color: white;
+    }
+}
+
+.checklist-container {
+
+	background: #0a0218eb;
+    border-radius: 12px;
+    margin-top: 12px;
+    padding: 12px;
+
+	.champions-container {
+		flex-wrap: wrap;
+		display: flex;
+	}
+}
+
+.champion-item {
+    color: #fff;
+    width: 10%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 1%;
+    text-align: center;
+
+    &.checked {
+    	filter: brightness(0.3);
+    }
+
+    img {
+	    width: 100%;
+	    border: 1px solid #85858559;
+	    margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 992px) {
+	.challenge-selection-container {
+	    .desc {
+	    	font-size: 12px;
+	    }
+	}
+}
+
+@media (max-width: 720px) {
+
+
+	.champion-item {
+
+	    img {
+		    width: 100%;
+		    border: 1px solid #85858559;
+		    margin-bottom: 8px;
+	    }
+
+
+	    h5 {
+	    	font-size: 13px;
+	    }
+	}
+
+    .desc {
+    	display: none;
+    }
+}

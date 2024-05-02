@@ -40,6 +40,42 @@
 .role-option {
     img {
         width: 26px;
-        margin-right: 12px;
+        margin: 12px;
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        padding-bottom: 12px;
+        cursor: pointer;
+        border-color: transparent;
     }
+}
+
+.role-option:hover {
+    filter: brightness(1.5);
+    img {
+        border-color: #ffffff54;
+    }
+}
+
+.role-option.selected {
+    img {
+        border-color: #ffd700ba;
+    }
+}
+
+.bi-inboxes-fill {
+    margin-left: 24px;
+    color: gold;
+    font-size: 24px;
+    opacity: .4;
+    cursor: pointer;
+    &:hover {
+        opacity: .7;
+    }
+    &.selected {
+        opacity: 1;
+    }
+}
+
+.darken {
+    filter: brightness(.5);
 }

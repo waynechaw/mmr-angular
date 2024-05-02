@@ -6,11 +6,11 @@ import { ChallengeItemComponent }  from './challenge-item/challenge-item.compone
 import { MasteryItemComponent }  from './mastery-item/mastery-item.component';
 import championData from '../data/championData.json';
 import champLaneData from '../data/champLaneData.json';
-import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbDropdownModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-mastery',
   standalone: true,
-  imports: [CommonModule, ChallengeItemComponent, MasteryItemComponent, NgbDropdownModule, FormsModule],
+  imports: [CommonModule, ChallengeItemComponent, MasteryItemComponent, NgbDropdownModule, NgbTooltipModule, FormsModule],
   templateUrl: './mastery.component.html',
   styleUrl: './mastery.component.scss',
   providers: [
@@ -36,6 +36,12 @@ export class MasteryComponent implements OnInit  {
 
   public sortMethod = 'level';
 
+  // public selectedRoles = ['Tank', 'Marksman', 'Support', 'Fighter', 'Mage', 'Assassin', ];
+  public selectedRoles: string[] = [ ];
+  public selectedLane = '';
+
+  public showChests;
+
   constructor(private  appService: AppService,) { 
 
   }
@@ -43,6 +49,19 @@ export class MasteryComponent implements OnInit  {
   ngOnInit() {
     this.getMasteryChallengeData();
     this.getMastery();
+  }
+
+  chestClicked() {
+    this.showChests = !this.showChests;
+  }
+
+  selectLane(lane) {
+    if (lane == this.selectedLane) {
+      this.selectedLane = '';
+    } else {
+      this.selectedLane = lane;
+    }
+    this.sort();
   }
 
   levelFilterChanged() {
@@ -111,6 +130,52 @@ export class MasteryComponent implements OnInit  {
 
   challengeClicked(event) {
     console.log(this.userChallengeData);
+
+    if (this.userChallengeData.masterEnemy.selected) {
+      if (this.userChallengeData.masterYourself.selected) {
+        this.hideM7 = true;
+        this.hideM6 = true;
+        this.hideM5 = true;
+      } else {
+        this.hideM7 = true;
+        this.hideM6 = false;
+        this.hideM5 = false;
+      }
+    } else {
+      if (this.userChallengeData.masterYourself.selected) {
+        this.hideM7 = true;
+        this.hideM6 = true;
+        this.hideM5 = true;
+      } else {
+        this.hideM7 = false;
+        this.hideM6 = false;
+        this.hideM5 = false;
+      }
+    }
+
+    this.selectedRoles = [];
+
+    if (this.userChallengeData.masterFighter.selected) {
+      this.selectedRoles.push('Fighter');
+    }
+    if (this.userChallengeData.masterTank.selected) {
+      this.selectedRoles.push('Tank');
+    }
+    if (this.userChallengeData.masterMarksman.selected) {
+      this.selectedRoles.push('Marksman');
+    }
+    if (this.userChallengeData.masterSupport.selected) {
+      this.selectedRoles.push('Support');
+    }
+    if (this.userChallengeData.masterMage.selected) {
+      this.selectedRoles.push('Mage');
+    }
+    if (this.userChallengeData.masterAssassin.selected) {
+      this.selectedRoles.push('Assassin');
+    }
+    this.sort();
+
+
   }
 
   applyMasteryFilter() {
@@ -132,7 +197,30 @@ export class MasteryComponent implements OnInit  {
       })
     }
 
+    this.applyRolesFilter();
 
   }
+
+  applyRolesFilter() {
+    if (this.selectedRoles.length == 0) {
+      this.applyLanesFilter();
+    } else {
+      this.filteredData = this.filteredData.filter(item => {
+        return item.roles.some(value => this.selectedRoles.includes(value));
+      })
+    }
+    this.applyLanesFilter();
+  }
+
+  applyLanesFilter() {
+    if (!this.selectedLane) {
+      return;
+    } else {
+      this.filteredData = this.filteredData.filter(item => {
+        return item.lanes.indexOf(this.selectedLane) > -1;
+      })
+    }
+  }
+
 
 }

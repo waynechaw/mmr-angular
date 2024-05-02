@@ -1,0 +1,81 @@
+<div class="container-xxl">
+	<div class="challenge-selection-container">
+		<div ngbDropdown class="mastery-filter d-inline-block">
+			<button type="button" class="btn btn-light" id="dropdownBasic1" ngbDropdownToggle>
+				{{selectedChallenge}}
+			</button>
+			<div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+				<div (click)="selectChallenge('Champion Ocean')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    Champion Ocean
+				  </label>
+				</div>
+				<div (click)="selectChallenge('Adapt to All Situations')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    Adapt to All Situations
+				  </label>
+				</div>
+				<div (click)="selectChallenge('All Random All Champions')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    All Random All Champions
+				  </label>
+				</div>
+				<div (click)="selectChallenge('Perfectionist')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    Perfectionist
+				  </label>
+				</div>
+				<div (click)="selectChallenge('Same Penta, Different Champ')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    Same Penta, Different Champ
+				  </label>
+				</div>
+				<div (click)="selectChallenge('Protean Override')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    Protean Override
+				  </label>
+				</div>
+				<div (click)="selectChallenge('Invincible')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    Invincible
+				  </label>
+				</div>
+				<div (click)="selectChallenge('Jack of All Champs')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    Jack of All Champs
+				  </label>
+				</div>
+				<div (click)="selectChallenge('All Random All Champs: 2024 Split 1')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    All Random All Champs: 2024 Split 1
+				  </label>
+				</div>
+				<div (click)="selectChallenge('All Random All Champions: 2022')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    All Random All Champions: 2022
+				  </label>
+				</div>
+			</div>
+		</div>
+		<div class="desc">
+			{{championsChecklistData[selectedChallenge].description}}
+		</div>
+		<div class="text-center">
+			<h1 [style.color]="rankColor" class="current-rank">
+				{{rank}}
+			</h1>
+			<h2 class="current-progress">{{score}} <span *ngIf="nextUpgrade">/</span> {{nextUpgrade}}</h2>
+		</div>
+	</div>
+	<div class="checklist-container">
+		<div class="champions-container">
+	    @for (item of championsChecklistData[selectedChallenge].data; track item) {
+	    	<div [ngClass]="{'checked': item.checked}" (click)="champClicked(item)" class="champion-item">
+	    		<img src="https://ddragon.leagueoflegends.com/cdn/14.3.1/img/champion/{{item.id}}.png"/>
+	    		<h5>{{ item.id }}</h5>
+	    	</div>
+	    }
+		</div>
+	</div>
+</div>
+

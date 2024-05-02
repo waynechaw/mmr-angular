@@ -45,50 +45,51 @@
 
 
                   <div class="role-container">
-                    <span class="role-option all selected">
-                      <img src="/assets/roles/all.svg"/>
+                    <span [ngClass]="{'selected': selectedLane == 'TOP'}" class="role-option top">
+                      <img (click)="selectLane('TOP')" src="/assets/roles/top.svg"/>
                     </span>
-                    <span class="role-option top">
-                      <img src="/assets/roles/top.svg"/>
-                    </span>
-                    <span class="role-option jg">
-                      <img src="/assets/roles/jg.svg"/>
+                    <span [ngClass]="{'selected': selectedLane == 'JUNGLE'}" class="role-option jg">
+                      <img (click)="selectLane('JUNGLE')" src="/assets/roles/jg.svg"/>
                     </span>
 
-                    <span class="role-option mid">
-                      <img src="/assets/roles/mid.svg"/>
+                    <span [ngClass]="{'selected': selectedLane == 'MID'}" class="role-option mid">
+                      <img (click)="selectLane('MID')" src="/assets/roles/mid.svg"/>
                     </span>
-                    <span class="role-option bot">
-                      <img src="/assets/roles/bot.svg"/>
+                    <span [ngClass]="{'selected': selectedLane == 'ADC'}" class="role-option bot">
+                      <img (click)="selectLane('ADC')" src="/assets/roles/bot.svg"/>
                     </span>
-                    <span class="role-option sup">
-                      <img src="/assets/roles/sup.svg"/>
+                    <span [ngClass]="{'selected': selectedLane == 'SUPPORT'}" class="role-option sup">
+                      <img (click)="selectLane('SUPPORT')" src="/assets/roles/sup.svg"/>
                     </span>
                   </div>
 
 
-			<div ngbDropdown class="mastery-filter d-inline-block">
-				<button type="button" class="btn btn-light" id="dropdownBasic2" ngbDropdownToggle>
-					Sort
-				</button>
-				<div ngbDropdownMenu aria-labelledby="dropdownBasic2">
-					<button (click)="changeSort('level')" ngbDropdownItem>
-						Level
-					</button>
-					<button (click)="changeSort('points')" ngbDropdownItem>
-						Points
-					</button>
-					<button (click)="changeSort('alphabetically')" ngbDropdownItem>
-						Alphabetically
-					</button>
-				</div>
-			</div>
+
+                  <div class="d-flex align-items-center">
+										<div ngbDropdown class="mastery-filter d-inline-block">
+											<button type="button" class="btn btn-light" id="dropdownBasic2" ngbDropdownToggle>
+												Sort
+											</button>
+											<div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+												<button (click)="changeSort('level')" ngbDropdownItem>
+													Level
+												</button>
+												<button (click)="changeSort('points')" ngbDropdownItem>
+													Points
+												</button>
+												<button (click)="changeSort('alphabetically')" ngbDropdownItem>
+													Alphabetically
+												</button>
+											</div>
+										</div>
+										<i  placement="start"  ngbTooltip="Show chests available" [ngClass]="{'selected': showChests}" (click)="chestClicked()" class="bi bi-inboxes-fill"></i>
+									</div>
 
 		</div>
 
 
 		<div class="d-flex flex-wrap">
-			<div *ngFor="let item of filteredData" class="champion-item-container">
+			<div *ngFor="let item of filteredData" [ngClass]="{'darken': item.chestGranted && showChests}" class="champion-item-container">
 				<mastery-item [item]="item"></mastery-item>
 			</div>
 		</div>
