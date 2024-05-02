@@ -41,13 +41,13 @@ export class ChallengeItemComponent  implements OnInit  {
       this.rankColor = '#2e2e2e';
     } else if (level == 'IRON') {
       this.nextUpgrade == this.challengeDetails.thresholds.BRONZE;
-      this.rankColor = '#cbcbcb;';
+      this.rankColor = '#cbcbcb';
     } else if (level == 'BRONZE') {
       this.nextUpgrade = this.challengeDetails.thresholds.SILVER;
-      this.rankColor = '#ffbe7d;';
+      this.rankColor = '#ffbe7d';
     } else if (level == 'SILVER') {
       this.nextUpgrade = this.challengeDetails.thresholds.GOLD;
-      this.rankColor = '#cbcbcb;';
+      this.rankColor = '#cbcbcb';
     } else if (level == 'GOLD') {
       this.nextUpgrade = this.challengeDetails.thresholds.PLATINUM;
       this.rankColor = 'gold';
