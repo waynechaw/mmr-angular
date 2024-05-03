@@ -3,10 +3,12 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import champData from './championData.json';
 import challengeData from '../data/challengeData.json';
 import { CommonModule } from "@angular/common";
+import { FormsModule } from '@angular/forms';
+import { ChampionFilterPipe } from './champion-filter.pipe';
 @Component({
   selector: 'app-checklist',
   standalone: true,
-  imports: [NgbDropdownModule, CommonModule],
+  imports: [NgbDropdownModule, CommonModule, FormsModule, ChampionFilterPipe],
   templateUrl: './checklist.component.html',
   styleUrl: './checklist.component.scss'
 })
@@ -79,7 +81,25 @@ export class ChecklistComponent implements OnInit  {
 
   public challengeDetails;
 
+  public searchText = '';
+
+  public selectedLane = '';
+
+  public lastClicked;
+
+  public toggleHideChecked = false;
+
   ngOnInit() {
+
+
+    let hideCompleted = localStorage.getItem("hideCompleted");
+
+    if (hideCompleted === 'true') {
+        this.toggleHideChecked = true;
+    } else {
+        this.toggleHideChecked = false;
+    }
+
     console.log(challengeData);
     this.championsChecklistData = localStorage.getItem("championsChecklistData");
     if (!this.championsChecklistData) {
@@ -108,6 +128,27 @@ export class ChecklistComponent implements OnInit  {
 
 
 
+  }
+
+  toggleHideCheckedClicked () {
+    this.toggleHideChecked = !this.toggleHideChecked;
+
+
+    localStorage.setItem("hideCompleted", this.toggleHideChecked ? 'true' : 'false');
+
+  }
+
+
+  selectLane(lane) {
+    if (lane == this.selectedLane) {
+      this.selectedLane = '';
+    } else {
+      this.selectedLane = lane;
+    }
+  }
+
+  textChanged(event) {
+    console.log(this.searchText);
   }
 
   selectChallenge(challenge) {
@@ -153,6 +194,11 @@ export class ChecklistComponent implements OnInit  {
     localStorage.setItem("championsChecklistData", JSON.stringify(this.championsChecklistData));
     this.getScore();
     this.getNextUpgrade();
+    this.lastClicked = item;
+  }
+
+  undo() {
+    this.lastClicked.checked = !this.lastClicked.checked;
   }
 
 
@@ -200,5 +246,19 @@ export class ChecklistComponent implements OnInit  {
     console.log(this.nextUpgrade);
   }
 
+
+}
+
+
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+  name: 'filterPeople'
+})
+export class FilterPeoplePipe implements PipeTransform {
+
+  transform(values: any[], ...args: unknown[]): any[] {
+    return values.filter(v => v.age < 18);
+  }
 
 }

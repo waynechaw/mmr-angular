@@ -22,12 +22,57 @@
     }
 }
 
+.role-option {
+    img {
+        width: 26px;
+        margin: 12px;
+        border-width: 0 0 2px 0;
+        border-style: solid;
+        padding-bottom: 12px;
+        cursor: pointer;
+        border-color: transparent;
+    }
+}
+
+.role-option:hover {
+    filter: brightness(1.5);
+    img {
+        border-color: #ffffff54;
+    }
+}
+
+.role-option.selected {
+    img {
+        border-color: #ffd700ba;
+    }
+}
+
+.bi {
+    font-size: 24px;
+    margin: 12px;
+    color: white;
+    cursor: pointer;
+    opacity: .4;
+
+    &.active {
+    	opacity: .8;
+    }
+    &:hover {
+    	opacity: 1;
+    }
+}
+
 .checklist-container {
 
 	background: #0a0218eb;
     border-radius: 12px;
     margin-top: 12px;
     padding: 12px;
+
+    .champ-search {
+    	margin: 12px;
+    	width: 200px;
+    }
 
 	.champions-container {
 		flex-wrap: wrap;
@@ -68,6 +113,8 @@
 
 	.champion-item {
 
+		width: 15%;
+
 	    img {
 		    width: 100%;
 		    border: 1px solid #85858559;
@@ -78,6 +125,10 @@
 	    h5 {
 	    	font-size: 13px;
 	    }
+	}
+
+	.role-container {
+		display: none;
 	}
 
     .desc {
