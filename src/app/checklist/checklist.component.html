@@ -91,8 +91,8 @@
 				</span>
 			</div>
 			<div>
-				<i [ngClass]="{'active': toggleHideChecked}" (click)="toggleHideCheckedClicked()" class="bi bi-eye-slash-fill"></i>
-				<i [ngClass]="{'active': lastClicked}" (click)="undo()" class="bi bi-arrow-counterclockwise"></i>
+				<i  ngbTooltip="Hide finished champions" [ngClass]="{'active': toggleHideChecked}" (click)="toggleHideCheckedClicked()" class="bi bi-eye-slash-fill"></i>
+				<i  ngbTooltip="Undo" [ngClass]="{'active': lastClicked}" (click)="undo()" class="bi bi-arrow-counterclockwise"></i>
 			</div>
 		</div>
 		<div class="champions-container">

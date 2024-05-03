@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbDropdownModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import champData from './championData.json';
 import challengeData from '../data/challengeData.json';
 import { CommonModule } from "@angular/common";
@@ -8,7 +8,7 @@ import { ChampionFilterPipe } from './champion-filter.pipe';
 @Component({
   selector: 'app-checklist',
   standalone: true,
-  imports: [NgbDropdownModule, CommonModule, FormsModule, ChampionFilterPipe],
+  imports: [NgbTooltipModule, NgbDropdownModule, CommonModule, FormsModule, ChampionFilterPipe],
   templateUrl: './checklist.component.html',
   styleUrl: './checklist.component.scss'
 })
