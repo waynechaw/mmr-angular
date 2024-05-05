@@ -40,7 +40,7 @@
 .role-option {
     img {
         width: 26px;
-        margin: 12px;
+        margin: 12px 12px -12px;
         border-width: 0 0 2px 0;
         border-style: solid;
         padding-bottom: 12px;
@@ -78,4 +78,141 @@
 
 .darken {
     filter: brightness(.5);
+}
+
+.user-section {
+    width: 36%;
+    justify-content: space-evenly;
+    padding: 6px 0;
+    align-items: center;
+    .user-info {
+        text-align: center;
+        img {
+            border-radius: 14px;
+            border: 2px solid gold;
+            width: 50px;
+            margin-bottom: 4px;
+        }
+        h1 {
+            color: white;
+            font-size: 22px;
+        }
+
+        h6 {
+            color: #b3b4d0;
+            margin-bottom: 3px;
+            font-size: 11px;
+
+        }
+
+        h5 {
+            color: white;
+            font-size: 11px;
+        }
+
+
+        .btn-info {
+            padding: 4px;
+            font-size: 10px;
+        }
+
+
+    }
+}
+
+.challenges-buttons {    
+    display: flex;
+    width: 63%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.user-stats {
+    h6 {
+        color: #b3b4d0;
+        margin-bottom: 1px;
+    }
+
+    h5 {
+        color: white;
+        margin-bottom: 15px;
+    }
+    .upgrade-time {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 720px) {
+
+
+.challenges-buttons{
+    width: 72%;
+}
+
+    .user-stats {
+        display: none;
+    }
+
+    .user-section {
+        width: 27%;
+    }
+
+
+    .champion-item {
+
+        width: 15%;
+
+        img {
+            width: 100%;
+            border: 1px solid #85858559;
+            margin-bottom: 8px;
+        }
+
+
+        h5 {
+            font-size: 13px;
+        }
+    }
+
+    .role-container {
+        display: none;
+    }
+
+    .desc {
+        display: none;
+    }
+}
+
+
+
+.challenge-item {
+    background: #8fa7ff75;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid transparent;
+    &:hover {
+        background-color: #8fa7ffa6;
+    }
+
+    h4 {
+        color: white;
+        font-size: 11px;
+        text-wrap: nowrap;
+    }
+
+    h6 {
+        font-size: 17px;
+    }
+
+    h5 {
+        color: #ffc966;
+        font-size: 19px;
+        margin-bottom: 0;
+    }
 }

@@ -120,6 +120,15 @@ export class AppService {
     }
   }
 
+  resetProfile(currentTotal) {
+
+    this.profiles[this.activeProfileID].dateStarted = new Date();currentTotal
+    this.profiles[this.activeProfileID].startingEXP = currentTotal;
+
+    localStorage.setItem("profiles", JSON.stringify(this.profiles));
+
+  }
+
   getAccount(body) {
     return this.http.post('/account', body);
   }
@@ -129,4 +138,9 @@ export class AppService {
   getMasteryChallengeData(body) {
     return this.http.post('/mastery-challenges', body);
   }
+
+  getProfilePic(body) {
+    return this.http.post('/getProfilePic', body);
+  }
+
 }

@@ -10,8 +10,11 @@ import { CommonModule } from "@angular/common";
 export class MasteryItemComponent implements OnInit  {
 
   @Input() item;
+  @Input() catchemAllMode;
+  @Input() catchNextUpgrade;
   public masteryColor;
   public progressPercent;
+  public progressPercentCatchMode;
   public pointsRequired;
   public tokenColor;
   ngOnInit() {
@@ -27,17 +30,17 @@ export class MasteryItemComponent implements OnInit  {
       this.masteryColor = '#b5ffe4';
       this.tokenColor = '#f4b5ff';
     } else if (this.item.championLevel == 6) {
-      this.masteryColor = '#b5e0ff';
+      this.masteryColor = '#f4b5ff';
       this.tokenColor = 'cyan';
     } else if (this.item.championLevel == 7) {
-      this.masteryColor = '#f4b5ff';
+      this.masteryColor = 'cyan';
     }
 
     if (this.item.championLevel < 5) {
       this.pointsRequired = this.item.championPointsUntilNextLevel + this.item.championPointsSinceLastLevel;
       this.progressPercent = (this.item.championPointsSinceLastLevel / this.pointsRequired  * 100) + '%';
     }
+    this.progressPercentCatchMode = (this.item.championPoints / this.catchNextUpgrade  * 100) + '%';
   }
 
 }
-

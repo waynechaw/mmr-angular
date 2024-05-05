@@ -17,11 +17,20 @@
 
 <h4 [style.color]="masteryColor">Mastery {{item.championLevel}}</h4>
 
-@if (item.championPointsUntilNextLevel == 0) {
-	<h4 class="points">{{item.championPoints}}</h4>
-} @else {
+
+@if (catchemAllMode) {
 	<div class="progress-box">
-		<div [style.width]="progressPercent" class="inner-bar"></div>
+		<div [style.width]="progressPercentCatchMode" class="inner-bar"></div>
 	</div>
-	<div class="progress-text">{{item.championPointsSinceLastLevel}}/{{pointsRequired}}</div>
+	<div class="progress-text">{{item.championPoints}}/{{catchNextUpgrade}}</div>
+} @else {
+	@if (item.championPointsUntilNextLevel == 0) {
+		<h4 class="points">{{item.championPoints}}</h4>
+	} @else {
+		<div class="progress-box">
+			<div [style.width]="progressPercent" class="inner-bar"></div>
+		</div>
+		<div class="progress-text">{{item.championPointsSinceLastLevel}}/{{pointsRequired}}</div>
+	}
 }
+

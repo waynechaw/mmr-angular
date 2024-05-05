@@ -1,14 +1,45 @@
 <div *ngIf="!challengeLoading && !masteryLoading" class="container-xxl">
 
 	<div class="challenges-container d-flex">
-		<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterYourself"></challenge-item>
-		<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterEnemy"></challenge-item>
-		<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterTank"></challenge-item>
-		<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterMarksman"></challenge-item>
-		<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterSupport"></challenge-item>
-		<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterFighter"></challenge-item>
-		<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterMage"></challenge-item>
-		<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterAssassin"></challenge-item>
+		<div class="user-section d-flex">
+			<div class="user-info">
+				<img src="https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/{{profileIcon}}.png"/>
+				<h1>{{activeProfileInfo.name}}#{{activeProfileInfo.tag}}</h1>
+				<h6>Tracking Start Date</h6>
+				<h5> {{activeProfileInfo.dateStarted | date:'shortDate'}} </h5>
+				<button (click)="restart()" class="btn btn-sm btn-info">Restart Tracking</button>
+			</div>
+			<div class="user-stats">
+				<div>
+					<h6>Total Mastery Points</h6>
+					<h5>{{totalPoints.toLocaleString()}}</h5>
+				</div>
+
+				<div>
+					<h6>Average Mastery Points / Day</h6>
+					<h5>{{avgPointsPerDay | number: '1.0-0'}}</h5>
+				</div>
+
+				<div>
+					<h6>Catch'em All Upgrade Time</h6>
+					<h5 class="upgrade-time">{{upgradeTime}}</h5>
+				</div>
+
+
+			</div>			
+		</div>
+		<div class="challenges-buttons">
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterYourself"></challenge-item>
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterTank"></challenge-item>
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterMarksman"></challenge-item>
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterFighter"></challenge-item>
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.catchemAll"></challenge-item>
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterEnemy"></challenge-item>
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterMage"></challenge-item>
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterAssassin"></challenge-item>
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterSupport"></challenge-item>
+			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.oneTrick"></challenge-item>
+		</div>
 	</div>
 
 
@@ -90,7 +121,7 @@
 
 		<div class="d-flex flex-wrap">
 			<div *ngFor="let item of filteredData" [ngClass]="{'darken': item.chestGranted && showChests}" class="champion-item-container">
-				<mastery-item [item]="item"></mastery-item>
+				<mastery-item [item]="item" [catchemAllMode]="catchemAllMode" [catchNextUpgrade]="catchNextUpgrade"></mastery-item>
 			</div>
 		</div>
 
