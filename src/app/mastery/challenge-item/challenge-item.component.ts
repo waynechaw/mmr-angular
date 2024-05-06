@@ -23,6 +23,7 @@ export class ChallengeItemComponent  implements OnInit  {
 
 
   ngOnInit() {
+    console.log(this.userChallengeData);
     this.challengeDetails = challengeData.find(item => {
       return item.id == this.userChallengeData.challengeId;
     });

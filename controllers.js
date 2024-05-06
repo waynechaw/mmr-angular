@@ -41,6 +41,12 @@ const defaultMasterTank = {
   "value": 0,
 };
 
+const defaultCatchemAll = {
+  "challengeId": 401101,
+  "level": "NONE",
+  "value": 0,
+};
+
 export async function getAccountInfo(req, res, next) {
   const name = req.body.name;
   const tag = req.body.tag;
@@ -93,7 +99,7 @@ export async function getMasteryChallenges(req, res, next) {
       masterMage: masterMage || defaultMasterMage,
       masterAssassin: masterAssassin || defaultMasterAssassin,
       masterTank: masterTank || defaultMasterTank,
-      catchemAll: catchemAll,
+      catchemAll: catchemAll || defaultCatchemAll,
       oneTrick: oneTrick
     },
   });
