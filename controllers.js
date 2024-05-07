@@ -1,51 +1,5 @@
 let apiKey = process.env.key;
 
-const defaultMasterYourself = {
-  "challengeId": 401104,
-  "level": "NONE",
-  "value": 0,
-};
-const defaultMasterEnemy = {
-  "challengeId": 401105,
-  "level": "NONE",
-  "value": 0,
-};
-const defaultMasterMarksman = {
-  "challengeId": 401204,
-  "level": "NONE",
-  "value": 0,
-};
-const defaultMasterSupport = {
-  "challengeId": 401205,
-  "level": "NONE",
-  "value": 0,
-};
-const defaultMasterFighter = {
-  "challengeId": 401202,
-  "level": "NONE",
-  "value": 0,
-};
-const defaultMasterMage = {
-  "challengeId": 401203,
-  "level": "NONE",
-  "value": 0,
-};
-const defaultMasterAssassin = {
-  "challengeId": 401201,
-  "level": "NONE",
-  "value": 0,
-};
-const defaultMasterTank = {
-  "challengeId": 401206,
-  "level": "NONE",
-  "value": 0,
-};
-
-const defaultCatchemAll = {
-  "challengeId": 401101,
-  "level": "NONE",
-  "value": 0,
-};
 
 export async function getAccountInfo(req, res, next) {
   const name = req.body.name;
@@ -75,6 +29,56 @@ export async function getMasteryFull(req, res, next) {
 }
 
 export async function getMasteryChallenges(req, res, next) {
+
+  const defaultMasterYourself = {
+    "challengeId": 401104,
+    "level": "NONE",
+    "value": 0,
+  };
+  const defaultMasterEnemy = {
+    "challengeId": 401105,
+    "level": "NONE",
+    "value": 0,
+  };
+  const defaultMasterMarksman = {
+    "challengeId": 401204,
+    "level": "NONE",
+    "value": 0,
+  };
+  const defaultMasterSupport = {
+    "challengeId": 401205,
+    "level": "NONE",
+    "value": 0,
+  };
+  const defaultMasterFighter = {
+    "challengeId": 401202,
+    "level": "NONE",
+    "value": 0,
+  };
+  const defaultMasterMage = {
+    "challengeId": 401203,
+    "level": "NONE",
+    "value": 0,
+  };
+  const defaultMasterAssassin = {
+    "challengeId": 401201,
+    "level": "NONE",
+    "value": 0,
+  };
+  const defaultMasterTank = {
+    "challengeId": 401206,
+    "level": "NONE",
+    "value": 0,
+  };
+
+  const defaultCatchemAll = {
+    "challengeId": 401101,
+    "level": "NONE",
+    "value": 0,
+  };
+
+
+
   const puuid = req.body.puuid;
   const region = req.body.region;
   const response = await fetch(`https://${region}.api.riotgames.com/lol/challenges/v1/player-data/${puuid}?api_key=${apiKey}`);

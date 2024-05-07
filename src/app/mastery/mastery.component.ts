@@ -40,7 +40,7 @@ export class MasteryComponent implements OnInit  {
   public hideM6;
   public hideM7;
 
-  public sortMethod = 'level';
+  public sortMethod = 'level-down';
 
   // public selectedRoles = ['Tank', 'Marksman', 'Support', 'Fighter', 'Mage', 'Assassin', ];
   public selectedRoles: string[] = [ ];
@@ -98,7 +98,6 @@ export class MasteryComponent implements OnInit  {
     this.sort();
   }
 
-
   getMasteryChallengeData() {
     this.appService.getMasteryChallengeData({
       puuid: this.appService.activeProfileID,
@@ -108,7 +107,6 @@ export class MasteryComponent implements OnInit  {
       this.challengeLoading = false;
       this.calculateCatchemAllStats();
     }, (resp) => {
-
     })
   }
 
@@ -120,7 +118,6 @@ export class MasteryComponent implements OnInit  {
       console.log(resp);
       this.profileIcon = resp.data.profileIconId;
     }, (resp) => {
-
     })
   }
 
@@ -130,48 +127,37 @@ export class MasteryComponent implements OnInit  {
       region: this.appService.activeProfileInfo.region
     }).subscribe((resp: any) => {
       this.masteryData = resp.data;
-
-
         let currentTotal = 0;
         resp.data.forEach(item => {
           currentTotal = currentTotal + parseInt(item.championPoints);
         })
-
         this.totalPoints = currentTotal;
-
-
         let timeElapsed;
-
         let currentDate = new Date();
-
         if ((currentDate.getTime()  - new Date(this.activeProfileInfo.dateStarted).getTime() )   < (24 * 60 * 60 * 1000)) {
           timeElapsed = 24 * 60 * 60 * 1000;
         } else {
           timeElapsed = currentDate.getTime()  - new Date(this.activeProfileInfo.dateStarted).getTime() ;
         }
-
         let expEarned = currentTotal - this.activeProfileInfo.startingEXP;
-
         this.avgPointsPerDay = expEarned / (timeElapsed / (24 * 60 * 60 * 1000));
-
         this.transformData();
-
         this.getMasteryChallengeData();
-
     }, (resp) => {
-      
     })
   }
 
   transformData() {
-    this.masteryData.forEach(item => {
+    this.masteryData.forEach((item, index) => {
       item.roles = championData[item.championId].tags;
       item.name = championData[item.championId].id;
       let champLane = champLaneData.find(laneItem => laneItem.id == item.championId)
       item.lanes = champLane!.roles;
+      item.index = index;
     })
     this.masteryLoading = false;
     this.filteredData = this.masteryData.slice();
+    console.log(this.filteredData);
     this.sort();
   }
 
@@ -179,8 +165,6 @@ export class MasteryComponent implements OnInit  {
     this.sortMethod = sortMethod;
     this.sort();
   }
-
-
 
   challengeClicked(event) {
     console.log(this.userChallengeData);
@@ -251,17 +235,37 @@ export class MasteryComponent implements OnInit  {
 
   sort() {
     this.filteredData = this.masteryData.slice();
-    if (this.sortMethod == 'level' ) {    
+    if (this.sortMethod == 'level-down' ) {    
       this.filteredData.sort((a, b) => {
         return b.championLevel - a.championLevel;
       })
-    } else if (this.sortMethod == 'points' ) {
+    } else if (this.sortMethod == 'level-up' ) {
+       this.filteredData.sort((a, b) => {
+        return a.championPoints - b.championPoints;
+      })
+    } else if (this.sortMethod == 'points-down' ) {
        this.filteredData.sort((a, b) => {
         return b.championPoints - a.championPoints;
       })
-    } else if (this.sortMethod == 'alphabetically' ) {
+    } else if (this.sortMethod == 'points-up' ) {
+       this.filteredData.sort((a, b) => {
+        return a.championPoints - b.championPoints;
+      })
+    } else if (this.sortMethod == 'alphabetically-down' ) {
       this.filteredData.sort((a, b) => {
         return a.name.localeCompare(b.name);
+      })
+    } else if (this.sortMethod == 'alphabetically-up' ) {
+      this.filteredData.sort((a, b) => {
+        return b.name.localeCompare(a.name);
+      })
+    } else if (this.sortMethod == 'lastplayed-down' ) {
+      this.filteredData.sort((a, b) => {
+        return b.lastPlayTime - a.lastPlayTime;
+      })
+    } else if (this.sortMethod == 'lastplayed-up' ) {
+      this.filteredData.sort((a, b) => {
+        return a.lastPlayTime - b.lastPlayTime;
       })
     }
     this.applyMasteryFilter();

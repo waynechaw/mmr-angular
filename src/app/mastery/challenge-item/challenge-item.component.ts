@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, Output, EventEmitter  } from '@angular/core';
 import challengeData from '../../data/challengeData.json';
+import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import {
   CommonModule
 } from "@angular/common";
@@ -7,7 +8,7 @@ import {
 @Component({
   selector: 'challenge-item',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, NgbTooltipModule],
   templateUrl: './challenge-item.component.html',
   styleUrl: './challenge-item.component.scss'
 })
@@ -23,10 +24,10 @@ export class ChallengeItemComponent  implements OnInit  {
 
 
   ngOnInit() {
-    console.log(this.userChallengeData);
     this.challengeDetails = challengeData.find(item => {
       return item.id == this.userChallengeData.challengeId;
     });
+    console.log(this.challengeDetails);
     this.getNextUpgrade(this.userChallengeData.level);
   }
 

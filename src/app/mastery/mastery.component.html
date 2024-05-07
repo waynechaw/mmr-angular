@@ -1,131 +1,140 @@
 <div *ngIf="!challengeLoading && !masteryLoading" class="container-xxl">
-
-	<div class="challenges-container d-flex">
-		<div class="user-section d-flex">
-			<div class="user-info">
-				<img src="https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/{{profileIcon}}.png"/>
-				<h1>{{activeProfileInfo.name}}#{{activeProfileInfo.tag}}</h1>
-				<h6>Tracking Start Date</h6>
-				<h5> {{activeProfileInfo.dateStarted | date:'shortDate'}} </h5>
-				<button (click)="restart()" class="btn btn-sm btn-info">Restart Tracking</button>
-			</div>
-			<div class="user-stats">
-				<div>
-					<h6>Total Mastery Points</h6>
-					<h5>{{totalPoints.toLocaleString()}}</h5>
-				</div>
-
-				<div>
-					<h6>Average Mastery Points / Day</h6>
-					<h5>{{avgPointsPerDay | number: '1.0-0'}}</h5>
-				</div>
-
-				<div>
-					<h6>Catch'em All Upgrade Time</h6>
-					<h5 class="upgrade-time">{{upgradeTime}}</h5>
-				</div>
-
-
-			</div>			
-		</div>
-		<div class="challenges-buttons">
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterYourself"></challenge-item>
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.catchemAll"></challenge-item>
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterTank"></challenge-item>
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterMarksman"></challenge-item>
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterFighter"></challenge-item>
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterEnemy"></challenge-item>
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.oneTrick"></challenge-item>
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterMage"></challenge-item>
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterAssassin"></challenge-item>
-			<challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterSupport"></challenge-item>
-		</div>
-	</div>
-
-
-	<div class="champions-container">
-
-
-		<div class="filters-container d-flex">
-			
-			<div ngbDropdown [autoClose]="'outside'" class="mastery-filter d-inline-block">
-				<button type="button" class="btn btn-light" id="dropdownBasic1" ngbDropdownToggle>
-					Mastery Level
-				</button>
-				<div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-					<div ngbDropdownItem>
-					  <input (change)="levelFilterChanged()" [(ngModel)]="hideM5" class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-					  <label class="form-check-label" for="defaultCheck1">
-					    Hide M5
-					  </label>
-					</div>
-					<div ngbDropdownItem>
-					  <input (change)="levelFilterChanged()" [(ngModel)]="hideM6" class="form-check-input" type="checkbox" value="" id="defaultCheck2">
-					  <label class="form-check-label" for="defaultCheck2">
-					    Hide M6
-					  </label>
-					</div>
-					<div ngbDropdownItem>
-					  <input (change)="levelFilterChanged()" [(ngModel)]="hideM7" class="form-check-input" type="checkbox" value="" id="defaultCheck3">
-					  <label class="form-check-label" for="defaultCheck3">
-					    Hide M7
-					  </label>
-					</div>
-				</div>
-			</div>
-
-
-                  <div class="role-container">
-                    <span [ngClass]="{'selected': selectedLane == 'TOP'}" class="role-option top">
-                      <img (click)="selectLane('TOP')" src="/assets/roles/top.svg"/>
-                    </span>
-                    <span [ngClass]="{'selected': selectedLane == 'JUNGLE'}" class="role-option jg">
-                      <img (click)="selectLane('JUNGLE')" src="/assets/roles/jg.svg"/>
-                    </span>
-
-                    <span [ngClass]="{'selected': selectedLane == 'MID'}" class="role-option mid">
-                      <img (click)="selectLane('MID')" src="/assets/roles/mid.svg"/>
-                    </span>
-                    <span [ngClass]="{'selected': selectedLane == 'ADC'}" class="role-option bot">
-                      <img (click)="selectLane('ADC')" src="/assets/roles/bot.svg"/>
-                    </span>
-                    <span [ngClass]="{'selected': selectedLane == 'SUPPORT'}" class="role-option sup">
-                      <img (click)="selectLane('SUPPORT')" src="/assets/roles/sup.svg"/>
-                    </span>
-                  </div>
-
-
-
-                  <div class="d-flex align-items-center">
-										<div ngbDropdown class="mastery-filter d-inline-block">
-											<button type="button" class="btn btn-light" id="dropdownBasic2" ngbDropdownToggle>
-												Sort
-											</button>
-											<div ngbDropdownMenu aria-labelledby="dropdownBasic2">
-												<button (click)="changeSort('level')" ngbDropdownItem>
-													Level
-												</button>
-												<button (click)="changeSort('points')" ngbDropdownItem>
-													Points
-												</button>
-												<button (click)="changeSort('alphabetically')" ngbDropdownItem>
-													Alphabetically
-												</button>
-											</div>
-										</div>
-										<i  placement="start"  ngbTooltip="Show chests available" [ngClass]="{'selected': showChests}" (click)="chestClicked()" class="bi bi-inboxes-fill"></i>
-									</div>
-
-		</div>
-
-
-		<div class="d-flex flex-wrap">
-			<div *ngFor="let item of filteredData" [ngClass]="{'darken': item.chestGranted && showChests}" class="champion-item-container">
-				<mastery-item [item]="item" [catchemAllMode]="catchemAllMode" [catchNextUpgrade]="catchNextUpgrade"></mastery-item>
-			</div>
-		</div>
-
-	</div>
+   <div class="challenges-container d-flex">
+      <div class="user-section d-flex">
+         <div class="user-info">
+            <img src="https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/{{profileIcon}}.png"/>
+            <h1>{{activeProfileInfo.name}}#{{activeProfileInfo.tag}}</h1>
+            <h6>Tracking Start Date</h6>
+            <h5> {{activeProfileInfo.dateStarted | date:'shortDate'}} </h5>
+            <button (click)="restart()" class="btn btn-sm btn-info">Restart Tracking</button>
+         </div>
+         <div class="user-stats">
+            <div>
+               <h6>Total Mastery Points</h6>
+               <h5>{{totalPoints.toLocaleString()}}</h5>
+            </div>
+            <div>
+               <h6>Average Mastery Points / Day</h6>
+               <h5>{{avgPointsPerDay | number: '1.0-0'}}</h5>
+            </div>
+            <div>
+               <h6>Catch'em All Upgrade Time</h6>
+               <h5 class="upgrade-time">{{upgradeTime}}</h5>
+            </div>
+         </div>
+      </div>
+      <div class="challenges-buttons">
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterYourself"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.catchemAll"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterTank"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterMarksman"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterFighter"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterEnemy"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.oneTrick"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterMage"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterAssassin"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterSupport"></challenge-item>
+      </div>
+   </div>
+   <div class="champions-container">
+      <div class="filters-container d-flex">
+         <div ngbDropdown [autoClose]="'outside'" class="mastery-filter d-inline-block">
+            <button type="button" class="btn btn-light" id="dropdownBasic1" ngbDropdownToggle>
+            Mastery Level
+            </button>
+            <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+               <div ngbDropdownItem>
+                  <input (change)="levelFilterChanged()" [(ngModel)]="hideM5" class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  Hide M5
+                  </label>
+               </div>
+               <div ngbDropdownItem>
+                  <input (change)="levelFilterChanged()" [(ngModel)]="hideM6" class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                  <label class="form-check-label" for="defaultCheck2">
+                  Hide M6
+                  </label>
+               </div>
+               <div ngbDropdownItem>
+                  <input (change)="levelFilterChanged()" [(ngModel)]="hideM7" class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                  <label class="form-check-label" for="defaultCheck3">
+                  Hide M7
+                  </label>
+               </div>
+            </div>
+         </div>
+         <div class="role-container">
+            <span [ngClass]="{'selected': selectedLane == 'TOP'}" class="role-option top">
+            <img (click)="selectLane('TOP')" src="/assets/roles/top.svg"/>
+            </span>
+            <span [ngClass]="{'selected': selectedLane == 'JUNGLE'}" class="role-option jg">
+            <img (click)="selectLane('JUNGLE')" src="/assets/roles/jg.svg"/>
+            </span>
+            <span [ngClass]="{'selected': selectedLane == 'MID'}" class="role-option mid">
+            <img (click)="selectLane('MID')" src="/assets/roles/mid.svg"/>
+            </span>
+            <span [ngClass]="{'selected': selectedLane == 'ADC'}" class="role-option bot">
+            <img (click)="selectLane('ADC')" src="/assets/roles/bot.svg"/>
+            </span>
+            <span [ngClass]="{'selected': selectedLane == 'SUPPORT'}" class="role-option sup">
+            <img (click)="selectLane('SUPPORT')" src="/assets/roles/sup.svg"/>
+            </span>
+         </div>
+         <div class="d-flex align-items-center">
+            <div ngbDropdown class="mastery-filter d-inline-block">
+               	<button type="button" class="btn btn-light" id="dropdownBasic2" ngbDropdownToggle>
+									@if (sortMethod == 'level-down') {
+									  Sort: Level <i class="bi bi-arrow-down-short"></i>
+									} @else if (sortMethod == 'level-up') {
+									  Sort: Level <i class="bi bi-arrow-up-short"></i>
+									} @else if (sortMethod == 'points-down') {
+									  Sort: Points <i class="bi bi-arrow-down-short"></i>
+									} @else if (sortMethod == 'points-up') {
+									  Sort: Points <i class="bi bi-arrow-up-short"></i>
+									} @else if (sortMethod == 'alphabetically-down') {
+									  Sort: Alphabetically <i class="bi bi-arrow-down-short"></i>
+									} @else if (sortMethod == 'alphabetically-up') {
+									  Sort: Alphabetically <i class="bi bi-arrow-up-short"></i>
+									} @else if (sortMethod == 'lastplayed-down') {
+									  Sort: Last Played <i class="bi bi-arrow-down-short"></i>
+									} @else if (sortMethod == 'lastplayed-up') {
+									  Sort: Last Played <i class="bi bi-arrow-up-short"></i>
+									}
+								</button>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+                  <button (click)="changeSort('level-down')" ngbDropdownItem>
+                  Level <i class="bi bi-arrow-down-short"></i>
+                  </button>
+                  <button (click)="changeSort('level-up')" ngbDropdownItem>
+                  Level <i class="bi bi-arrow-up-short"></i>
+                  </button>
+                  <button (click)="changeSort('points-down')" ngbDropdownItem>
+                  Points <i class="bi bi-arrow-down-short"></i>
+                  </button>
+                  <button (click)="changeSort('points-up')" ngbDropdownItem>
+                  Points <i class="bi bi-arrow-up-short"></i>
+                  </button>
+                  <button (click)="changeSort('alphabetically-down')" ngbDropdownItem>
+                  Alphabetically  <i class="bi bi-arrow-down-short"></i>
+                  </button>
+                  <button (click)="changeSort('alphabetically-up')" ngbDropdownItem>
+                  Alphabetically  <i class="bi bi-arrow-up-short"></i>
+                  </button>
+                  <button (click)="changeSort('lastplayed-down')" ngbDropdownItem>
+                  Last Played  <i class="bi bi-arrow-down-short"></i>
+                  </button>
+                  <button (click)="changeSort('lastplayed-up')" ngbDropdownItem>
+                  Last Played  <i class="bi bi-arrow-up-short"></i>
+                  </button>
+               </div>
+            </div>
+            <i  placement="start"  ngbTooltip="Show chests available" [ngClass]="{'selected': showChests}" (click)="chestClicked()" class="bi bi-inboxes-fill"></i>
+         </div>
+      </div>
+      <div class="d-flex flex-wrap">
+         <div *ngFor="let item of filteredData" [ngClass]="{'darken': item.chestGranted && showChests || (catchemAllMode && item.index > 149)}" class="champion-item-container">
+         <mastery-item [item]="item" [catchemAllMode]="catchemAllMode" [catchNextUpgrade]="catchNextUpgrade"></mastery-item>
+      </div>
+   </div>
 </div>
-
-
+</div>
