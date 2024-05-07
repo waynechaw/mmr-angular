@@ -12,6 +12,7 @@ export class MasteryItemComponent implements OnInit  {
   @Input() item;
   @Input() catchemAllMode;
   @Input() catchNextUpgrade;
+  @Input() lastPlayed;
   public masteryColor;
   public progressPercent;
   public progressPercentCatchMode;

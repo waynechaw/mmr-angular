@@ -4,15 +4,18 @@
 	<img src="https://ddragon.leagueoflegends.com/cdn/14.3.1/img/champion/{{item.name}}.png"/>
 </div>
 
-
-@if (item.tokensEarned > 0) {
-	<div class="tokens-container">
-		<i [style.color]="tokenColor" *ngIf="item.tokensEarned > 0" class="bi bi-patch-check-fill"></i>
-		<i [style.color]="tokenColor" *ngIf="item.tokensEarned > 1" class="bi bi-patch-check-fill"></i>
-		<i [style.color]="tokenColor" *ngIf="item.tokensEarned > 2" class="bi bi-patch-check-fill"></i>
-	</div>
+@if (lastPlayed) {
+	<h6 class="last-played">{{item.lastPlayTime  | date:'shortDate' }}</h6>
 } @else {
-	<hr/>
+	@if (item.tokensEarned > 0) {
+		<div class="tokens-container">
+			<i [style.color]="tokenColor" *ngIf="item.tokensEarned > 0" class="bi bi-patch-check-fill"></i>
+			<i [style.color]="tokenColor" *ngIf="item.tokensEarned > 1" class="bi bi-patch-check-fill"></i>
+			<i [style.color]="tokenColor" *ngIf="item.tokensEarned > 2" class="bi bi-patch-check-fill"></i>
+		</div>
+	} @else {
+		<hr/>
+	}
 }
 
 <h4 [style.color]="masteryColor">Mastery {{item.championLevel}}</h4>
