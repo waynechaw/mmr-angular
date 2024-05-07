@@ -51,7 +51,7 @@ export class AppComponent implements OnInit {
       "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-99.jpg",
       "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-93.jpg",
       "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-90.jpg",
-      "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-14-603x302.jpg",
+      "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-14.jpg",
       "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-4.jpg",
       "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-280.jpg",
       "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-266.jpg",
