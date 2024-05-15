@@ -13888,9 +13888,9 @@
             "SILVER": 5
         },
         "translation": {
-            "description": "Earn Mastery 7 on different tanks",
+            "description": "Earn Mastery 10 on different tanks",
             "name": "Master Tank",
-            "shortDescription": "Get Mastery 7 on different tanks"
+            "shortDescription": "Get Mastery 10 on different tanks"
         },
         "reversed": false,
         "queueIds": [],
@@ -13930,9 +13930,9 @@
             "SILVER": 5
         },
         "translation": {
-            "description": "Earn Mastery 7 on different marksmen",
+            "description": "Earn Mastery 10 on different marksmen",
             "name": "Master Marksman",
-            "shortDescription": "Get Mastery 7 on different marksmen"
+            "shortDescription": "Get Mastery 10 on different marksmen"
         },
         "reversed": false,
         "queueIds": [],
@@ -13972,9 +13972,9 @@
             "SILVER": 5
         },
         "translation": {
-            "description": "Earn Mastery 7 on different supports",
+            "description": "Earn Mastery 10 on different supports",
             "name": "Master Support",
-            "shortDescription": "Get Mastery 7 on different supports"
+            "shortDescription": "Get Mastery 10 on different supports"
         },
         "reversed": false,
         "queueIds": [],
@@ -14077,9 +14077,9 @@
             "SILVER": 12
         },
         "translation": {
-            "description": "Earn Mastery 7 on different fighters",
+            "description": "Earn Mastery 10 on different fighters",
             "name": "Master Fighter",
-            "shortDescription": "Get Mastery 7 on different fighters"
+            "shortDescription": "Get Mastery 10 on different fighters"
         },
         "reversed": false,
         "queueIds": [],
@@ -14184,9 +14184,9 @@
             "SILVER": 12
         },
         "translation": {
-            "description": "Earn Mastery 7 on different mages",
+            "description": "Earn Mastery 10 on different mages",
             "name": "Master Mage",
-            "shortDescription": "Get Mastery 7 on different mages"
+            "shortDescription": "Get Mastery 10 on different mages"
         },
         "reversed": false,
         "queueIds": [],
@@ -14398,9 +14398,9 @@
             "SILVER": 10
         },
         "translation": {
-            "description": "Earn Mastery 7 on different assassins",
+            "description": "Earn Mastery 10 on different assassins",
             "name": "Master Assassin",
-            "shortDescription": "Get Mastery 7 on different assassins"
+            "shortDescription": "Get Mastery 10 on different assassins"
         },
         "reversed": false,
         "queueIds": [],

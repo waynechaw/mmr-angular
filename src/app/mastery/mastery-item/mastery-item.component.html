@@ -25,11 +25,12 @@
 	<div class="progress-box">
 		<div [style.width]="progressPercentCatchMode" class="inner-bar"></div>
 	</div>
-	<div class="progress-text">{{item.championPoints}}/{{catchNextUpgrade}}</div>
+	<div class="progress-text">{{item.championPoints.toLocaleString()}}/{{catchNextUpgrade.toLocaleString()}}</div>
 } @else {
+	<h2>{{item.championPoints.toLocaleString()}}</h2>
 	<div class="progress-box">
 		<div [style.width]="progressPercent" class="inner-bar"></div>
 	</div>
-	<div class="progress-text">{{item.championPointsSinceLastLevel}}/{{pointsRequired}}</div>
+	<div class="progress-text">{{item.championPointsSinceLastLevel.toLocaleString()}}/{{pointsRequired.toLocaleString()}}</div>
 }
 
