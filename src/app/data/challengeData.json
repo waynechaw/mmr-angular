@@ -9749,9 +9749,9 @@
             "SILVER": 15
         },
         "translation": {
-            "description": "Earn Mastery 7 on different champions",
+            "description": "Earn Mastery 10 on different champions",
             "name": "Master the Enemy",
-            "shortDescription": "Earn Mastery 7 on different champions"
+            "shortDescription": "Earn Mastery 10 on different champions"
         },
         "reversed": false,
         "queueIds": [],

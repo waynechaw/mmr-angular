@@ -39,6 +39,9 @@ export class MasteryComponent implements OnInit  {
   public hideM5;
   public hideM6;
   public hideM7;
+  public hideM8;
+  public hideM9;
+  public hideM10;
 
   public sortMethod = 'level-down';
 
@@ -171,20 +174,41 @@ export class MasteryComponent implements OnInit  {
 
     if (this.userChallengeData.masterEnemy.selected) {
       if (this.userChallengeData.masterYourself.selected) {
+        this.hideM10 = true;
+        this.hideM9 = true;
+        this.hideM8 = true;
         this.hideM7 = true;
         this.hideM6 = true;
         this.hideM5 = true;
       } else {
-        this.hideM7 = true;
+
+        this.hideM10 = true;
+        this.hideM9 = false;
+        this.hideM8 = false;
+
+        this.hideM7 = false;
         this.hideM6 = false;
         this.hideM5 = false;
       }
     } else {
       if (this.userChallengeData.masterYourself.selected) {
+
+
+        this.hideM10 = true;
+        this.hideM9 = true;
+        this.hideM8 = true;
+
         this.hideM7 = true;
         this.hideM6 = true;
         this.hideM5 = true;
       } else {
+
+
+        this.hideM10 = false;
+        this.hideM9 = false;
+        this.hideM8 = false;
+
+
         this.hideM7 = false;
         this.hideM6 = false;
         this.hideM5 = false;
@@ -213,6 +237,12 @@ export class MasteryComponent implements OnInit  {
     }
 
     if (this.userChallengeData.catchemAll.selected) {
+
+
+        this.hideM10 = false;
+        this.hideM9 = false;
+        this.hideM8 = false;
+
       this.hideM7 = false;
       this.hideM6 = false;
       this.hideM5 = false;
@@ -289,6 +319,27 @@ export class MasteryComponent implements OnInit  {
         return item.championLevel != 7;
       })
     }
+
+    if (this.hideM8) {
+      this.filteredData = this.filteredData.filter(item => {
+        return item.championLevel != 8;
+      })
+    }
+
+    if (this.hideM9) {
+      this.filteredData = this.filteredData.filter(item => {
+        return item.championLevel != 9;
+      })
+    }
+
+
+    if (this.hideM10) {
+      this.filteredData = this.filteredData.filter(item => {
+        return item.championLevel < 10;
+      })
+    }
+
+
 
     this.applyRolesFilter();
 
