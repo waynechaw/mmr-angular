@@ -27,7 +27,7 @@ export class ChallengeItemComponent  implements OnInit  {
     this.challengeDetails = challengeData.find(item => {
       return item.id == this.userChallengeData.challengeId;
     });
-    console.log(this.challengeDetails);
+
     this.getNextUpgrade(this.userChallengeData.level);
   }
 
@@ -42,7 +42,7 @@ export class ChallengeItemComponent  implements OnInit  {
       this.nextUpgrade = this.challengeDetails.thresholds.IRON;
       this.rankColor = '#2e2e2e';
     } else if (level == 'IRON') {
-      this.nextUpgrade == this.challengeDetails.thresholds.BRONZE;
+      this.nextUpgrade = this.challengeDetails.thresholds.BRONZE;
       this.rankColor = '#cbcbcb';
     } else if (level == 'BRONZE') {
       this.nextUpgrade = this.challengeDetails.thresholds.SILVER;

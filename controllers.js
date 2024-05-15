@@ -41,32 +41,32 @@ export async function getMasteryChallenges(req, res, next) {
     "value": 0,
   };
   const defaultMasterMarksman = {
-    "challengeId": 401204,
+    "challengeId": 401210,
     "level": "NONE",
     "value": 0,
   };
   const defaultMasterSupport = {
-    "challengeId": 401205,
+    "challengeId": 401211,
     "level": "NONE",
     "value": 0,
   };
   const defaultMasterFighter = {
-    "challengeId": 401202,
+    "challengeId": 401208,
     "level": "NONE",
     "value": 0,
   };
   const defaultMasterMage = {
-    "challengeId": 401203,
+    "challengeId": 401209,
     "level": "NONE",
     "value": 0,
   };
   const defaultMasterAssassin = {
-    "challengeId": 401201,
+    "challengeId": 401207,
     "level": "NONE",
     "value": 0,
   };
   const defaultMasterTank = {
-    "challengeId": 401206,
+    "challengeId": 401212,
     "level": "NONE",
     "value": 0,
   };
@@ -85,12 +85,12 @@ export async function getMasteryChallenges(req, res, next) {
   const data = await response.json();
   let masterYourself = data.challenges.find(item => item.challengeId == 401104);
   let masterEnemy = data.challenges.find(item => item.challengeId == 401105);
-  let masterTank = data.challenges.find(item => item.challengeId == 401206);
-  let masterMarksman = data.challenges.find(item => item.challengeId == 401204);
-  let masterSupport = data.challenges.find(item => item.challengeId == 401205);
-  let masterFighter = data.challenges.find(item => item.challengeId == 401202);
-  let masterMage = data.challenges.find(item => item.challengeId == 401203);
-  let masterAssassin = data.challenges.find(item => item.challengeId == 401201);
+  let masterTank = data.challenges.find(item => item.challengeId == 401212);
+  let masterMarksman = data.challenges.find(item => item.challengeId == 401210);
+  let masterSupport = data.challenges.find(item => item.challengeId == 401211);
+  let masterFighter = data.challenges.find(item => item.challengeId == 401208);
+  let masterMage = data.challenges.find(item => item.challengeId == 401209);
+  let masterAssassin = data.challenges.find(item => item.challengeId == 401207);
   let catchemAll = data.challenges.find(item => item.challengeId == 401101);
   let oneTrick = data.challenges.find(item => item.challengeId == 401103); 
   return res.json({

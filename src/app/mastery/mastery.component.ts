@@ -76,7 +76,6 @@ export class MasteryComponent implements OnInit  {
     }
     this.getProfilePic();
     this.getMastery();
-    console.log(this.activeProfileInfo);
   }
 
   restart() {
@@ -118,7 +117,6 @@ export class MasteryComponent implements OnInit  {
       puuid: this.appService.activeProfileID,
       region: this.appService.activeProfileInfo.region
     }).subscribe((resp: any) => {
-      console.log(resp);
       this.profileIcon = resp.data.profileIconId;
     }, (resp) => {
     })
@@ -170,7 +168,6 @@ export class MasteryComponent implements OnInit  {
   }
 
   challengeClicked(event) {
-    console.log(this.userChallengeData);
 
     if (this.userChallengeData.masterEnemy.selected) {
       if (this.userChallengeData.masterYourself.selected) {
