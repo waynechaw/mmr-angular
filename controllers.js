@@ -1,9 +1,9 @@
 let apiKey = process.env.key;
 
-
 export async function getAccountInfo(req, res, next) {
   const name = req.body.name;
   const tag = req.body.tag;
+  console.log(name, tag);
   const response =  await fetch(`https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/${name}/${tag}?api_key=${apiKey}`);
   const data = await response.json();
   if (response.status == 200) {
