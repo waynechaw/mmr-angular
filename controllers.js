@@ -36,7 +36,7 @@ export async function getMasteryChallenges(req, res, next) {
     "value": 0,
   };
   const defaultMasterEnemy = {
-    "challengeId": 401105,
+    "challengeId": 401107,
     "level": "NONE",
     "value": 0,
   };
@@ -84,7 +84,7 @@ export async function getMasteryChallenges(req, res, next) {
   const response = await fetch(`https://${region}.api.riotgames.com/lol/challenges/v1/player-data/${puuid}?api_key=${apiKey}`);
   const data = await response.json();
   let masterYourself = data.challenges.find(item => item.challengeId == 401104);
-  let masterEnemy = data.challenges.find(item => item.challengeId == 401105);
+  let masterEnemy = data.challenges.find(item => item.challengeId == 401107);
   let masterTank = data.challenges.find(item => item.challengeId == 401212);
   let masterMarksman = data.challenges.find(item => item.challengeId == 401210);
   let masterSupport = data.challenges.find(item => item.challengeId == 401211);
