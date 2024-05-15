@@ -40,6 +40,7 @@ hr {
 
 h4 {
     font-size: 19px;
+        white-space: nowrap;
 }
 
 .points {
@@ -78,4 +79,21 @@ h4 {
 .last-played {
     color: #eac58c;
     margin: 14px 0;
+}
+
+@media (max-width: 720px) {
+
+    hr {
+        margin: 14px auto;
+    }
+
+    h4 {
+        font-size: 17px;
+    }
+
+    .progress-text {
+        font-size: 13px;
+    }
+        
+
 }

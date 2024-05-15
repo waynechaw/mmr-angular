@@ -53,3 +53,13 @@
 .bi {
     margin-left: 8px;
 }
+
+@media (max-width: 720px) {
+
+
+    .bi-info-circle {
+        display: none;
+    }
+
+
+}
