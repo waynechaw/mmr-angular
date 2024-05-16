@@ -17340,13 +17340,13 @@
         "endTimestamp": 1726210800000,
         "leaderboard": false,
         "thresholds": {
-            "BRONZE": 10,
-            "MASTER": 168,
-            "PLATINUM": 80,
-            "DIAMOND": 120,
-            "IRON": 5,
-            "GOLD": 45,
-            "SILVER": 20
+            "BRONZE": 6,
+            "MASTER": 60,
+            "PLATINUM": 32,
+            "DIAMOND": 45,
+            "IRON": 3,
+            "GOLD": 20,
+            "SILVER": 12
         },
         "translation": {
             "description": "Place first in Arena games with different champions",
