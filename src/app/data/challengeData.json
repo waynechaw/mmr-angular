@@ -17351,7 +17351,7 @@
         "translation": {
             "description": "Place first in Arena games with different champions",
             "name": "Adapt to All Situations",
-            "shortDescription": "Place first in Arena games with different champions"
+            "shortDescription": "Place first in Arena games with different champions "
         },
         "reversed": false,
         "queueIds": [
