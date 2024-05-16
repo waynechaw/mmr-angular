@@ -56,7 +56,7 @@ export class MasteryItemComponent implements OnInit  {
 
     if (this.item.championPointsSinceLastLevel == 0) {
       this.pointsRequired = this.item.championPoints + this.item.championPointsUntilNextLevel;
-      this.item.championPointsSinceLastLevel = this.item.championPointsUntilNextLevel;
+      this.item.championPointsSinceLastLevel = this.item.championPoints;
     }
 
     this.progressPercent = (this.item.championPointsSinceLastLevel / this.pointsRequired  * 100);
