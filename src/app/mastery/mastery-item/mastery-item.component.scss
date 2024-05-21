@@ -20,21 +20,44 @@ h2 {
 }
 
 .tokens-container {
-    margin-top: 12px;
-    margin-bottom: 6PX;
+    margin-top: -4px;
+    height: 22px;
+    .mark-token {
+        color: #f9e161;
+        font-size: 12px;
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        display: inline-block;
+        background: #2c0080;
+        border-radius: 50%;
+        line-height: 17px;
+        border: 1px solid #FFEB3B;
+        margin-right: 2px;
+    }
 }
 
-hr {
+.no-tokens {
     width: 26%;
-    margin: 23px auto;
+    margin: 17px auto 7px;
     border-top: 2px dashed #252525;
     opacity: 0.5;
 }
 
-.bi {
-    font-size: 20px;
-    &:not(:last-child){
-        margin-right: 6px;
+.milestones {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    hr {
+    width: 9px;
+    border-top: 1px solid black;
+    opacity: 0.6;
+    }
+
+    .bi-0-circle-fill, .bi-1-circle-fill, .bi-2-circle-fill, .bi-3-circle-fill, .bi-4-circle-fill, .bi-5-circle-fill {
+        color: black;
     }
 }
 
@@ -78,7 +101,7 @@ h4 {
 
 .last-played {
     color: #eac58c;
-    margin: 14px 0;
+    margin: 0;
 }
 
 @media (max-width: 720px) {

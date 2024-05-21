@@ -117,6 +117,10 @@
 									  Sort: Last Played <i class="bi bi-arrow-down-short"></i>
 									} @else if (sortMethod == 'lastplayed-up') {
 									  Sort: Last Played <i class="bi bi-arrow-up-short"></i>
+									} @else if (sortMethod == 'milestones-down') {
+									  Sort: Milestones<i class="bi bi-arrow-down-short"></i>
+									} @else if (sortMethod == 'milestones-up') {
+									  Sort: Milestones <i class="milestones bi-arrow-up-short"></i>
 									}
 								</button>
                 <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
@@ -126,6 +130,16 @@
                   <button (click)="changeSort('level-up')" ngbDropdownItem>
                   Level <i class="bi bi-arrow-up-short"></i>
                   </button>
+
+
+                  <button (click)="changeSort('milestones-down')" ngbDropdownItem>
+                  Milestones  <i class="bi bi-arrow-down-short"></i>
+                  </button>
+                  <button (click)="changeSort('milestones-up')" ngbDropdownItem>
+                  Milestones  <i class="bi bi-arrow-up-short"></i>
+                  </button>
+
+
                   <button (click)="changeSort('points-down')" ngbDropdownItem>
                   Points <i class="bi bi-arrow-down-short"></i>
                   </button>
