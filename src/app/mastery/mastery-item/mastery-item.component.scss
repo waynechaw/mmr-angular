@@ -11,7 +11,6 @@ h2 {
     height: 5rem;
     overflow: hidden;
     margin: 0 auto;
-    margin-bottom: 9px;
     img {
         display: block;
         width: 100%;
@@ -20,8 +19,10 @@ h2 {
 }
 
 .tokens-container {
-    margin-top: -4px;
-    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
     .mark-token {
         color: #f9e161;
         font-size: 12px;
@@ -39,9 +40,28 @@ h2 {
 
 .no-tokens {
     width: 26%;
-    margin: 17px auto 7px;
+    margin: 17px auto;
     border-top: 2px dashed #252525;
     opacity: 0.5;
+}
+
+.grades {
+    justify-content: center;
+    margin-bottom: 2px;
+    .grade {
+        background: #000d71;
+        color: white;
+        width: 20px;
+        height: 20px;
+        border: 1px solid gray;
+        line-height: 20px;
+        margin-right: 5px;
+        opacity: .5;
+        &.completed {
+            opacity: 1;
+            color: gold;
+        }
+    }
 }
 
 .milestones {
@@ -101,7 +121,7 @@ h4 {
 
 .last-played {
     color: #eac58c;
-    margin: 0;
+    margin: 9px;
 }
 
 @media (max-width: 720px) {

@@ -121,6 +121,10 @@
 									  Sort: Milestones<i class="bi bi-arrow-down-short"></i>
 									} @else if (sortMethod == 'milestones-up') {
 									  Sort: Milestones <i class="milestones bi-arrow-up-short"></i>
+									} @else if (sortMethod == 'grades-down') {
+									  Sort: Grades<i class="bi bi-arrow-down-short"></i>
+									} @else if (sortMethod == 'grades-up') {
+									  Sort: Grades<i class="bi bi-arrow-up-short"></i>
 									}
 								</button>
                 <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
@@ -130,13 +134,20 @@
                   <button (click)="changeSort('level-up')" ngbDropdownItem>
                   Level <i class="bi bi-arrow-up-short"></i>
                   </button>
-
-
                   <button (click)="changeSort('milestones-down')" ngbDropdownItem>
                   Milestones  <i class="bi bi-arrow-down-short"></i>
                   </button>
                   <button (click)="changeSort('milestones-up')" ngbDropdownItem>
                   Milestones  <i class="bi bi-arrow-up-short"></i>
+                  </button>
+
+                  <button (click)="changeSort('grades-down')" ngbDropdownItem>
+                  Grades  <i class="bi bi-arrow-down-short"></i>
+                  </button>
+
+
+                  <button (click)="changeSort('grades-up')" ngbDropdownItem>
+                  Grades  <i class="bi bi-arrow-up-short"></i>
                   </button>
 
 

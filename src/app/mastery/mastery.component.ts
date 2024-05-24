@@ -152,6 +152,7 @@ export class MasteryComponent implements OnInit  {
     this.masteryData.forEach((item, index) => {
       item.roles = championData[item.championId].tags;
       item.name = championData[item.championId].id;
+      item.displayName = championData[item.championId].name;
       let champLane = champLaneData.find(laneItem => laneItem.id == item.championId)
       item.lanes = champLane!.roles;
       item.index = index;
@@ -303,6 +304,20 @@ export class MasteryComponent implements OnInit  {
         return a.championSeasonMilestone - b.championSeasonMilestone;
       })
     }
+
+
+ else if (this.sortMethod == 'grades-down' ) {
+      this.filteredData.sort((a, b) => {
+        return b.completedGrades - a.completedGrades;
+      })
+    } else if (this.sortMethod == 'grades-up' ) {
+      this.filteredData.sort((a, b) => {
+        return a.completedGrades - b.completedGrades;
+      })
+    }
+
+
+    console.log(this.filteredData);
     this.applyMasteryFilter();
   }
 

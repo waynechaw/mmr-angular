@@ -1,4 +1,4 @@
-<h2>{{item.name}}</h2>
+<h2>{{item.displayName}}</h2>
 
 <div class="img-wrapper">
 	<img src="https://ddragon.leagueoflegends.com/cdn/14.10.1/img/champion/{{item.name}}.png"/>
@@ -21,6 +21,12 @@
 		<hr class="no-tokens"/>
 	}
 }
+
+<div class="grades d-flex">
+	@for (item of requiredGrades;  track item.index) {
+		<div [ngClass]="{'completed': item.completed}" class="grade">{{ item.grade }}</div>
+	} 
+</div>
 
 <div class="milestones">
 	<i class="bi" [ngClass]="{'bi bi-0-circle-fill': item.championSeasonMilestone == 0, 'bi-0-circle': item.championSeasonMilestone != 0}"></i><hr/>

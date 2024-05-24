@@ -18,7 +18,67 @@ export class MasteryItemComponent implements OnInit  {
   public progressPercentCatchMode;
   public pointsRequired;
   public tokenColor = 'gold';
+  public requiredGrades;
   ngOnInit() {
+
+    let gradeValues = {
+      S: 4,
+      A: 3,
+      B: 2,
+      C: 1,
+      D: 0
+    }
+
+
+
+    let requiredGrades = this.item.nextSeasonMilestone.requireGradeCounts;
+
+
+    let requiredGradesArray: any[] = [];
+
+    for (let grade in requiredGrades) {
+      let count = requiredGrades[grade];
+
+      for (let i = 0; i < count; i++) {
+        requiredGradesArray.push({
+          completed: false,
+          grade: grade.charAt(0),
+          index: i,
+          gradeValue: gradeValues[grade.charAt(0)]
+        });
+      }
+    }
+
+    this.requiredGrades = requiredGradesArray;
+
+
+    let completedGrades = 0;
+
+
+
+    let earnedGrades = this.item.milestoneGrades || [];
+
+    earnedGrades.forEach(grade => {
+      let gradeValue = gradeValues[grade.charAt(0)];
+
+      this.requiredGrades.forEach(requiredGrade => {
+
+        if (gradeValue >= requiredGrade.gradeValue && (!requiredGrade.completed)) {
+          requiredGrade.completed = true;
+          completedGrades++;
+          gradeValue = 0;
+        }
+      })
+
+    })
+
+    this.item.completedGrades = completedGrades;
+
+
+
+
+
+
     if (this.item.championLevel == 1) {
       this.masteryColor = '#8d8d8d';
       this.pointsRequired = 1800;
