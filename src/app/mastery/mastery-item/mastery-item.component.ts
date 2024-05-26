@@ -60,16 +60,13 @@ export class MasteryItemComponent implements OnInit  {
 
     earnedGrades.forEach(grade => {
       let gradeValue = gradeValues[grade.charAt(0)];
-
       this.requiredGrades.forEach(requiredGrade => {
-
         if (gradeValue >= requiredGrade.gradeValue && (!requiredGrade.completed)) {
           requiredGrade.completed = true;
           completedGrades++;
           gradeValue = 0;
         }
       })
-
     })
 
     this.item.completedGrades = completedGrades;

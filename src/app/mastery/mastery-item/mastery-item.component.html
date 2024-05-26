@@ -29,12 +29,51 @@
 </div>
 
 <div class="milestones">
-	<i class="bi" [ngClass]="{'bi bi-0-circle-fill': item.championSeasonMilestone == 0, 'bi-0-circle': item.championSeasonMilestone != 0}"></i><hr/>
-	<i class="bi" [ngClass]="{'bi bi-1-circle-fill': item.championSeasonMilestone == 1, 'bi-1-circle': item.championSeasonMilestone != 1}"></i><hr/>
-	<i class="bi" [ngClass]="{'bi bi-2-circle-fill': item.championSeasonMilestone == 2, 'bi-2-circle': item.championSeasonMilestone != 2}"></i><hr/>
-	<i class="bi" [ngClass]="{'bi bi-3-circle-fill': item.championSeasonMilestone == 3, 'bi-3-circle': item.championSeasonMilestone != 3}"></i><hr/>
-	<i class="bi" [ngClass]="{'bi bi-4-circle-fill': item.championSeasonMilestone == 4, 'bi-4-circle': item.championSeasonMilestone != 4}"></i><hr/>
-	<i class="bi" [ngClass]="{'bi bi-5-circle-fill': item.championSeasonMilestone == 5, 'bi-5-circle': item.championSeasonMilestone != 5}"></i>
+	<i class="bi" [ngClass]="{
+		'bi bi-0-circle-fill': item.championSeasonMilestone == 0, 
+		'bi-0-circle': item.championSeasonMilestone != 0,
+		'reached': item.championSeasonMilestone >= 0
+	}"></i>
+	<hr [ngClass]="{
+		'reached': item.championSeasonMilestone > 0
+	}"/>
+	<i class="bi" [ngClass]="{
+		'bi bi-1-circle-fill': item.championSeasonMilestone == 1, 
+		'bi-1-circle': item.championSeasonMilestone != 1,
+		'reached': item.championSeasonMilestone >= 1
+	}"></i>
+	<hr [ngClass]="{
+		'reached': item.championSeasonMilestone > 1
+	}"/>
+	<i class="bi" [ngClass]="{
+		'bi bi-2-circle-fill': item.championSeasonMilestone == 2, 
+		'bi-2-circle': item.championSeasonMilestone != 2,
+		'reached': item.championSeasonMilestone >= 2
+	}"></i>
+	<hr [ngClass]="{
+		'reached': item.championSeasonMilestone > 2
+	}"/>
+	<i class="bi" [ngClass]="{
+		'bi bi-3-circle-fill': item.championSeasonMilestone == 3, 
+		'bi-3-circle': item.championSeasonMilestone != 3,
+		'reached': item.championSeasonMilestone >= 3
+	}"></i>
+	<hr [ngClass]="{
+		'reached': item.championSeasonMilestone > 3
+	}"/>
+	<i class="bi" [ngClass]="{
+		'bi bi-4-circle-fill': item.championSeasonMilestone == 4, 
+		'bi-4-circle': item.championSeasonMilestone != 4,
+		'reached': item.championSeasonMilestone >= 4
+	}"></i>
+	<hr [ngClass]="{
+		'reached': item.championSeasonMilestone > 4
+	}"/>
+	<i class="bi" [ngClass]="{
+		'bi bi-5-circle-fill': item.championSeasonMilestone == 5, 
+		'bi-5-circle': item.championSeasonMilestone != 5,
+		'reached': item.championSeasonMilestone >= 5
+	}"></i>
 
 </div>
 

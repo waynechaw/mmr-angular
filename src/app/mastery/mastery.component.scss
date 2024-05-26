@@ -29,6 +29,19 @@
     justify-content: space-between;
     align-items: center;
 
+    .chests-earned {
+        color: gold;
+        display: flex;
+        align-items: center;
+        width: 137px;
+        justify-content: space-between;
+        img {
+            width: 52px;
+            margin: -8px 7px -8px -8px;
+            filter: brightness(1.4);
+        }
+    }
+
     .mastery-filter {
         input {
             margin-right: 8px;

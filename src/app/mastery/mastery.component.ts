@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { ChallengeItemComponent }  from './challenge-item/challenge-item.component';
 import { MasteryItemComponent }  from './mastery-item/mastery-item.component';
 import championData from '../data/championData.json';
+import championData2 from '../data/championData2.json';
 import champLaneData from '../data/champLaneData.json';
 import { NgbDropdownModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import {
@@ -24,46 +25,32 @@ import {
   ],
 })
 export class MasteryComponent implements OnInit  {
-
-
   public activeProfileInfo;
-
   public userChallengeData;
-
   public masteryData;
   public filteredData;
-
   public challengeLoading = true;
   public masteryLoading = true;
-
   public hideM5;
   public hideM6;
   public hideM7;
   public hideM8;
   public hideM9;
   public hideM10;
-
   public sortMethod = 'level-down';
-
-  // public selectedRoles = ['Tank', 'Marksman', 'Support', 'Fighter', 'Mage', 'Assassin', ];
   public selectedRoles: string[] = [ ];
   public selectedLane = '';
-
   public showChests;
-
   public totalPoints = 0;
-
   public avgPointsPerDay;
-
   public profileIcon;
-
-  public upgradeTime;
-
+  public upgradeTime; 
   public catchNextUpgrade: any;
-
   public catchemAllMode = false;
-
   public oneTrickSelected;
+
+  public t1ChestsEarned = 0;
+  public t2ChestsEarned = 0;
 
   constructor(private router: Router, private  appService: AppService,) { 
     this.activeProfileInfo = this.appService.activeProfileInfo;
@@ -149,10 +136,30 @@ export class MasteryComponent implements OnInit  {
   }
 
   transformData() {
+
+
+    let t1ChestsEarned = 0;
+    let t2ChestsEarned = 0;
+
     this.masteryData.forEach((item, index) => {
-      item.roles = championData[item.championId].tags;
+
+      if (item.championSeasonMilestone > 0) {
+        t1ChestsEarned ++;
+      } 
+
+
+      if (item.championSeasonMilestone > 2) {
+        t2ChestsEarned ++;
+      } 
+
+      this.t1ChestsEarned = Math.min(6, t1ChestsEarned);
+      this.t2ChestsEarned = Math.min(25, t1ChestsEarned);
+
+
       item.name = championData[item.championId].id;
       item.displayName = championData[item.championId].name;
+      item.roles = championData2[item.name].tags;
+
       let champLane = champLaneData.find(laneItem => laneItem.id == item.championId)
       item.lanes = champLane!.roles;
       item.index = index;

@@ -11,7 +11,6 @@ app.use(express.static('dist/my-app/browser'));
 
 
 app.get('*', (req, res) => {
-  console.log(path.join(__dirname, 'dist', 'my-app', 'browser'));
   // res.json({});
   res.sendFile('/', {root: path.join(__dirname, 'dist', 'my-app', 'browser')})
 });
@@ -22,7 +21,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
+
 });
 
 

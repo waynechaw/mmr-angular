@@ -79,6 +79,14 @@ h2 {
     .bi-0-circle-fill, .bi-1-circle-fill, .bi-2-circle-fill, .bi-3-circle-fill, .bi-4-circle-fill, .bi-5-circle-fill {
         color: black;
     }
+
+    .reached, {
+        color: white;
+    }
+
+    hr.reached {
+        border-top: 1px solid white;
+    }
 }
 
 h4 {
