@@ -49,6 +49,10 @@
     }
 }
 
+.filters-container.mobile-only {
+    display: none;
+}
+
 
 .role-option {
     img {
@@ -161,24 +165,43 @@
 
 @media (max-width: 720px) {
 
+    .container-xxl {
+        padding: 0;
+        margin: 0;
+    }
+
+    .user-section {
+        margin-bottom: 20px;
+        .user-stats {
+            zoom: 0.8;
+        }
+    }
+
+
     .challenges-container {
         flex-direction: column;
+        margin: 0;
+        border-radius: 0;
         .user-section {
             width: 100%;
         }
         .challenges-buttons{
             width: 100%;
-            justify-content: space-evenly;
+            justify-content: normal;
         }
     }
 
 
     .champions-container {
 
-        .champion-item-container {
-            width: 23%;
-            height: 244px;
+        margin: 0;
+        border-radius: 0;
 
+        .champion-item-container {
+            width: 24.5%;
+            height: 300px;
+            zoom: .6;
+            margin: 1px;
             h4 {
                 font-size: 17px;
             }
@@ -189,7 +212,26 @@
 
     .filters-container {
             zoom: .8;
+            padding-bottom: 0;
+            .mastery-filter {
+                zoom: .8;
+            }
+            .role-container {
+                display: none
+            }
     }
+
+
+    .filters-container.mobile-only {
+        display: flex;
+        justify-content: center;
+        margin: 5px 0 12px;
+            .role-container {
+                display: block
+            }
+
+    }
+
 
 }
 

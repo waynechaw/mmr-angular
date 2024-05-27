@@ -178,6 +178,27 @@
             </div>
          </div>
       </div>
+
+      <div class="filters-container mobile-only">
+         <div class="role-container">
+            <span [ngClass]="{'selected': selectedLane == 'TOP'}" class="role-option top">
+            <img (click)="selectLane('TOP')" src="/assets/roles/top.svg"/>
+            </span>
+            <span [ngClass]="{'selected': selectedLane == 'JUNGLE'}" class="role-option jg">
+            <img (click)="selectLane('JUNGLE')" src="/assets/roles/jg.svg"/>
+            </span>
+            <span [ngClass]="{'selected': selectedLane == 'MID'}" class="role-option mid">
+            <img (click)="selectLane('MID')" src="/assets/roles/mid.svg"/>
+            </span>
+            <span [ngClass]="{'selected': selectedLane == 'ADC'}" class="role-option bot">
+            <img (click)="selectLane('ADC')" src="/assets/roles/bot.svg"/>
+            </span>
+            <span [ngClass]="{'selected': selectedLane == 'SUPPORT'}" class="role-option sup">
+            <img (click)="selectLane('SUPPORT')" src="/assets/roles/sup.svg"/>
+            </span>
+         </div>
+      </div>
+
       <div class="d-flex flex-wrap">
          <div *ngFor="let item of filteredData" [ngClass]="{'darken': item.chestGranted && showChests || (catchemAllMode && item.index > 149)}" class="champion-item-container">
          <mastery-item [item]="item" [catchemAllMode]="catchemAllMode" [lastPlayed]="sortMethod == 'lastplayed-up' || sortMethod == 'lastplayed-down'" [catchNextUpgrade]="catchNextUpgrade"></mastery-item>
