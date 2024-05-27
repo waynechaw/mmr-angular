@@ -152,8 +152,10 @@ export class MasteryComponent implements OnInit  {
         t2ChestsEarned ++;
       } 
 
+
+
       this.t1ChestsEarned = Math.min(6, t1ChestsEarned);
-      this.t2ChestsEarned = Math.min(25, t1ChestsEarned);
+      this.t2ChestsEarned = Math.min(25, t2ChestsEarned);
 
 
       item.name = championData[item.championId].id;
