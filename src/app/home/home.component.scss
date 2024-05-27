@@ -47,3 +47,17 @@
     	margin-right: 12px;
     }
 }
+
+@media (max-width: 720px) {
+	.lookup-container {
+	    width: 94%;
+	    padding: 10px;
+	    .page-title {
+	    	font-size: 22px;
+	    }
+
+	    .bi-search {
+	    	left: 134px;
+	    }
+	}
+}
