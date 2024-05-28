@@ -2,16 +2,18 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
+import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, NgbModule],
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, NgbModule, NgbCollapseModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit {
+
+  isCollapsed = true;
 
   ngOnInit() {
 
