@@ -1,41 +1,38 @@
 <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
     <div class="container">
-            <button 
-
+    <button 
         (click)="isCollapsed = !isCollapsed"
         [attr.aria-expanded]="!isCollapsed"
-
-            class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div
-
-
- #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed"
-         class="justify-content-between collapse navbar-collapse" id="navbarColor01">
-            <a routerLinkActive="activebutton" class="navbar-brand" routerLink="/">Mastery and Challenge Tools</a>
-            <ul class="navbar-nav mb-2 mb-lg-0">
-                <li>
-                    <a class="nav-link"   [routerLink]="['/mastery']"  routerLinkActive="active">Mastery</a>
-                </li>
-                <li>
-                    <a class="nav-link"   [routerLink]="['/checklist']"  routerLinkActive="active">Checklist</a>
-                </li>
-
-                <div class="discord">
-                  <a class="nav-link" target="_blank" href="https://discord.gg/WZMXz76eYk">BFF Research Institute <img src="/assets/images/discord.png"/></a>
-                </div>
-
-
-
-            </ul>
-<!--             <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light" type="submit">Search</button>
-            </form> -->
-        </div>
+        class="navbar-toggler" 
+        type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarColor01" 
+        aria-controls="navbarColor01" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+        #collapse="ngbCollapse" 
+        [(ngbCollapse)]="isCollapsed"
+        class="justify-content-between collapse navbar-collapse" 
+        id="navbarColor01">
+        <a routerLinkActive="activebutton" class="navbar-brand" routerLink="/">Mastery and Challenge Tools</a>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+            <li>
+                <a class="nav-link"   [routerLink]="['/mastery']"  routerLinkActive="active">Mastery</a>
+            </li>
+            <li>
+                <a class="nav-link"   [routerLink]="['/checklist']"  routerLinkActive="active">Checklist</a>
+            </li>
+            <div class="discord">
+                <a class="nav-link" target="_blank" href="https://discord.gg/WZMXz76eYk">BFF Research Institute <img src="/assets/images/discord.png"/></a>
+            </div>
+        </ul>
+        <!--             <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+        </form> -->
     </div>
+   </div>
 </nav>
-
-
 <router-outlet></router-outlet>
