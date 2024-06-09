@@ -312,10 +312,21 @@ export class MasteryComponent implements OnInit  {
       this.filteredData.sort((a, b) => {
         return a.championSeasonMilestone - b.championSeasonMilestone;
       })
-    }
+    } else if (this.sortMethod == 'smart' ) {
+      this.filteredData.sort((a, b) => {
+        return b.lastPlayTime - a.lastPlayTime;
+      })
+
+      this.filteredData.sort((a, b) => {
+        return b.completedGrades - a.completedGrades;
+      })
+
+      this.filteredData.sort((a, b) => {
+        return b.championSeasonMilestone - a.championSeasonMilestone;
+      })
 
 
- else if (this.sortMethod == 'grades-down' ) {
+    } else if (this.sortMethod == 'grades-down' ) {
       this.filteredData.sort((a, b) => {
         return b.completedGrades - a.completedGrades;
       })

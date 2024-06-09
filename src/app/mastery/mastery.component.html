@@ -130,9 +130,16 @@
 									  Sort: Grades<i class="bi bi-arrow-down-short"></i>
 									} @else if (sortMethod == 'grades-up') {
 									  Sort: Grades<i class="bi bi-arrow-up-short"></i>
-									}
+									} @else if (sortMethod == 'smart') {
+                             Sort: Smart
+                           }
 								</button>
                 <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+
+                  <button (click)="changeSort('smart')" ngbDropdownItem>
+                  Smart Sort
+                  </button>
+
                   <button (click)="changeSort('level-down')" ngbDropdownItem>
                   Level <i class="bi bi-arrow-down-short"></i>
                   </button>
