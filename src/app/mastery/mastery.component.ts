@@ -305,10 +305,22 @@ export class MasteryComponent implements OnInit  {
         return a.lastPlayTime - b.lastPlayTime;
       })
     } else if (this.sortMethod == 'milestones-down' ) {
+
+
+      this.filteredData.sort((a, b) => {
+        return b.completedGrades - a.completedGrades;
+      })
+
       this.filteredData.sort((a, b) => {
         return b.championSeasonMilestone - a.championSeasonMilestone;
       })
     } else if (this.sortMethod == 'milestones-up' ) {
+
+
+      this.filteredData.sort((a, b) => {
+        return a.completedGrades - b.completedGrades;
+      })
+
       this.filteredData.sort((a, b) => {
         return a.championSeasonMilestone - b.championSeasonMilestone;
       })
