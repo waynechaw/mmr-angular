@@ -57,6 +57,10 @@ export class MasteryComponent implements OnInit  {
   }
 
   ngOnInit() {
+
+
+    this.sortMethod = localStorage.getItem("sortMethod") || 'level-down';
+
     if (!this.appService.activeProfileInfo) {
       this.router.navigate(['/']);
       return;
@@ -175,6 +179,8 @@ export class MasteryComponent implements OnInit  {
   changeSort(sortMethod) {
     this.sortMethod = sortMethod;
     this.sort();
+
+    localStorage.setItem("sortMethod", sortMethod);
   }
 
   challengeClicked(event) {
