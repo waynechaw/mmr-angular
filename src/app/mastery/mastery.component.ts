@@ -172,8 +172,9 @@ export class MasteryComponent implements OnInit  {
     })
     this.masteryLoading = false;
     this.filteredData = this.masteryData.slice();
-    console.log(this.filteredData);
-    this.sort();
+    setTimeout(() => {
+      this.sort();
+    }, 1000);
   }
 
   changeSort(sortMethod) {
@@ -353,9 +354,6 @@ export class MasteryComponent implements OnInit  {
         return a.completedGrades - b.completedGrades;
       })
     }
-
-
-    console.log(this.filteredData);
     this.applyMasteryFilter();
   }
 
