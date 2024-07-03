@@ -142,6 +142,19 @@ export class MasteryComponent implements OnInit  {
   transformData() {
 
 
+    let focusIds: any = localStorage.getItem('focusIds');
+    if (!focusIds) {
+      focusIds = [];
+    } else {
+      focusIds = JSON.parse(focusIds);
+    }
+
+    this.masteryData.forEach(item => {
+      if (focusIds && focusIds.includes(item.championId)) {
+        item.focus = true;
+      }
+    })
+
     let t1ChestsEarned = 0;
     let t2ChestsEarned = 0;
 
@@ -277,6 +290,19 @@ export class MasteryComponent implements OnInit  {
 
   }
 
+  toggleFocus(item) {
+    item.focus = !item.focus;
+
+
+    let focusIds = this.filteredData.filter(item => item.focus).map(item => item.championId);
+
+    console.log(focusIds);
+
+    localStorage.setItem('focusIds', JSON.stringify(focusIds));
+
+    this.sort();
+  }
+
   sort() {
     this.filteredData = this.masteryData.slice();
     if (this.sortMethod == 'level-down' ) {    
@@ -354,6 +380,12 @@ export class MasteryComponent implements OnInit  {
         return a.completedGrades - b.completedGrades;
       })
     }
+
+    this.filteredData = [
+      ...this.filteredData.filter(item => item.focus),
+      ...this.filteredData.filter(item => !(item.focus))
+    ];
+
     this.applyMasteryFilter();
   }
 

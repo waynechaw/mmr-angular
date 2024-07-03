@@ -207,8 +207,8 @@
       </div>
 
       <div class="d-flex flex-wrap">
-         <div *ngFor="let item of filteredData" [ngClass]="{'darken': item.chestGranted && showChests || (catchemAllMode && item.index > 149)}" class="champion-item-container">
-         <mastery-item [item]="item" [catchemAllMode]="catchemAllMode" [lastPlayed]="sortMethod == 'lastplayed-up' || sortMethod == 'lastplayed-down'" [catchNextUpgrade]="catchNextUpgrade"></mastery-item>
+         <div *ngFor="let item of filteredData" [ngClass]="{'focus': item.focus ,'darken': item.chestGranted && showChests || (catchemAllMode && item.index > 149)}" class="champion-item-container">
+         <mastery-item (click)="toggleFocus(item)" [item]="item" [catchemAllMode]="catchemAllMode" [lastPlayed]="sortMethod == 'lastplayed-up' || sortMethod == 'lastplayed-down'" [catchNextUpgrade]="catchNextUpgrade"></mastery-item>
       </div>
    </div>
 </div>

@@ -21,6 +21,11 @@
         padding: 8px;
         position: relative;
         height: 308px;
+        cursor: pointer;
+        &.focus {
+            border: 2px solid gold;
+            padding: 5px;
+        }
     }
 }
 

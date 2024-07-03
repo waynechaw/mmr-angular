@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from "@angular/common";
 @Component({
   selector: 'mastery-item',
@@ -13,6 +13,7 @@ export class MasteryItemComponent implements OnInit  {
   @Input() catchemAllMode;
   @Input() catchNextUpgrade;
   @Input() lastPlayed;
+  @Output() championClickedEvent = new EventEmitter<boolean>();
   public masteryColor;
   public progressPercent;
   public progressPercentCatchMode;
