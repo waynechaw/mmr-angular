@@ -67,14 +67,41 @@ h2 {
 
 .milestones {
     display: flex;
-
     align-items: center;
     justify-content: center;
 
+
+    .milestone {
+        color: black;
+        width: 22px;
+        height: 22px;
+        font-size: 14px;
+        border: 2px solid black;
+        border-radius: 100px;
+        &.passed {
+            color: white;
+            border: 2px solid white;
+        }
+
+        &.reached, {
+            color: black;
+            background: #fff;
+            border: 2px solid white;
+        }
+
+    }
+
+
+
     hr {
-    width: 9px;
-    border-top: 1px solid black;
-    opacity: 0.6;
+        width: 9px;
+        border-top: 1px solid black;
+        opacity: 0.6;
+
+        &.passed {
+             border-top: 1px solid white;
+        }
+
     }
 
     .bi-0-circle-fill, .bi-1-circle-fill, .bi-2-circle-fill, .bi-3-circle-fill, .bi-4-circle-fill, .bi-5-circle-fill {

@@ -22,6 +22,9 @@
         position: relative;
         height: 308px;
         cursor: pointer;
+        &:hover {
+            background: #8fa7ffab;
+        }
         &.focus {
             border: 2px solid gold;
             padding: 5px;
