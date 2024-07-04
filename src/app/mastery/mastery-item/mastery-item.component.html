@@ -1,3 +1,6 @@
+<i [ngClass]="{'d-none': item.focus}" (click)="toggleFocus()" class="bi bi-star"></i>
+<i [ngClass]="{'d-none': !item.focus}" (click)="toggleFocus()" class="bi bi-star-fill"></i>
+
 <h2>{{item.displayName}}</h2>
 
 <div class="img-wrapper">

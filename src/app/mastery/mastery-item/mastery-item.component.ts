@@ -128,4 +128,11 @@ export class MasteryItemComponent implements OnInit  {
     this.progressPercentCatchMode = (this.item.championPoints / this.catchNextUpgrade  * 100) + '%';
   }
 
+
+  toggleFocus() {
+    this.item.focus = !this.item.focus;
+    this.championClickedEvent.emit(true);
+  }
+
+
 }

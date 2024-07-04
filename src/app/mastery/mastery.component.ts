@@ -139,6 +139,17 @@ export class MasteryComponent implements OnInit  {
     })
   }
 
+  championClicked(event) {
+    console.log(123);
+    let focusIds = this.filteredData.filter(item => item.focus).map(item => item.championId);
+
+    console.log(focusIds);
+
+    localStorage.setItem('focusIds', JSON.stringify(focusIds));
+
+    this.sort();
+  }
+
   transformData() {
 
 
@@ -288,19 +299,6 @@ export class MasteryComponent implements OnInit  {
     this.sort();
 
 
-  }
-
-  toggleFocus(item) {
-    item.focus = !item.focus;
-
-
-    let focusIds = this.filteredData.filter(item => item.focus).map(item => item.championId);
-
-    console.log(focusIds);
-
-    localStorage.setItem('focusIds', JSON.stringify(focusIds));
-
-    this.sort();
   }
 
   sort() {
