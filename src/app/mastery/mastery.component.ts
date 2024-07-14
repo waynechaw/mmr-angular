@@ -171,9 +171,7 @@ export class MasteryComponent implements OnInit  {
 
     let masteryDataIds = this.masteryData.map(item => item.championId);
     for (let prop in championData) {
-      if (!masteryDataIds.includes(prop)) {
-
-
+      if (!masteryDataIds.includes(Number(prop))) {
         let unplayedChamp = {
             "championId": prop,
             "championLevel": 1,
@@ -198,13 +196,10 @@ export class MasteryComponent implements OnInit  {
                 }
             }
         }
-
         this.masteryData.push(unplayedChamp);
       }
 
     }
-
-    console.log(this.masteryData, 123123);
 
     this.masteryData.forEach((item, index) => {
 
