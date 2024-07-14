@@ -59,9 +59,13 @@
 
 
 .role-option {
+    margin: 12px 12px -12px;
+    display: inline-block;
+    &:hover {
+        filter: brightness(1.5);
+    }
     img {
         width: 26px;
-        margin: 12px 12px -12px;
         border-width: 0 0 2px 0;
         border-style: solid;
         padding-bottom: 12px;
@@ -71,7 +75,6 @@
 }
 
 .role-option:hover {
-    filter: brightness(1.5);
     img {
         border-color: #ffffff54;
     }
