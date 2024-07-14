@@ -33,7 +33,7 @@ export class ChallengeItemComponent  implements OnInit  {
 
   challengeClicked() {
     this.userChallengeData.selected = !this.userChallengeData.selected;
-    this.challengeClickedEvent.emit(true);
+    this.challengeClickedEvent.emit(this.challengeDetails);
   }
 
 

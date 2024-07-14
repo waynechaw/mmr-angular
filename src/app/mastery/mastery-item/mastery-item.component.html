@@ -8,7 +8,13 @@
 </div>
 
 @if (lastPlayed) {
-	<h6 class="last-played">{{item.lastPlayTime  | date:'shortDate' }}</h6>
+	<h6 class="last-played">
+		@if (item.lastPlayTime < 0) {
+			<span>Unplayed</span>
+		} @else {
+			{{item.lastPlayTime  | date:'shortDate' }}
+		}
+	</h6>
 } @else {
 	@if (item.tokensEarned > 0) {
 		<div class="tokens-container">

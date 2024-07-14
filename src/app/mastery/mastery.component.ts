@@ -169,6 +169,43 @@ export class MasteryComponent implements OnInit  {
     let t1ChestsEarned = 0;
     let t2ChestsEarned = 0;
 
+    let masteryDataIds = this.masteryData.map(item => item.championId);
+    for (let prop in championData) {
+      if (!masteryDataIds.includes(prop)) {
+
+
+        let unplayedChamp = {
+            "championId": prop,
+            "championLevel": 1,
+            "championPoints": 0,
+            "lastPlayTime": -Infinity ,
+            "championPointsSinceLastLevel": 0,
+            "championPointsUntilNextLevel": 1800,
+            "markRequiredForNextLevel": 0,
+            "tokensEarned": 0,
+            "championSeasonMilestone": 0,
+            "nextSeasonMilestone": {
+                "requireGradeCounts": {
+                    "B-": 1,
+                    "C-": 4
+                },
+                "rewardMarks": 1,
+                "bonus": false,
+                "rewardConfig": {
+                    "rewardValue": "5f4333db-e90d-4705-903b-08dbf5e61006",
+                    "rewardType": "HEXTECH_CHEST",
+                    "maximumReward": 6
+                }
+            }
+        }
+
+        this.masteryData.push(unplayedChamp);
+      }
+
+    }
+
+    console.log(this.masteryData, 123123);
+
     this.masteryData.forEach((item, index) => {
 
       if (item.championSeasonMilestone > 0) {
@@ -210,48 +247,53 @@ export class MasteryComponent implements OnInit  {
 
   challengeClicked(event) {
 
-    if (this.userChallengeData.masterEnemy.selected) {
-      if (this.userChallengeData.masterYourself.selected) {
-        this.hideM10 = true;
-        this.hideM9 = true;
-        this.hideM8 = true;
-        this.hideM7 = true;
-        this.hideM6 = true;
-        this.hideM5 = true;
+    console.log(event);
+
+    if (event.id == 401104 || event.id == 401107) {
+      if (this.userChallengeData.masterEnemy.selected) {
+        if (this.userChallengeData.masterYourself.selected) {
+          this.hideM10 = true;
+          this.hideM9 = true;
+          this.hideM8 = true;
+          this.hideM7 = true;
+          this.hideM6 = true;
+          this.hideM5 = true;
+        } else {
+
+          this.hideM10 = true;
+          this.hideM9 = false;
+          this.hideM8 = false;
+
+          this.hideM7 = false;
+          this.hideM6 = false;
+          this.hideM5 = false;
+        }
       } else {
-
-        this.hideM10 = true;
-        this.hideM9 = false;
-        this.hideM8 = false;
-
-        this.hideM7 = false;
-        this.hideM6 = false;
-        this.hideM5 = false;
-      }
-    } else {
-      if (this.userChallengeData.masterYourself.selected) {
+        if (this.userChallengeData.masterYourself.selected) {
 
 
-        this.hideM10 = true;
-        this.hideM9 = true;
-        this.hideM8 = true;
+          this.hideM10 = true;
+          this.hideM9 = true;
+          this.hideM8 = true;
 
-        this.hideM7 = true;
-        this.hideM6 = true;
-        this.hideM5 = true;
-      } else {
-
-
-        this.hideM10 = false;
-        this.hideM9 = false;
-        this.hideM8 = false;
+          this.hideM7 = true;
+          this.hideM6 = true;
+          this.hideM5 = true;
+        } else {
 
 
-        this.hideM7 = false;
-        this.hideM6 = false;
-        this.hideM5 = false;
+          this.hideM10 = false;
+          this.hideM9 = false;
+          this.hideM8 = false;
+
+
+          this.hideM7 = false;
+          this.hideM6 = false;
+          this.hideM5 = false;
+        }
       }
     }
+
 
     this.selectedRoles = [];
 
