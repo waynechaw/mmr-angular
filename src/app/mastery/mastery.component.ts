@@ -217,10 +217,15 @@ export class MasteryComponent implements OnInit  {
       this.t1ChestsEarned = Math.min(6, t1ChestsEarned);
       this.t2ChestsEarned = Math.min(25, t2ChestsEarned);
 
-
-      item.name = championData[item.championId].id;
-      item.displayName = championData[item.championId].name;
-      item.roles = championData2[item.name].tags;
+      for (let champ in championData2) {
+        let champData = championData2[champ];
+        let key = champData.key;
+        if (item.championId == key) {
+          item.name = champData.id;
+          item.displayName = champData.name;
+          item.roles = champData.tags;
+        }
+      }
 
       let champLane = champLaneData.find(laneItem => laneItem.id == item.championId)
       item.lanes = champLane!.roles;
