@@ -58,6 +58,13 @@ export class MasteryComponent implements OnInit  {
 
   ngOnInit() {
 
+    this.hideM5 = localStorage.getItem("hideM5");
+    this.hideM6 = localStorage.getItem("hideM6");
+    this.hideM7 = localStorage.getItem("hideM7");
+    this.hideM8 = localStorage.getItem("hideM8");
+    this.hideM9 = localStorage.getItem("hideM9");
+    this.hideM10 = localStorage.getItem("hideM10");
+
 
     this.sortMethod = localStorage.getItem("sortMethod") || 'level-down';
 
@@ -434,30 +441,35 @@ export class MasteryComponent implements OnInit  {
       this.filteredData = this.filteredData.filter(item => {
         return item.championLevel != 5;
       })
+      localStorage.setItem("hideM5", 'true');
     }
 
     if (this.hideM6) {
       this.filteredData = this.filteredData.filter(item => {
         return item.championLevel != 6;
       })
+      localStorage.setItem("hideM6", 'true');
     }
 
     if (this.hideM7) {
       this.filteredData = this.filteredData.filter(item => {
         return item.championLevel != 7;
       })
+      localStorage.setItem("hideM7", 'true');
     }
 
     if (this.hideM8) {
       this.filteredData = this.filteredData.filter(item => {
         return item.championLevel != 8;
       })
+      localStorage.setItem("hideM8", 'true');
     }
 
     if (this.hideM9) {
       this.filteredData = this.filteredData.filter(item => {
         return item.championLevel != 9;
       })
+      localStorage.setItem("hideM9", 'true');
     }
 
 
@@ -465,6 +477,7 @@ export class MasteryComponent implements OnInit  {
       this.filteredData = this.filteredData.filter(item => {
         return item.championLevel < 10;
       })
+      localStorage.setItem("hideM10", 'true');
     }
 
 
