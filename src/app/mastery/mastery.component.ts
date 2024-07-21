@@ -442,6 +442,8 @@ export class MasteryComponent implements OnInit  {
         return item.championLevel != 5;
       })
       localStorage.setItem("hideM5", 'true');
+    } else {
+      localStorage.removeItem("hideM5");
     }
 
     if (this.hideM6) {
@@ -449,6 +451,8 @@ export class MasteryComponent implements OnInit  {
         return item.championLevel != 6;
       })
       localStorage.setItem("hideM6", 'true');
+    } else {
+      localStorage.removeItem("hideM6");
     }
 
     if (this.hideM7) {
@@ -456,6 +460,8 @@ export class MasteryComponent implements OnInit  {
         return item.championLevel != 7;
       })
       localStorage.setItem("hideM7", 'true');
+    } else {
+      localStorage.removeItem("hideM7");
     }
 
     if (this.hideM8) {
@@ -463,6 +469,8 @@ export class MasteryComponent implements OnInit  {
         return item.championLevel != 8;
       })
       localStorage.setItem("hideM8", 'true');
+    } else {
+      localStorage.removeItem("hideM8");
     }
 
     if (this.hideM9) {
@@ -470,6 +478,8 @@ export class MasteryComponent implements OnInit  {
         return item.championLevel != 9;
       })
       localStorage.setItem("hideM9", 'true');
+    } else {
+      localStorage.removeItem("hideM9");
     }
 
 
@@ -478,6 +488,8 @@ export class MasteryComponent implements OnInit  {
         return item.championLevel < 10;
       })
       localStorage.setItem("hideM10", 'true');
+    } else {
+      localStorage.removeItem("hideM10");
     }
 
 
