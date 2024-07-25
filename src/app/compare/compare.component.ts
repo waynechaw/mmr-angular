@@ -43,7 +43,7 @@ export class CompareComponent implements OnInit  {
   public tableHeader: any[] = [''];
   public usersData: any[] = [];
 
-  public inputText = 'winnie#xoxo';
+  public inputText = '';
   public placeholder = 'name#tag';
 
   constructor(private router: Router, private  appService: AppService,) { 
