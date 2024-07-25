@@ -1,6 +1,6 @@
 import express  from 'express';
 import path from 'path';
-import { getAccountInfo, getMasteryFull, getMasteryChallenges, getProfilePic }   from './controllers.js';
+import { getAccountInfo, getMasteryFull, getMasteryChallenges, getProfilePic, getChallenges }   from './controllers.js';
 const app = express();
 const port = process.env.PORT || 4000;
 import { getGlobals } from 'common-es'
@@ -32,5 +32,7 @@ app.post('/account', getAccountInfo)
 app.post('/mastery', getMasteryFull)
 
 app.post('/mastery-challenges', getMasteryChallenges)
+
+app.post('/challenges', getChallenges)
 
 app.post('/getProfilePic', getProfilePic)

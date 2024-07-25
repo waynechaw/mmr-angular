@@ -139,6 +139,10 @@ export class AppService {
     return this.http.post('/mastery-challenges', body);
   }
 
+  getChallengeData(body) {
+    return this.http.post('/challenges', body);
+  }
+
   getProfilePic(body) {
     return this.http.post('/getProfilePic', body);
   }

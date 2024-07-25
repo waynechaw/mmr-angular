@@ -1,0 +1,44 @@
+.compare-search-container {
+    background: #1b2733;
+    padding: 15px;
+
+    .form-control {
+        background: #34495d;
+        border-color: transparent;
+        color: white;
+        padding-left: 36px;
+    }
+
+
+    ::placeholder {
+      color: #b8bfc6;
+      opacity: 1; /* Firefox */
+    }
+
+}
+
+table {
+    font-size: 14px;
+}
+
+thead th {
+    background: #09111a;
+    color: #99abbf;
+}
+
+tbody {
+
+    tr:nth-child(even)  {
+        td {    
+            background: #0f1923;
+            color: #efefef;
+        }
+    }
+
+    tr:nth-child(odd)  {
+        td {    
+            background: #1b2733d1;
+            color: #efefef;
+        }
+    }
+}

@@ -1,5 +1,4 @@
 let apiKey = process.env.key;
-
 export async function getAccountInfo(req, res, next) {
   const name = req.body.name;
   const tag = req.body.tag;
@@ -55,6 +54,35 @@ export async function getMasteryFull(req, res, next) {
       });
   }
 }
+
+export async function getChallenges(req, res, next) {
+
+  const puuid = req.body.puuid;
+  const region = req.body.region;
+  const response = await fetch(`https://${region}.api.riotgames.com/lol/challenges/v1/player-data/${puuid}?api_key=${apiKey}`);
+
+
+  try {
+    const data = await response.json();
+    if (response.status == 200) {
+
+      return res.json(data);
+    } else {
+      res.status(response.status);
+      res.send({
+        error: data.status,
+      });
+    }
+  } catch (error) {
+      res.status(500);
+      res.send({
+        error: {
+          message: error.message
+        }
+      });
+  }
+}
+
 
 export async function getMasteryChallenges(req, res, next) {
 
