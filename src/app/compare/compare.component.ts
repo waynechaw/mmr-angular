@@ -22,37 +22,71 @@ import {
 })
 export class CompareComponent implements OnInit  {
 
-  public challenges = [
-    203202, //damage sponge
-    103304, //disrespect
-    301301, //flawless victory
-    103102, //get on my level
-    210002, //same penta
-    302104, //whose lane
-    302201, //gsg
-    302203, //tmt
-    201004, //death incarnate
-    302103, //overwhelming
-    203404, //three buffed
-  ];
+
+  public challenges: any = [];
+
+
+  // public challenges: any = [
+  //   203202, //damage sponge
+  //   103304, //disrespect
+  //   301301, //flawless victory
+  //   103102, //get on my level
+  //   210002, //same penta
+  //   302104, //whose lane
+  //   302201, //gsg
+  //   302203, //tmt
+  //   201004, //death incarnate
+  //   302103, //overwhelming
+  //   203404, //three buffed
+  // ];
 
   public tableHeader: any[] = [''];
   public usersData: any[] = [];
 
-  public inputText = '';
+  public inputText = 'winnie#xoxo';
   public placeholder = 'name#tag';
 
   constructor(private router: Router, private  appService: AppService,) { 
   }
 
   ngOnInit() {
-    this.challenges.forEach(challengeId => {
-      let challengeDetails = challengeData.find(item => {
-        return item.id == challengeId;
-      });
-      this.tableHeader.push(challengeDetails!.translation.name);
-    })
-    console.log(this.tableHeader);
+    this.challenges = localStorage.getItem('challenges');
+    if (!this.challenges) {
+      this.challenges = '203202,103304,301301,103102,210002,302104,302201,302203,201004,302103,203404';
+    }
+    this.newTable();
+  }
+
+  newTable(event?: KeyboardEvent) {
+
+    console.log(this.challenges);
+
+    if (!this.challenges) {
+      this.challenges = '203202,103304,301301,103102,210002,302104,302201,302203,201004,302103,203404';
+    }
+
+    if (typeof this.challenges == 'string') {
+      this.challenges = this.challenges.split(',');
+    }
+
+    localStorage.setItem('challenges', this.challenges.join(','));
+
+
+    if ((event && event.keyCode == 13) || !event) {
+
+      this.tableHeader = [''];
+      this.usersData = [];
+      console.log(this.challenges);
+      this.challenges.forEach(challengeId => {
+        let challengeDetails = challengeData.find(item => {
+          return item.id == challengeId;
+        });
+        this.tableHeader.push(challengeDetails!.translation.name);
+      })
+      console.log(this.tableHeader);
+    }
+
+
   }
 
   onEnter(event: KeyboardEvent) {
