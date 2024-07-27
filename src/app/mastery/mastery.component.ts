@@ -503,7 +503,15 @@ export class MasteryComponent implements OnInit  {
       return this.applyLanesFilter();
     } else {
       this.filteredData = this.filteredData.filter(item => {
-        return item.roles.some(value => this.selectedRoles.includes(value));
+        let hasAllRoles = true;
+
+        this.selectedRoles.forEach(role => {
+          if (!item.roles.includes(role)) {
+            hasAllRoles = false;
+          }
+        })
+
+        return hasAllRoles;
       })
     }
     this.applyLanesFilter();
