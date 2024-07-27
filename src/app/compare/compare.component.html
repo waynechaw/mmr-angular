@@ -25,14 +25,17 @@
       <tbody>
 
             @for (userData of usersData;  let index = $index; track userData) {
-               <tr>
+               <tr class="player" (click)="delete(index)">
                   @for (item of userData;  let index = $index; track item) {
                      @if (item && !item.level) {
                        <td>{{item}}</td>
                      } @else if (!item) {
                        <td style="color: #ff4b4b">UNRANKED</td>
                      } @else{
-                       <td [ngStyle]="{'color': item.level == 'MASTER' || item.level == 'GRANDMASTER' || item.level == 'CHALLENGER' ? '#00a500' : '#ff4b4b' }">{{item.level}}</td>
+                        <td [ngStyle]="{'color': item.level == 'MASTER' || item.level == 'GRANDMASTER' || item.level == 'CHALLENGER' ? '#00a500' : '#ff4b4b' }">
+                           {{item.level}}<br>
+                           <span *ngIf="!(item.level == 'MASTER' || item.level == 'GRANDMASTER' || item.level == 'CHALLENGER')"> ({{item.value}} / {{item.masterThreshold}} )</span>
+                        </td>
                      }
                   }
                </tr>

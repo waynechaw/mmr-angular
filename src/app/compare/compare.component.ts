@@ -43,7 +43,7 @@ export class CompareComponent implements OnInit  {
   public tableHeader: any[] = [''];
   public usersData: any[] = [];
 
-  public inputText = '';
+  public inputText = 'winnie#xoxo';
   public placeholder = 'name#tag';
 
   constructor(private router: Router, private  appService: AppService,) { 
@@ -52,17 +52,15 @@ export class CompareComponent implements OnInit  {
   ngOnInit() {
     this.challenges = localStorage.getItem('challenges');
     if (!this.challenges) {
-      this.challenges = '203202,103304,301301,103102,210002,302104,302201,302203,201004,302103,203404';
+      this.challenges = '201004,210002,202304,203105,302104,302103,103102,203408,203407,203104,302404,301302,203202,103304,301301';
     }
     this.newTable();
   }
 
   newTable(event?: KeyboardEvent) {
 
-    console.log(this.challenges);
-
     if (!this.challenges) {
-      this.challenges = '203202,103304,301301,103102,210002,302104,302201,302203,201004,302103,203404';
+      this.challenges = '201004,210002,202304,203105,302104,302103,103102,203408,203407,203104,302404,301302,203202,103304,301301';
     }
 
     if (typeof this.challenges == 'string') {
@@ -76,7 +74,7 @@ export class CompareComponent implements OnInit  {
 
       this.tableHeader = [''];
       this.usersData = [];
-      console.log(this.challenges);
+
       this.challenges.forEach(challengeId => {
         let challengeDetails = challengeData.find(item => {
           return item.id == challengeId;
@@ -118,6 +116,10 @@ export class CompareComponent implements OnInit  {
     })
   }
 
+  delete(index) {
+    this.usersData.splice(index, 1);
+  }
+
   getChallengeData(puuid) {
     this.appService.getChallengeData({
       puuid: puuid,
@@ -130,9 +132,6 @@ export class CompareComponent implements OnInit  {
 
       let data = resp.challenges;
 
-      console.log(challengeData);
-      console.log(data);
-
       this.challenges.forEach(challengeId => {
         let challengeDetails = challengeData.find(item => {
           return item.id == challengeId;
@@ -140,6 +139,15 @@ export class CompareComponent implements OnInit  {
         let userProgress = data.find(item => {
           return item.challengeId == challengeId;
         });
+
+        if (userProgress && challengeDetails) {
+          userProgress.masterThreshold = challengeDetails!.thresholds.MASTER;
+        }
+
+
+        console.log(challengeDetails, userProgress);
+
+
         userRow.push(userProgress);
       })
 

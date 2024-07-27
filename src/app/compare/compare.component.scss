@@ -18,7 +18,11 @@
 }
 
 table {
-    font-size: 14px;
+    font-size: 12px;
+}
+
+tbody {
+    font-size: 10px;
 }
 
 thead th {
@@ -27,6 +31,15 @@ thead th {
 }
 
 tbody {
+
+    tr.player:hover {
+        filter: brightness(1.4);
+    }
+
+
+    tr.player td {
+        cursor: url("/assets/images/delete.png"), auto;
+    }
 
     tr:nth-child(even)  {
         td {    
