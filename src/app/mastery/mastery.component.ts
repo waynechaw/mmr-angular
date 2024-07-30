@@ -177,10 +177,10 @@ export class MasteryComponent implements OnInit  {
     let t2ChestsEarned = 0;
 
     let masteryDataIds = this.masteryData.map(item => item.championId);
-    for (let prop in championData) {
-      if (!masteryDataIds.includes(Number(prop))) {
+    for (let prop in championData2) {
+      if (!masteryDataIds.includes(Number(championData2[prop].key))) {
         let unplayedChamp = {
-            "championId": prop,
+            "championId": championData2[prop].key,
             "championLevel": 1,
             "championPoints": 0,
             "lastPlayTime": -Infinity ,
@@ -203,6 +203,7 @@ export class MasteryComponent implements OnInit  {
                 }
             }
         }
+        console.log(unplayedChamp, 432423);
         this.masteryData.push(unplayedChamp);
       }
 

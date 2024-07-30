@@ -56,7 +56,6 @@ export class CompareComponent implements OnInit  {
   }
 
   ngOnInit() {
-
     this.regions = this.appService.regions;
     this.selectedRegion = this.appService.selectedRegion;
 
@@ -88,7 +87,18 @@ export class CompareComponent implements OnInit  {
     if ((event && event.keyCode == 13) || !event) {
 
       this.tableHeader = [''];
-      this.usersData = [];
+
+      let usersData = localStorage.getItem("usersData");
+
+      if (usersData) {
+        console.log(usersData);
+        this.usersData = JSON.parse(usersData);
+        console.log(usersData);
+      } else {
+        this.usersData = [];
+      }
+
+
 
       this.challenges.forEach(challengeId => {
         let challengeDetails = challengeData.find(item => {
