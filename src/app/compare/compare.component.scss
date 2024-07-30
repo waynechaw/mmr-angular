@@ -2,56 +2,77 @@
     background: #1b2733;
     padding: 15px;
 
-    .form-control {
-        background: #34495d;
-        border-color: transparent;
-        color: white;
-        padding-left: 36px;
+    #region-dropdown {
+        margin-right: 12px;
+    }
+
+    .input-container {
+        width: 20%;
+        .bi {
+            position: absolute;
+            left: 9px;
+            font-size: 20px;
+            top: 5px;
+            color: white;
+        }
+        .form-control {
+            background: #34495d;
+            border-color: transparent;
+            color: white;
+            padding-left: 36px;
+        }
+
+
+        ::placeholder {
+          color: #b8bfc6;
+          opacity: 1; /* Firefox */
+        }
+    }
+
+    .challenge-list {
+        width: 70%;
+        margin-left: 20px;
+        align-items: center;
+        .label {
+            color: white;
+            margin-right: 8px;
+        }
     }
 
 
-    ::placeholder {
-      color: #b8bfc6;
-      opacity: 1; /* Firefox */
-    }
 
 }
 
 table {
     font-size: 12px;
-}
-
-tbody {
-    font-size: 10px;
-}
-
-thead th {
-    background: #09111a;
-    color: #99abbf;
-}
-
-tbody {
-
-    tr.player:hover {
-        filter: brightness(1.4);
+    thead th {
+        background: #09111a;
+        color: #99abbf;
     }
 
+    tbody {
 
-    tr.player td {
-        cursor: url("/assets/images/delete.png"), auto;
-    }
-
-    tr:nth-child(even)  {
-        td {    
-            background: #0f1923;
-            color: #efefef;
+        tr.player:hover {
+            filter: brightness(1.4);
         }
-    }
 
-    tr:nth-child(odd)  {
-        td {    
-            background: #1b2733d1;
-            color: #efefef;
+
+        tr.player td {
+            cursor: url("/assets/images/delete.png"), auto;
+        }
+
+        tr:nth-child(even)  {
+            td {    
+                background: #0f1923;
+                color: #efefef;
+            }
+        }
+
+        tr:nth-child(odd)  {
+            td {    
+                background: #1b2733d1;
+                color: #efefef;
+            }
         }
     }
 }

@@ -1,13 +1,24 @@
 <div class="container-fluid mt-3">
    <div class="compare-search-container d-flex">
-      <div style="width: 20%" class="position-relative">
-         <i style="position: absolute;left: 9px;font-size: 20px; top: 5px; color: white;" class="bi bi-search"></i>
+
+
+     <div ngbDropdown>
+         <button type="button" class="btn btn-light" id="region-dropdown" ngbDropdownToggle>
+             {{selectedRegion.name}}
+         </button>
+         <div ngbDropdownMenu aria-labelledby="region-dropdown">
+             <button (click)="selectRegion(item)" *ngFor="let item of regions" class="nav-link px-3" ngbDropdownItem>{{item.name}}</button>
+         </div>
+     </div>
+
+      <div class="input-container position-relative">
+         <i class="bi bi-search"></i>
          <input (keydown)="onEnter($event)" [(ngModel)]="inputText" type="text" class="form-control" placeholder="{{placeholder}}">
       </div>
 
 
-      <div style="width: 70%; margin-left: 20px; align-items: center;" class="d-flex position-relative">
-         <span style="color: white; margin-right: 8px">Challenges: </span>
+      <div class="challenge-list d-flex position-relative">
+         <span class="label">Challenges: </span>
          <input (keydown)="newTable($event)" [(ngModel)]="challenges" type="text" class="form-control" placeholder="Challenge IDs">
       </div>
 

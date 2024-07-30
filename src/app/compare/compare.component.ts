@@ -22,6 +22,11 @@ import {
 })
 export class CompareComponent implements OnInit  {
 
+  public selectedRegion = {
+    name: 'NA',
+    id: 'NA1'
+  };
+
 
   public challenges: any = [];
 
@@ -45,16 +50,26 @@ export class CompareComponent implements OnInit  {
 
   public inputText = '';
   public placeholder = 'name#tag';
+  public regions;
 
   constructor(private router: Router, private  appService: AppService,) { 
   }
 
   ngOnInit() {
+
+    this.regions = this.appService.regions;
+    this.selectedRegion = this.appService.selectedRegion;
+
     this.challenges = localStorage.getItem('challenges');
     if (!this.challenges) {
       this.challenges = '201004,210002,202304,203105,302104,302103,103102,203408,203407,203104,302404,301302,203202,103304,301301';
     }
     this.newTable();
+  }
+
+  selectRegion(region) {
+    this.selectedRegion = region;
+    localStorage.setItem("selectedRegion", JSON.stringify(region));
   }
 
   newTable(event?: KeyboardEvent) {
@@ -103,7 +118,7 @@ export class CompareComponent implements OnInit  {
     this.appService.getAccount({
       name: name,
       tag: tag,
-      region: 'NA1'
+      region: this.selectedRegion.id
     }).subscribe((resp: any) => {
 
       this.getChallengeData(resp.puuid);
@@ -118,12 +133,13 @@ export class CompareComponent implements OnInit  {
 
   delete(index) {
     this.usersData.splice(index, 1);
+    localStorage.setItem("usersData", JSON.stringify(this.usersData));
   }
 
   getChallengeData(puuid) {
     this.appService.getChallengeData({
       puuid: puuid,
-      region: 'NA1'
+      region: this.selectedRegion.id
     }).subscribe((resp: any) => {
 
       let userRow: any[] = [this.inputText];
@@ -152,6 +168,9 @@ export class CompareComponent implements OnInit  {
       })
 
       this.usersData.push(userRow);
+
+
+      localStorage.setItem("usersData", JSON.stringify(this.usersData));
 
     },
       (resp) => {
