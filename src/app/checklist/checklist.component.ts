@@ -5,6 +5,10 @@ import challengeData from '../data/challengeData.json';
 import { CommonModule } from "@angular/common";
 import { FormsModule } from '@angular/forms';
 import { ChampionFilterPipe } from './champion-filter.pipe';
+
+import championData2 from '../data/championData2.json';
+import champLaneData from '../data/champLaneData.json';
+
 @Component({
   selector: 'app-checklist',
   standalone: true,
@@ -14,58 +18,9 @@ import { ChampionFilterPipe } from './champion-filter.pipe';
 })
 export class ChecklistComponent implements OnInit  {
 
-  public defaultData = {
-    'All Random All Champs: 2024 Split 1':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Earn an S- grade or higher on different champions in ARAM'
-    },
-    'All Random All Champions':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Earn an S- grade or higher on different champions in ARAM'
-    },
-    'All Random All Champions: 2022':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Earn an S- grade or higher on different champions in ARAM'
-    },
-    'Perfectionist':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Earn an S+ grade on different champions '
-    },
-    'Same Penta, Different Champ':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Get a Pentakill with different champions  '
-    },
-    'Protean Override':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Win a Co-Op vs AI game with different champions '
-    },
-    'Invincible':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Win a game without dying with different champions '
-    },
-    'Jack of All Champs':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Win a game with different champions '
-    },
-    'Champion Ocean':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Play arena with different champions'
-    },
-    'Adapt to All Situations':  {
-      data: JSON.parse(JSON.stringify(champData.slice())),
-      selected: false,
-      description: 'Win arena with different champions'
-    },
-  }
+  public masterList: any[] = [];
+
+  public defaultData: any;
 
   public championsChecklistData: any;
 
@@ -91,6 +46,85 @@ export class ChecklistComponent implements OnInit  {
 
   ngOnInit() {
 
+    let masterList = []
+      for (let champ in championData2) {
+        let champData = championData2[champ];
+        let key = champData.key;
+
+        let laneData = champLaneData.find(item => item.id == key);
+
+        champData.lanes = laneData!.roles;
+
+        this.masterList.push(champData);
+      }
+
+      this.masterList = this.masterList.map( item => {
+        let obj =  {
+          name: item.name,
+          id: item.id,
+          key: item.key,
+          lanes: item.lanes
+        };
+
+        return obj;
+      })
+
+
+
+ this.defaultData = {
+    'All Random All Champs: 2024 Split 1':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Earn an S- grade or higher on different champions in ARAM'
+    },
+    'All Random All Champions':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Earn an S- grade or higher on different champions in ARAM'
+    },
+    'All Random All Champions: 2022':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Earn an S- grade or higher on different champions in ARAM'
+    },
+    'Perfectionist':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Earn an S+ grade on different champions '
+    },
+    'Same Penta, Different Champ':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Get a Pentakill with different champions  '
+    },
+    'Protean Override':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Win a Co-Op vs AI game with different champions '
+    },
+    'Invincible':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Win a game without dying with different champions '
+    },
+    'Jack of All Champs':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Win a game with different champions '
+    },
+    'Champion Ocean':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Play arena with different champions'
+    },
+    'Adapt to All Situations':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Win arena with different champions'
+    },
+  }
+
+
 
     let hideCompleted = localStorage.getItem("hideCompleted");
 
@@ -100,7 +134,6 @@ export class ChecklistComponent implements OnInit  {
         this.toggleHideChecked = false;
     }
 
-    console.log(challengeData);
     this.championsChecklistData = localStorage.getItem("championsChecklistData");
     if (!this.championsChecklistData) {
       this.championsChecklistData = this.defaultData;
@@ -118,6 +151,21 @@ export class ChecklistComponent implements OnInit  {
         this.selectedChallenge = prop;
       }
     }
+
+    console.log(this.championsChecklistData[this.selectedChallenge].data);
+
+    this.masterList.forEach(item => {
+      let key = item.key;
+      let foundChamp = this.championsChecklistData[this.selectedChallenge].data.find(item => item.key == key);
+      if (!foundChamp) {
+        this.championsChecklistData[this.selectedChallenge].data.push(item);
+        this.championsChecklistData[this.selectedChallenge].data.sort((a, b)=> {
+          return a.name.localeCompare(b.name);
+        })
+      }
+    })
+
+
 
     this.challengeDetails = challengeData.find(challenge => {
       return challenge.translation.name == this.selectedChallenge;
@@ -153,11 +201,24 @@ export class ChecklistComponent implements OnInit  {
 
   selectChallenge(challenge) {
     this.selectedChallenge = challenge;
-    console.log(this.championsChecklistData[challenge]);
+
 
     if (!this.championsChecklistData[challenge]) {
       this.championsChecklistData[challenge] = this.defaultData[challenge];
     }
+
+
+    this.masterList.forEach(item => {
+      let key = item.key;
+      let foundChamp = this.championsChecklistData[this.selectedChallenge].data.find(item => item.key == key);
+      if (!foundChamp) {
+        this.championsChecklistData[this.selectedChallenge].data.push(item);
+        this.championsChecklistData[this.selectedChallenge].data.sort((a, b)=> {
+          return a.name.localeCompare(b.name);
+        })
+      }
+    })
+
 
 
     for (var prop in this.championsChecklistData) {
@@ -203,7 +264,7 @@ export class ChecklistComponent implements OnInit  {
 
 
   getNextUpgrade() {
-    console.log(this.score, this.challengeDetails.thresholds);
+
     let thresholds = this.challengeDetails.thresholds;
 
     if (this.score < thresholds.IRON) {
@@ -243,22 +304,8 @@ export class ChecklistComponent implements OnInit  {
       this.rankColor = '#d37dfd';
       this.rank = 'MASTER';
     }
-    console.log(this.nextUpgrade);
+
   }
 
-
-}
-
-
-import { Pipe, PipeTransform } from '@angular/core';
-
-@Pipe({
-  name: 'filterPeople'
-})
-export class FilterPeoplePipe implements PipeTransform {
-
-  transform(values: any[], ...args: unknown[]): any[] {
-    return values.filter(v => v.age < 18);
-  }
 
 }

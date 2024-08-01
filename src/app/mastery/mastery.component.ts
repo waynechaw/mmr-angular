@@ -4,7 +4,6 @@ import { CommonModule } from "@angular/common";
 import { FormsModule } from '@angular/forms';
 import { ChallengeItemComponent }  from './challenge-item/challenge-item.component';
 import { MasteryItemComponent }  from './mastery-item/mastery-item.component';
-import championData from '../data/championData.json';
 import championData2 from '../data/championData2.json';
 import champLaneData from '../data/champLaneData.json';
 import { NgbDropdownModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
