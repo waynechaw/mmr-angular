@@ -12,11 +12,11 @@ import {
   ActivatedRoute,
   ParamMap
 } from '@angular/router';
-
+import { ChampionFilterPipe } from './champion-filter.pipe';
 @Component({
   selector: 'app-mastery',
   standalone: true,
-  imports: [CommonModule, ChallengeItemComponent, MasteryItemComponent, NgbDropdownModule, NgbTooltipModule, FormsModule],
+  imports: [ChampionFilterPipe, CommonModule, ChallengeItemComponent, MasteryItemComponent, NgbDropdownModule, NgbTooltipModule, FormsModule],
   templateUrl: './mastery.component.html',
   styleUrl: './mastery.component.scss',
   providers: [
@@ -47,7 +47,7 @@ export class MasteryComponent implements OnInit  {
   public catchNextUpgrade: any;
   public catchemAllMode = false;
   public oneTrickSelected;
-
+  public inputText = '';
   public t1ChestsEarned = 0;
   public t2ChestsEarned = 0;
 

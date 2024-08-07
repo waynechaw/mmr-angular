@@ -155,10 +155,13 @@ export class ChecklistComponent implements OnInit  {
     console.log(this.championsChecklistData[this.selectedChallenge].data);
 
     this.masterList.forEach(item => {
+      let duplicatedItem = JSON.parse(JSON.stringify(item));
+      console.log(duplicatedItem);
       let key = item.key;
       let foundChamp = this.championsChecklistData[this.selectedChallenge].data.find(item => item.key == key);
       if (!foundChamp) {
-        this.championsChecklistData[this.selectedChallenge].data.push(item);
+        this.championsChecklistData[this.selectedChallenge].data.push(duplicatedItem);
+
         this.championsChecklistData[this.selectedChallenge].data.sort((a, b)=> {
           return a.name.localeCompare(b.name);
         })
@@ -209,10 +212,11 @@ export class ChecklistComponent implements OnInit  {
 
 
     this.masterList.forEach(item => {
+      let duplicatedItem = JSON.parse(JSON.stringify(item));
       let key = item.key;
       let foundChamp = this.championsChecklistData[this.selectedChallenge].data.find(item => item.key == key);
       if (!foundChamp) {
-        this.championsChecklistData[this.selectedChallenge].data.push(item);
+        this.championsChecklistData[this.selectedChallenge].data.push(duplicatedItem);
         this.championsChecklistData[this.selectedChallenge].data.sort((a, b)=> {
           return a.name.localeCompare(b.name);
         })

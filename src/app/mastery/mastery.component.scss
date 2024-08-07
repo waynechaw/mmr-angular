@@ -33,6 +33,25 @@
     justify-content: space-between;
     align-items: center;
 
+
+    .input-container {
+        width: 174px;
+        margin-left: 10px;
+        .bi {
+            position: absolute;
+            left: 9px;
+            font-size: 20px;
+            top: 5px;
+        }
+        .form-control {
+            border-color: transparent;
+            padding-left: 36px;
+        }
+
+
+    }
+
+
     .chests-earned {
         color: gold;
         display: flex;
