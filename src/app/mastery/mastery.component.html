@@ -88,6 +88,10 @@
                <input [(ngModel)]="inputText" type="text" class="form-control" placeholder="Find Champion">
             </div>
 
+            <div  ngbTooltip="Move starred champions to the top" style="margin-left: 12px;" class="form-check form-switch">
+              <input style="cursor: pointer;" (change)="starToggleChanged()"  [(ngModel)]="starToggle" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+              <label class="form-check-label" for="flexSwitchCheckDefault"><i style="color: gold;" class="bi bi-star-fill"></i></label>
+            </div>
 
          </div>
          <div class="role-container">

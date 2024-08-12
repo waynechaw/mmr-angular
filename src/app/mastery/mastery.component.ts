@@ -50,6 +50,7 @@ export class MasteryComponent implements OnInit  {
   public inputText = '';
   public t1ChestsEarned = 0;
   public t2ChestsEarned = 0;
+  public starToggle = true;
 
   constructor(private router: Router, private  appService: AppService,) { 
     this.activeProfileInfo = this.appService.activeProfileInfo;
@@ -350,6 +351,11 @@ export class MasteryComponent implements OnInit  {
 
   }
 
+  starToggleChanged() {
+    console.log(this.starToggle);
+    this.sort();
+  }
+
   sort() {
     this.filteredData = this.masteryData.slice();
     if (this.sortMethod == 'level-down' ) {    
@@ -428,10 +434,14 @@ export class MasteryComponent implements OnInit  {
       })
     }
 
-    this.filteredData = [
-      ...this.filteredData.filter(item => item.focus),
-      ...this.filteredData.filter(item => !(item.focus))
-    ];
+    if (this.starToggle) {
+      this.filteredData = [
+        ...this.filteredData.filter(item => item.focus),
+        ...this.filteredData.filter(item => !(item.focus))
+      ];
+
+    }
+
 
     this.applyMasteryFilter();
   }
