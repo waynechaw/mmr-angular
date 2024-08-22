@@ -1,5 +1,18 @@
+<div class="tags">
+	@for (role of item.roles; track role) {
+		<img *ngIf="role == 'Assassin'" src="/assets/tags/assassin.svg"/>
+		<img *ngIf="role == 'Fighter'" src="/assets/tags/fighter.svg"/>
+		<img *ngIf="role == 'Mage'" src="/assets/tags/mage.svg"/>
+		<img *ngIf="role == 'Marksman'" src="/assets/tags/marksman.svg"/>
+		<img *ngIf="role == 'Support'" src="/assets/tags/support.svg"/>
+		<img *ngIf="role == 'Tank'" src="/assets/tags/tank.svg"/>
+	}
+</div>
+
 <i [ngClass]="{'d-none': item.focus}" (click)="toggleFocus()" class="bi bi-star"></i>
 <i [ngClass]="{'d-none': !item.focus}" (click)="toggleFocus()" class="bi bi-star-fill"></i>
+
+
 
 <h2>{{item.displayName}}</h2>
 

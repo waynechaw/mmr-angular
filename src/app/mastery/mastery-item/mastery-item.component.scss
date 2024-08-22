@@ -6,6 +6,18 @@
     cursor: pointer;
 }
 
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    WIDTH: 18PX;
+    POSITION: ABSOLUTE;
+    HEIGHT: 47px;
+    justify-content: space-between;
+    top: 40px;
+    right: 5px;
+}
+
 h2 {
     color: white;
     font-size: 18px;
