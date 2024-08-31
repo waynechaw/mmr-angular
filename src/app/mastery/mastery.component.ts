@@ -75,7 +75,7 @@ export class MasteryComponent implements OnInit  {
     }
 
 
-    this.showM7Toggle = localStorage.getItem("showM7Toggle");
+    this.showM7Toggle = localStorage.getItem("showM7Toggle") === 'true';
 
     console.log(12, this.showM7Toggle);
 
