@@ -16,6 +16,8 @@ export class ChallengeItemComponent  implements OnInit  {
 
   @Input() userChallengeData;
 
+  @Input() hideTooltip;
+
   @Output() challengeClickedEvent = new EventEmitter<boolean>();
 
   public challengeDetails;
@@ -27,6 +29,8 @@ export class ChallengeItemComponent  implements OnInit  {
     this.challengeDetails = challengeData.find(item => {
       return item.id == this.userChallengeData.challengeId;
     });
+
+    console.log(this.userChallengeData.challengeId, this.challengeDetails);
 
     this.getNextUpgrade(this.userChallengeData.level);
   }

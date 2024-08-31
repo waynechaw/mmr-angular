@@ -2,11 +2,22 @@
    <div class="challenges-container d-flex">
       <div class="user-section d-flex">
          <div class="user-info">
-            <img src="https://ddragon.leagueoflegends.com/cdn/14.9.1/img/profileicon/{{profileIcon}}.png"/>
+            <img src="https://ddragon.leagueoflegends.com/cdn/14.17.1/img/profileicon/{{profileIcon}}.png"/>
             <h1>{{activeProfileInfo.name}}#{{activeProfileInfo.tag}}</h1>
             <h6>Tracking Start Date</h6>
             <h5> {{activeProfileInfo.dateStarted | date:'shortDate'}} </h5>
-            <button (click)="restart()" class="btn btn-sm btn-info">Restart Tracking</button>
+
+            <div class="settings d-flex">
+               <button (click)="restart()" class="btn btn-sm btn-info">Reset</button>
+
+
+               <div  ngbTooltip="Show Mastery 7 challenges" triggers="hover hover" class="form-check form-switch">
+                 <input style="cursor: pointer;" (change)="showM7ToggleChanged()"  [(ngModel)]="showM7Toggle" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault2">
+                 <label class="form-check-label" for="flexSwitchCheckDefault2">M7</label>
+               </div>
+
+
+            </div>
          </div>
          <div class="user-stats">
             <div>
@@ -17,13 +28,17 @@
                <h6>Average Mastery Points / Day</h6>
                <h5>{{avgPointsPerDay | number: '1.0-0'}}</h5>
             </div>
-            <div>
+            <div *ngIf="catchemAllMode">
                <h6>Catch'em All Upgrade Time</h6>
-               <h5 class="upgrade-time">{{upgradeTime}}</h5>
+               <h5 class="upgrade-time">{{upgradeTimeCatch}}</h5>
+            </div>
+            <div *ngIf="!catchemAllMode">
+               <h6>Master The Enemy Upgrade Time</h6>
+               <h5 class="upgrade-time">{{upgradeTimeEnemy}}</h5>
             </div>
          </div>
       </div>
-      <div class="challenges-buttons">
+      <div *ngIf="!showM7Toggle" class="challenges-buttons">
          <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterYourself"></challenge-item>
          <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.catchemAll"></challenge-item>
          <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterTank"></challenge-item>
@@ -34,6 +49,22 @@
          <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterMage"></challenge-item>
          <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterAssassin"></challenge-item>
          <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterSupport"></challenge-item>
+      </div>
+      <div *ngIf="showM7Toggle" class="challenges-buttons show-m7">
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterEnemy"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterTank"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterMarksman"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterFighter"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterMage"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterAssassin"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterSupport"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterEnemyLegacy"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterTankLegacy"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterMarksmanLegacy"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterFighterLegacy"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterMageLegacy"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterAssassinLegacy"></challenge-item>
+         <challenge-item (challengeClickedEvent)="challengeClicked($event)" [hideTooltip]="true" [userChallengeData]="userChallengeData.masterSupportLegacy"></challenge-item>
       </div>
    </div>
    <div class="champions-container">
@@ -88,7 +119,7 @@
                <input [(ngModel)]="inputText" type="text" class="form-control" placeholder="Find Champion">
             </div>
 
-            <div  ngbTooltip="Move starred champions to the top" style="margin-left: 12px;" class="form-check form-switch">
+            <div triggers="hover hover" ngbTooltip="Move starred champions to the top" style="margin-left: 12px;" class="form-check form-switch">
               <input style="cursor: pointer;" (change)="starToggleChanged()"  [(ngModel)]="starToggle" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
               <label class="form-check-label" for="flexSwitchCheckDefault"><i style="color: gold;" class="bi bi-star-fill"></i></label>
             </div>

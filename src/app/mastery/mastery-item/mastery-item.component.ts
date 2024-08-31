@@ -127,7 +127,6 @@ export class MasteryItemComponent implements OnInit  {
 
     this.progressPercentCatchMode = (this.item.championPoints / this.catchNextUpgrade  * 100) + '%';
 
-    console.log(this.item);
   }
 
 

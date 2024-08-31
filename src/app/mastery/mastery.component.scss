@@ -159,6 +159,19 @@
             font-size: 10px;
         }
 
+        .settings {
+            justify-content: center;
+            .form-switch {
+                zoom: .8;
+                margin-left: 12px;
+                position: relative;
+                top: 4px;
+                label {
+                    color: #b3b4d0;
+                }
+            }
+        }
+
 
     }
 }

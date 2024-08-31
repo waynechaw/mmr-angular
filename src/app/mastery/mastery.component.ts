@@ -43,14 +43,17 @@ export class MasteryComponent implements OnInit  {
   public totalPoints = 0;
   public avgPointsPerDay;
   public profileIcon;
-  public upgradeTime; 
+  public upgradeTimeCatch; 
+  public upgradeTimeEnemy; 
   public catchNextUpgrade: any;
+  public enemyNextUpgrade: any;
   public catchemAllMode = false;
   public oneTrickSelected;
   public inputText = '';
   public t1ChestsEarned = 0;
   public t2ChestsEarned = 0;
   public starToggle = true;
+  public showM7Toggle;
 
   constructor(private router: Router, private  appService: AppService,) { 
     this.activeProfileInfo = this.appService.activeProfileInfo;
@@ -64,6 +67,20 @@ export class MasteryComponent implements OnInit  {
     this.hideM8 = localStorage.getItem("hideM8");
     this.hideM9 = localStorage.getItem("hideM9");
     this.hideM10 = localStorage.getItem("hideM10");
+
+    if (localStorage.getItem("starToggle") === 'false') {
+      this.starToggle = false;
+    } else {
+      this.starToggle = true;
+    }
+
+
+    this.showM7Toggle = localStorage.getItem("showM7Toggle");
+
+    console.log(12, this.showM7Toggle);
+
+
+    
 
 
     this.sortMethod = localStorage.getItem("sortMethod") || 'level-down';
@@ -147,10 +164,10 @@ export class MasteryComponent implements OnInit  {
   }
 
   championClicked(event) {
-    console.log(123);
+
     let focusIds = this.filteredData.filter(item => item.focus).map(item => item.championId);
 
-    console.log(focusIds);
+
 
     localStorage.setItem('focusIds', JSON.stringify(focusIds));
 
@@ -203,7 +220,7 @@ export class MasteryComponent implements OnInit  {
                 }
             }
         }
-        console.log(unplayedChamp, 432423);
+
         this.masteryData.push(unplayedChamp);
       }
 
@@ -255,7 +272,7 @@ export class MasteryComponent implements OnInit  {
 
   challengeClicked(event) {
 
-    console.log(event);
+
 
     if (event.id == 401104 || event.id == 401107) {
       if (this.userChallengeData.masterEnemy.selected) {
@@ -352,8 +369,13 @@ export class MasteryComponent implements OnInit  {
   }
 
   starToggleChanged() {
-    console.log(this.starToggle);
+
     this.sort();
+    localStorage.setItem('starToggle', JSON.stringify(this.starToggle));
+  }
+
+  showM7ToggleChanged() {
+    localStorage.setItem('showM7Toggle', JSON.stringify(this.showM7Toggle));
   }
 
   sort() {
@@ -560,10 +582,12 @@ export class MasteryComponent implements OnInit  {
 
   calculateCatchemAllStats() {
     this.getNextUpgrade(this.userChallengeData.catchemAll.value);
+    this.getNextUpgradeEnemy(this.userChallengeData.masterEnemy.value);
     let totalNeeded = this.catchNextUpgrade * 150;
     let currentProgress = 0;
 
     let top150 = this.masteryData.slice(0, 150);
+    let top100 = this.masteryData.slice(0, this.enemyNextUpgrade);
     top150.forEach(item => {
       let pointsEarned: any = 0;
       if (item.championPoints >= this.catchNextUpgrade) {
@@ -574,13 +598,33 @@ export class MasteryComponent implements OnInit  {
       currentProgress = currentProgress + pointsEarned;
     })
 
-    this.upgradeTime;
+
+
+
+
+    let totalNeededEnemy = 75600 * this.enemyNextUpgrade;
+    let currentProgressEnemy = 0;
+
+
+    top100.forEach(item => {
+      let pointsEarned: any = 0;
+      if (item.championPoints >= 75600) {
+        pointsEarned = 75600;
+      } else {
+        pointsEarned = parseInt(item.championPoints);
+      }
+      currentProgressEnemy = currentProgressEnemy + pointsEarned;
+    })
+
 
     if (this.avgPointsPerDay == 0) {
-      this.upgradeTime = 'Need more data';
+      this.upgradeTimeCatch = 'Need more data';
     } else {
-      this.upgradeTime = Math.floor((totalNeeded - currentProgress) / this.avgPointsPerDay) + ' days';
+      this.upgradeTimeCatch = Math.floor((totalNeeded - currentProgress) / this.avgPointsPerDay) + ' days';
+      this.upgradeTimeEnemy = Math.floor((totalNeededEnemy - currentProgressEnemy) / this.avgPointsPerDay) + ' days';
     }
+
+    console.log(totalNeededEnemy , currentProgressEnemy)
 
   }
 
@@ -605,6 +649,24 @@ export class MasteryComponent implements OnInit  {
     }
   }
 
-
+  getNextUpgradeEnemy(score) {
+    if (score < 3) {
+      this.enemyNextUpgrade = 3;
+    } else if (score >= 3 && score < 7) {
+      this.enemyNextUpgrade = 7;
+    } else if (score >= 7 && score < 15) {
+      this.enemyNextUpgrade = 15;
+    } else if (score >= 15 && score < 25) {
+      this.enemyNextUpgrade = 25;
+    } else if (score >= 25 && score < 40) {
+      this.enemyNextUpgrade = 40;
+    } else if (score >= 40 && score < 60) {
+      this.enemyNextUpgrade = 60;
+    } else if (score >= 60 && score < 100) {
+      this.enemyNextUpgrade = 100;
+    } else {
+      this.enemyNextUpgrade = null;
+    }
+  }
 
 }

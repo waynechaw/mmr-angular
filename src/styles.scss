@@ -25,6 +25,15 @@ challenge-item {
     margin: 4px 6px;
 }
 
+.show-m7 challenge-item {
+    width: 13%;
+    margin: 0px 2px;
+    h4 {
+        font-size: 8px !important;
+    }
+}
+
+
 @media (max-width: 992px) {
     challenge-item {
         width: 17%;
