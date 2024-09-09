@@ -322,22 +322,24 @@ export class MasteryComponent implements OnInit  {
 
     this.selectedRoles = [];
 
-    if (this.userChallengeData.masterFighter.selected) {
+    console.log(this.userChallengeData);
+
+    if (this.userChallengeData.masterFighter.selected || this.userChallengeData.masterFighterLegacy.selected) {
       this.selectedRoles.push('Fighter');
     }
-    if (this.userChallengeData.masterTank.selected) {
+    if (this.userChallengeData.masterTank.selected || this.userChallengeData.masterTankLegacy.selected) {
       this.selectedRoles.push('Tank');
     }
-    if (this.userChallengeData.masterMarksman.selected) {
+    if (this.userChallengeData.masterMarksman.selected || this.userChallengeData.masterMarksmanLegacy.selected) {
       this.selectedRoles.push('Marksman');
     }
-    if (this.userChallengeData.masterSupport.selected) {
+    if (this.userChallengeData.masterSupport.selected || this.userChallengeData.masterSupportLegacy.selected) {
       this.selectedRoles.push('Support');
     }
-    if (this.userChallengeData.masterMage.selected) {
+    if (this.userChallengeData.masterMage.selected || this.userChallengeData.masterMageLegacy.selected) {
       this.selectedRoles.push('Mage');
     }
-    if (this.userChallengeData.masterAssassin.selected) {
+    if (this.userChallengeData.masterAssassin.selected || this.userChallengeData.masterAssassinLegacy.selected) {
       this.selectedRoles.push('Assassin');
     }
 
