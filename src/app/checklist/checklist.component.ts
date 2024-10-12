@@ -122,6 +122,11 @@ export class ChecklistComponent implements OnInit  {
       selected: false,
       description: 'Win arena with different champions'
     },
+    'Champion Ocean: 2024 Split 3':  {
+      data: JSON.parse(JSON.stringify(this.masterList.slice())),
+      selected: false,
+      description: 'Win arena with different champions'
+    },
   }
 
 
@@ -156,7 +161,6 @@ export class ChecklistComponent implements OnInit  {
 
     this.masterList.forEach(item => {
       let duplicatedItem = JSON.parse(JSON.stringify(item));
-      console.log(duplicatedItem);
       let key = item.key;
       let foundChamp = this.championsChecklistData[this.selectedChallenge].data.find(item => item.key == key);
       if (!foundChamp) {
@@ -173,6 +177,7 @@ export class ChecklistComponent implements OnInit  {
     this.challengeDetails = challengeData.find(challenge => {
       return challenge.translation.name == this.selectedChallenge;
     })
+
 
     this.getScore();
     this.getNextUpgrade();

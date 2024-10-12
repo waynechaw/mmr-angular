@@ -5,6 +5,11 @@
 				{{selectedChallenge}}
 			</button>
 			<div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+				<div (click)="selectChallenge('Champion Ocean: 2024 Split 3')" ngbDropdownItem>
+				  <label class="form-check-label" for="defaultCheck1">
+				    Champion Ocean: 2024 Split 3
+				  </label>
+				</div>
 				<div (click)="selectChallenge('Champion Ocean')" ngbDropdownItem>
 				  <label class="form-check-label" for="defaultCheck1">
 				    Champion Ocean
