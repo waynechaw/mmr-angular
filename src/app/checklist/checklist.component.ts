@@ -44,6 +44,8 @@ export class ChecklistComponent implements OnInit  {
 
   public toggleHideChecked = false;
 
+  public fixedDesc;
+
   ngOnInit() {
 
     let masterList = []
@@ -125,7 +127,7 @@ export class ChecklistComponent implements OnInit  {
     'Champion Ocean: 2024 Split 3':  {
       data: JSON.parse(JSON.stringify(this.masterList.slice())),
       selected: false,
-      description: 'Win arena with different champions'
+      description: 'Win games with different champions'
     },
   }
 
@@ -156,6 +158,13 @@ export class ChecklistComponent implements OnInit  {
         this.selectedChallenge = prop;
       }
     }
+
+    if (this.selectedChallenge == 'Champion Ocean: 2024 Split 3') {
+      this.fixedDesc = 'Win games with different champions'; 
+    } else {
+      this.fixedDesc = null;
+    }
+
 
     console.log(this.championsChecklistData[this.selectedChallenge].data);
 
@@ -209,7 +218,11 @@ export class ChecklistComponent implements OnInit  {
 
   selectChallenge(challenge) {
     this.selectedChallenge = challenge;
-
+    if (this.selectedChallenge == 'Champion Ocean: 2024 Split 3') {
+      this.fixedDesc = 'Win games with different champions'; 
+    } else {
+      this.fixedDesc = null;
+    }
 
     if (!this.championsChecklistData[challenge]) {
       this.championsChecklistData[challenge] = this.defaultData[challenge];

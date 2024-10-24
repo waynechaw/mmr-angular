@@ -63,7 +63,7 @@
 			</div>
 		</div>
 		<div class="desc">
-			{{championsChecklistData[selectedChallenge].description}}
+			{{fixedDesc || championsChecklistData[selectedChallenge].description}}
 		</div>
 		<div class="text-center">
 			<h1 [style.color]="rankColor" class="current-rank">
