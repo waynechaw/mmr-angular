@@ -17,16 +17,14 @@
     {
         "id": 3,
         "roles": [
-            "MID",
-            "SUPPORT"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
     {
         "id": 4,
         "roles": [
-            "MID",
-            "TOP"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -47,8 +45,7 @@
     {
         "id": 7,
         "roles": [
-            "MID",
-            "SUPPORT"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -101,8 +98,7 @@
     {
         "id": 14,
         "roles": [
-            "TOP",
-            "MID"
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -123,17 +119,17 @@
     {
         "id": 17,
         "roles": [
+            "JUNGLE",
             "TOP",
-            "SUPPORT",
-            "JUNGLE"
+            "SUPPORT"
         ],
         "__typename": "LolChampionsListItem"
     },
     {
         "id": 18,
         "roles": [
-            "MID",
-            "ADC"
+            "ADC",
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -148,8 +144,7 @@
     {
         "id": 20,
         "roles": [
-            "JUNGLE",
-            "MID"
+            "JUNGLE"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -188,7 +183,7 @@
         "id": 25,
         "roles": [
             "SUPPORT",
-            "JUNGLE"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -246,8 +241,7 @@
     {
         "id": 33,
         "roles": [
-            "JUNGLE",
-            "TOP"
+            "JUNGLE"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -269,7 +263,8 @@
     {
         "id": 36,
         "roles": [
-            "TOP"
+            "TOP",
+            "JUNGLE"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -313,6 +308,7 @@
     {
         "id": 42,
         "roles": [
+            "ADC",
             "MID",
             "TOP"
         ],
@@ -321,7 +317,8 @@
     {
         "id": 43,
         "roles": [
-            "SUPPORT"
+            "SUPPORT",
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -396,7 +393,6 @@
         "id": 57,
         "roles": [
             "SUPPORT",
-            "JUNGLE",
             "TOP"
         ],
         "__typename": "LolChampionsListItem"
@@ -441,10 +437,9 @@
     {
         "id": 63,
         "roles": [
-            "JUNGLE",
             "SUPPORT",
-            "MID",
-            "ADC"
+            "ADC",
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -458,8 +453,7 @@
     {
         "id": 67,
         "roles": [
-            "ADC",
-            "TOP"
+            "ADC"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -468,7 +462,6 @@
         "roles": [
             "TOP",
             "JUNGLE",
-            "MID",
             "SUPPORT"
         ],
         "__typename": "LolChampionsListItem"
@@ -477,16 +470,15 @@
         "id": 69,
         "roles": [
             "MID",
-            "TOP",
-            "ADC"
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
     {
         "id": 72,
         "roles": [
-            "TOP",
-            "JUNGLE"
+            "JUNGLE",
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -543,7 +535,6 @@
         "roles": [
             "TOP",
             "SUPPORT",
-            "MID",
             "JUNGLE"
         ],
         "__typename": "LolChampionsListItem"
@@ -551,24 +542,21 @@
     {
         "id": 81,
         "roles": [
-            "ADC",
-            "MID"
+            "ADC"
         ],
         "__typename": "LolChampionsListItem"
     },
     {
         "id": 82,
         "roles": [
-            "TOP",
-            "JUNGLE"
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
     {
         "id": 83,
         "roles": [
-            "TOP",
-            "JUNGLE"
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -659,15 +647,15 @@
     {
         "id": 102,
         "roles": [
-            "JUNGLE",
-            "TOP"
+            "JUNGLE"
         ],
         "__typename": "LolChampionsListItem"
     },
     {
         "id": 103,
         "roles": [
-            "MID"
+            "MID",
+            "SUPPORT"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -696,7 +684,8 @@
     {
         "id": 107,
         "roles": [
-            "JUNGLE"
+            "JUNGLE",
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -704,8 +693,7 @@
         "id": 110,
         "roles": [
             "ADC",
-            "TOP",
-            "MID"
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -726,7 +714,8 @@
     {
         "id": 113,
         "roles": [
-            "JUNGLE"
+            "JUNGLE",
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -740,8 +729,8 @@
     {
         "id": 115,
         "roles": [
-            "MID",
-            "ADC"
+            "ADC",
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -835,8 +824,7 @@
     {
         "id": 142,
         "roles": [
-            "MID",
-            "SUPPORT"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -858,8 +846,7 @@
     {
         "id": 147,
         "roles": [
-            "SUPPORT",
-            "ADC"
+            "SUPPORT"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -883,7 +870,7 @@
         "id": 157,
         "roles": [
             "MID",
-            "TOP"
+            "ADC"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -898,8 +885,8 @@
     {
         "id": 163,
         "roles": [
-            "MID",
-            "JUNGLE"
+            "JUNGLE",
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -914,8 +901,7 @@
     {
         "id": 166,
         "roles": [
-            "MID",
-            "TOP"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -950,8 +936,7 @@
     {
         "id": 221,
         "roles": [
-            "ADC",
-            "MID"
+            "ADC"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -965,8 +950,8 @@
     {
         "id": 223,
         "roles": [
-            "TOP",
-            "SUPPORT"
+            "SUPPORT",
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -980,7 +965,8 @@
     {
         "id": 234,
         "roles": [
-            "JUNGLE"
+            "JUNGLE",
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -994,16 +980,14 @@
     {
         "id": 236,
         "roles": [
-            "ADC",
-            "MID"
+            "ADC"
         ],
         "__typename": "LolChampionsListItem"
     },
     {
         "id": 238,
         "roles": [
-            "MID",
-            "JUNGLE"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -1025,7 +1009,8 @@
     {
         "id": 246,
         "roles": [
-            "MID"
+            "MID",
+            "JUNGLE"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -1138,16 +1123,14 @@
     {
         "id": 517,
         "roles": [
-            "MID",
-            "JUNGLE"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
     {
         "id": 518,
         "roles": [
-            "SUPPORT",
-            "MID"
+            "SUPPORT"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -1188,6 +1171,15 @@
         "__typename": "LolChampionsListItem"
     },
     {
+        "id": 799,
+        "roles": [
+            "TOP",
+            "JUNGLE",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
         "id": 875,
         "roles": [
             "TOP"
@@ -1219,9 +1211,8 @@
     {
         "id": 893,
         "roles": [
-            "MID",
             "TOP",
-            "SUPPORT"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -1242,9 +1233,9 @@
     {
         "id": 901,
         "roles": [
+            "MID",
             "ADC",
-            "TOP",
-            "MID"
+            "TOP"
         ],
         "__typename": "LolChampionsListItem"
     },
@@ -1259,16 +1250,15 @@
         "id": 910,
         "roles": [
             "MID",
-            "SUPPORT"
+            "SUPPORT",
+            "ADC"
         ],
         "__typename": "LolChampionsListItem"
     },
     {
         "id": 950,
         "roles": [
-            "MID",
-            "TOP",
-            "JUNGLE"
+            "MID"
         ],
         "__typename": "LolChampionsListItem"
     }
