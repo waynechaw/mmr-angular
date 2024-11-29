@@ -1,0 +1,51 @@
+<div class="container mt-3">
+   <div class="compare-search-container d-flex">
+
+
+     <div ngbDropdown>
+         <button type="button" class="btn btn-light" id="region-dropdown" ngbDropdownToggle>
+             {{selectedRegion.name}}
+         </button>
+         <div ngbDropdownMenu aria-labelledby="region-dropdown">
+             <button (click)="selectRegion(item)" *ngFor="let item of regions" class="nav-link px-3" ngbDropdownItem>{{item.name}}</button>
+         </div>
+     </div>
+
+      <div class="input-container position-relative">
+         <i class="bi bi-search"></i>
+         <input [(ngModel)]="inputText" type="text" class="form-control" placeholder="name#tag">
+      </div>
+
+
+
+   </div>
+   <table class="table">
+      <thead>
+         <tr>
+   			<th scope="col">#</th>
+   			<th scope="col">Player</th>
+   			<th scope="col">Points</th>
+   			<th scope="col">% Completed</th>
+   			<th scope="col">% Legacy Completed</th>
+         </tr>
+      </thead>
+      <tbody>
+         @for (item of playersList; track item.gameName; let index = $index) {
+         <tr [hidden]="inputText && !item.gameName.toLowerCase().includes(inputText)">
+            <td>{{ index + 1 }}</td>
+            <td>
+               {{ item.gameName }} <span class="tag">{{item.tagLine}}</span> <span class="player-region">{{item.region}}</span>
+            </td>
+            <td>{{ item.score }}</td>
+            <td class="completed">{{ (item.score/ 29680)  | percent }}</td>
+            <td>{{ (item.legacyScore/ 9005)  | percent }}</td>
+         </tr>
+         }
+      </tbody>
+   </table>
+
+
+
+
+</div>
+
