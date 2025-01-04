@@ -29,6 +29,8 @@ export class LeaderComponent {
 
   public playersList;
 
+  public defaultSort = true;
+
   constructor(private  appService: AppService,) { 
   }
 
@@ -51,6 +53,20 @@ export class LeaderComponent {
       this.playersList = playersData;
     } else {
       this.playersList = playersData.filter(item => item.region == region.id)
+    }
+    this.sort();
+  }
+
+  sortClicked(method) {
+    this.defaultSort = method;
+    this.sort();
+  }
+
+  sort() {
+    if (this.defaultSort) {
+      this.playersList.sort((a, b) => b.score - a.score);
+    } else {
+      this.playersList.sort((a, b) => b.legacyScore - a.legacyScore);
     }
   }
 

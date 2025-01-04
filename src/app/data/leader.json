@@ -45,7 +45,7 @@
         "gameName": "Thường Tài Chính",
         "tagLine": "MONEY",
         "region": "VN2",
-        "score": 28625,
+        "score": 28665,
         "legacyScore": 7550
     },
     {
@@ -66,7 +66,7 @@
         "gameName": "ponzels",
         "tagLine": "b21",
         "region": "EUW1",
-        "score": 28820,
+        "score": 28855,
         "legacyScore": 8310
     },
     {
@@ -178,7 +178,7 @@
         "gameName": "Zekor",
         "tagLine": "000",
         "region": "EUW1",
-        "score": 28280,
+        "score": 28305,
         "legacyScore": 8685
     },
     {
@@ -241,7 +241,7 @@
         "gameName": "Toki",
         "tagLine": "Ahri",
         "region": "NA1",
-        "score": 28235,
+        "score": 28275,
         "legacyScore": 8735
     },
     {
@@ -262,7 +262,7 @@
         "gameName": "Synicle",
         "tagLine": "NA1",
         "region": "NA1",
-        "score": 28200,
+        "score": 28215,
         "legacyScore": 8640
     },
     {
@@ -292,13 +292,6 @@
         "region": "EUN1",
         "score": 28120,
         "legacyScore": 7785
-    },
-    {
-        "gameName": "Permaban15481628",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 26375,
-        "legacyScore": 4680
     },
     {
         "gameName": "Lunariz",
@@ -339,7 +332,7 @@
         "gameName": "FBA War Machine",
         "tagLine": "0806",
         "region": "VN2",
-        "score": 27970,
+        "score": 27985,
         "legacyScore": 6595
     },
     {
@@ -374,7 +367,7 @@
         "gameName": "Satori",
         "tagLine": "WuWei",
         "region": "EUW1",
-        "score": 28080,
+        "score": 28095,
         "legacyScore": 7700
     },
     {
@@ -403,7 +396,7 @@
         "tagLine": "777",
         "region": "NA1",
         "score": 27820,
-        "legacyScore": 7335
+        "legacyScore": 7520
     },
     {
         "gameName": "E Z",
@@ -458,7 +451,7 @@
         "gameName": "Arnauiih",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 27810,
+        "score": 27825,
         "legacyScore": 8375
     },
     {
@@ -528,7 +521,7 @@
         "gameName": "Forever With Him",
         "tagLine": "0210",
         "region": "EUN1",
-        "score": 27735,
+        "score": 27795,
         "legacyScore": 8400
     },
     {
@@ -773,8 +766,8 @@
         "gameName": "KRXX",
         "tagLine": "024",
         "region": "EUW1",
-        "score": 27370,
-        "legacyScore": 7310
+        "score": 27410,
+        "legacyScore": 7370
     },
     {
         "gameName": "Алёночка",
@@ -794,7 +787,7 @@
         "gameName": "STAYWITHYOU",
         "tagLine": "TW2",
         "region": "TW2",
-        "score": 27500,
+        "score": 27615,
         "legacyScore": 7060
     },
     {
@@ -836,7 +829,7 @@
         "gameName": "ReiDosDesafios",
         "tagLine": "REI10",
         "region": "BR1",
-        "score": 27280,
+        "score": 27340,
         "legacyScore": 7420
     },
     {
@@ -864,7 +857,7 @@
         "gameName": "Wh1te D 3mon",
         "tagLine": "EUNE",
         "region": "EUN1",
-        "score": 27435,
+        "score": 27495,
         "legacyScore": 6460
     },
     {
@@ -955,14 +948,14 @@
         "gameName": "iFancyName",
         "tagLine": "NA1",
         "region": "NA1",
-        "score": 27125,
+        "score": 27135,
         "legacyScore": 7915
     },
     {
         "gameName": "Affienia",
         "tagLine": "OCE",
         "region": "OC1",
-        "score": 27150,
+        "score": 27160,
         "legacyScore": 8240
     },
     {
@@ -1102,7 +1095,7 @@
         "gameName": "距離回合開始時間",
         "tagLine": "9527",
         "region": "TW2",
-        "score": 26815,
+        "score": 26855,
         "legacyScore": 6585
     },
     {
@@ -1141,13 +1134,6 @@
         "legacyScore": 7240
     },
     {
-        "gameName": "Permaban12270138",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 24945,
-        "legacyScore": 4195
-    },
-    {
         "gameName": "윤 성",
         "tagLine": "윤 성",
         "region": "KR",
@@ -1165,7 +1151,7 @@
         "gameName": "nice3112932",
         "tagLine": "0811",
         "region": "TW2",
-        "score": 26735,
+        "score": 26815,
         "legacyScore": 6230
     },
     {
@@ -1200,7 +1186,7 @@
         "gameName": "Galur",
         "tagLine": "GLR",
         "region": "EUW1",
-        "score": 26635,
+        "score": 26675,
         "legacyScore": 8265
     },
     {
@@ -1258,13 +1244,6 @@
         "region": "KR",
         "score": 25505,
         "legacyScore": 4500
-    },
-    {
-        "gameName": "DErZdvELHztVTt8L",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 180,
-        "legacyScore": 140
     },
     {
         "gameName": "Le Petit Prince",
@@ -1362,7 +1341,7 @@
         "tagLine": "eeeee",
         "region": "EUW1",
         "score": 26405,
-        "legacyScore": 7495
+        "legacyScore": 7515
     },
     {
         "gameName": "ßloczek",
@@ -1396,7 +1375,7 @@
         "gameName": "UpperBlackVise",
         "tagLine": "みさき美咲",
         "region": "NA1",
-        "score": 26790,
+        "score": 26830,
         "legacyScore": 8055
     },
     {
@@ -1431,7 +1410,7 @@
         "gameName": "Rinkutemo",
         "tagLine": "Prime",
         "region": "EUN1",
-        "score": 26445,
+        "score": 26525,
         "legacyScore": 7420
     },
     {
@@ -1480,7 +1459,7 @@
         "gameName": "貴女のパンツ何色",
         "tagLine": "JINX",
         "region": "VN2",
-        "score": 26750,
+        "score": 26760,
         "legacyScore": 6950
     },
     {
@@ -1599,7 +1578,7 @@
         "gameName": "자크는열린문",
         "tagLine": "러브젤리",
         "region": "KR",
-        "score": 26260,
+        "score": 26275,
         "legacyScore": 7795
     },
     {
@@ -1669,21 +1648,21 @@
         "gameName": "もしもし",
         "tagLine": "0710",
         "region": "VN2",
-        "score": 26490,
+        "score": 26495,
         "legacyScore": 7195
     },
     {
         "gameName": "ｙａｎｉ",
         "tagLine": "0402",
         "region": "VN2",
-        "score": 26070,
+        "score": 26085,
         "legacyScore": 7080
     },
     {
         "gameName": "một thời đã xa",
         "tagLine": "1707",
         "region": "VN2",
-        "score": 26495,
+        "score": 26515,
         "legacyScore": 6555
     },
     {
@@ -1697,7 +1676,7 @@
         "gameName": "free palestine",
         "tagLine": "xdjk",
         "region": "EUW1",
-        "score": 26495,
+        "score": 26515,
         "legacyScore": 7505
     },
     {
@@ -1788,7 +1767,7 @@
         "gameName": "秘月期POPOO",
         "tagLine": "今天波了沒",
         "region": "TW2",
-        "score": 26035,
+        "score": 26075,
         "legacyScore": 6450
     },
     {
@@ -1879,7 +1858,7 @@
         "gameName": "지크 하일",
         "tagLine": "GER1",
         "region": "KR",
-        "score": 25760,
+        "score": 25775,
         "legacyScore": 6865
     },
     {
@@ -1977,7 +1956,7 @@
         "gameName": "Akali",
         "tagLine": "102",
         "region": "VN2",
-        "score": 26505,
+        "score": 26510,
         "legacyScore": 6670
     },
     {
@@ -2103,7 +2082,7 @@
         "gameName": "TRG",
         "tagLine": "KRl",
         "region": "KR",
-        "score": 25720,
+        "score": 25725,
         "legacyScore": 6950
     },
     {
@@ -2208,14 +2187,14 @@
         "gameName": "Slippy",
         "tagLine": "eeeee",
         "region": "EUW1",
-        "score": 25445,
+        "score": 25485,
         "legacyScore": 7670
     },
     {
         "gameName": "Happy",
         "tagLine": "005",
         "region": "EUW1",
-        "score": 26870,
+        "score": 27065,
         "legacyScore": 7500
     },
     {
@@ -2285,7 +2264,7 @@
         "gameName": "Massie",
         "tagLine": "001",
         "region": "EUW1",
-        "score": 25375,
+        "score": 25380,
         "legacyScore": 7345
     },
     {
@@ -2537,7 +2516,7 @@
         "gameName": "PrettyHS",
         "tagLine": "RU1",
         "region": "RU",
-        "score": 25145,
+        "score": 25165,
         "legacyScore": 7545
     },
     {
@@ -2636,7 +2615,7 @@
         "tagLine": "EUW",
         "region": "EUW1",
         "score": 24990,
-        "legacyScore": 7320
+        "legacyScore": 7360
     },
     {
         "gameName": "korro90",
@@ -2761,7 +2740,7 @@
         "gameName": "Prédά",
         "tagLine": "UWU",
         "region": "EUW1",
-        "score": 25115,
+        "score": 25210,
         "legacyScore": 6615
     },
     {
@@ -2797,7 +2776,7 @@
         "tagLine": "3223",
         "region": "KR",
         "score": 25015,
-        "legacyScore": 7220
+        "legacyScore": 7280
     },
     {
         "gameName": "phenomist",

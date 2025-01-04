@@ -25,8 +25,8 @@
    			<th scope="col">#</th>
    			<th scope="col">Player</th>
    			<th scope="col">Points</th>
-   			<th scope="col">% Completed</th>
-   			<th scope="col">% Legacy Completed</th>
+   			<th role='button' (click)="sortClicked(true)" scope="col">% Completed <i [ngClass]="{'d-none': !defaultSort}" class="bi bi-arrow-down"></i></th>
+   			<th role='button' (click)="sortClicked(false)" scope="col">% Legacy Completed<i [ngClass]="{'d-none': defaultSort}" class="bi bi-arrow-down"></i></th>
          </tr>
       </thead>
       <tbody>
@@ -37,8 +37,8 @@
                {{ item.gameName }} <span class="tag">{{item.tagLine}}</span> <span class="player-region">{{item.region}}</span>
             </td>
             <td>{{ item.score }}</td>
-            <td class="completed">{{ (item.score/ 29680)  | percent }}</td>
-            <td>{{ (item.legacyScore/ 9005)  | percent }}</td>
+            <td class="completed">{{ (item.score/ 29680)  | percent:'2.2-2' }}</td>
+            <td>{{ (item.legacyScore/ 9005)  | percent:'2.2-2' }}</td>
          </tr>
          }
       </tbody>
