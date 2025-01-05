@@ -36,7 +36,7 @@
             <td>
                {{ item.gameName }} <span class="tag">{{item.tagLine}}</span> <span class="player-region">{{item.region}}</span>
             </td>
-            <td>{{ item.score }}</td>
+            <td>{{ item.score }} <span class="tag">{{item.challengeRank}}</span></td>
             <td class="completed">{{ (item.score/ 29680)  | percent:'2.2-2' }}</td>
             <td>{{ (item.legacyScore/ 9005)  | percent:'2.2-2' }}</td>
          </tr>
