@@ -208,8 +208,7 @@ export class MasteryComponent implements OnInit  {
             "championSeasonMilestone": 0,
             "nextSeasonMilestone": {
                 "requireGradeCounts": {
-                    "B-": 1,
-                    "C-": 4
+                    "A": 1,
                 },
                 "rewardMarks": 1,
                 "bonus": false,
