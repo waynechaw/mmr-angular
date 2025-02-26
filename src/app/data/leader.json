@@ -11,7 +11,7 @@
         "gameName": "winnie",
         "tagLine": "xoxo",
         "region": "NA1",
-        "score": 28995,
+        "score": 29035,
         "legacyScore": 8575,
         "challengeRank": "CHALLENGER"
     },
@@ -53,7 +53,7 @@
         "region": "VN2",
         "score": 28750,
         "legacyScore": 7550,
-        "challengeRank": "CHALLENGER"
+        "challengeRank": "GRANDMASTER"
     },
     {
         "gameName": "Kasno1",
@@ -163,7 +163,7 @@
         "gameName": "Alune",
         "tagLine": "001",
         "region": "VN2",
-        "score": 28735,
+        "score": 28765,
         "legacyScore": 7350,
         "challengeRank": "CHALLENGER"
     },
@@ -171,7 +171,7 @@
         "gameName": "Lam Vong Cơ",
         "tagLine": "Quìn",
         "region": "VN2",
-        "score": 28680,
+        "score": 28685,
         "legacyScore": 8520,
         "challengeRank": "GRANDMASTER"
     },
@@ -227,15 +227,15 @@
         "gameName": "Fus",
         "tagLine": "9999",
         "region": "VN2",
-        "score": 28725,
+        "score": 28765,
         "legacyScore": 7365,
-        "challengeRank": "GRANDMASTER"
+        "challengeRank": "CHALLENGER"
     },
     {
         "gameName": "GS Kaptyn",
         "tagLine": "EUNE",
         "region": "EUN1",
-        "score": 28370,
+        "score": 28410,
         "legacyScore": 7500,
         "challengeRank": "GRANDMASTER"
     },
@@ -275,7 +275,7 @@
         "gameName": "Toki",
         "tagLine": "Ahri",
         "region": "NA1",
-        "score": 28415,
+        "score": 28430,
         "legacyScore": 8735,
         "challengeRank": "CHALLENGER"
     },
@@ -291,7 +291,7 @@
         "gameName": "Kheøs",
         "tagLine": "kheos",
         "region": "EUW1",
-        "score": 28005,
+        "score": 28025,
         "legacyScore": 5080,
         "challengeRank": "GRANDMASTER"
     },
@@ -331,7 +331,7 @@
         "gameName": "Hennalan Jeesus",
         "tagLine": "6940",
         "region": "EUN1",
-        "score": 28265,
+        "score": 28275,
         "legacyScore": 7785,
         "challengeRank": "GRANDMASTER"
     },
@@ -427,7 +427,7 @@
         "gameName": "西屯扛霸子",
         "tagLine": "1224",
         "region": "TW2",
-        "score": 28045,
+        "score": 28125,
         "legacyScore": 8395,
         "challengeRank": "GRANDMASTER"
     },
@@ -435,7 +435,7 @@
         "gameName": "NépvàoChymA",
         "tagLine": "abc12",
         "region": "VN2",
-        "score": 27980,
+        "score": 27995,
         "legacyScore": 6835,
         "challengeRank": "GRANDMASTER"
     },
@@ -443,7 +443,7 @@
         "gameName": "babys1tter",
         "tagLine": "NaDn0",
         "region": "RU",
-        "score": 27935,
+        "score": 27955,
         "legacyScore": 8315,
         "challengeRank": "GRANDMASTER"
     },
@@ -483,7 +483,7 @@
         "gameName": "RSW Jo0r",
         "tagLine": "EUWJP",
         "region": "EUW1",
-        "score": 27895,
+        "score": 27905,
         "legacyScore": 7805,
         "challengeRank": "GRANDMASTER"
     },
@@ -571,7 +571,7 @@
         "gameName": "Ghionova",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 27870,
+        "score": 27880,
         "legacyScore": 7810,
         "challengeRank": "GRANDMASTER"
     },
@@ -595,7 +595,7 @@
         "gameName": "Forever With Him",
         "tagLine": "0210",
         "region": "EUN1",
-        "score": 27840,
+        "score": 27895,
         "legacyScore": 8400,
         "challengeRank": "GRANDMASTER"
     },
@@ -611,7 +611,7 @@
         "gameName": "Safa",
         "tagLine": "4242",
         "region": "TR1",
-        "score": 27890,
+        "score": 27910,
         "legacyScore": 8195,
         "challengeRank": "CHALLENGER"
     },
@@ -771,7 +771,7 @@
         "gameName": "ALIXLEBGDEOUF",
         "tagLine": "LEBG",
         "region": "EUW1",
-        "score": 27655,
+        "score": 27695,
         "legacyScore": 8450,
         "challengeRank": "GRANDMASTER"
     },
@@ -803,7 +803,7 @@
         "gameName": "Luca Perini",
         "tagLine": "1997",
         "region": "EUW1",
-        "score": 28270,
+        "score": 28310,
         "legacyScore": 8400,
         "challengeRank": "CHALLENGER"
     },
@@ -811,7 +811,7 @@
         "gameName": "Slap Bass 1",
         "tagLine": "awe",
         "region": "NA1",
-        "score": 27810,
+        "score": 27825,
         "legacyScore": 8140,
         "challengeRank": "GRANDMASTER"
     },
@@ -979,7 +979,7 @@
         "gameName": "Wh1te D 3mon",
         "tagLine": "EUNE",
         "region": "EUN1",
-        "score": 27655,
+        "score": 27675,
         "legacyScore": 6460,
         "challengeRank": "GRANDMASTER"
     },
@@ -1051,7 +1051,7 @@
         "gameName": "SvetIeishiy",
         "tagLine": "RU1",
         "region": "RU",
-        "score": 27135,
+        "score": 27140,
         "legacyScore": 7840,
         "challengeRank": "MASTER"
     },
@@ -1091,7 +1091,7 @@
         "gameName": "Affienia",
         "tagLine": "OCE",
         "region": "OC1",
-        "score": 27200,
+        "score": 27240,
         "legacyScore": 8240,
         "challengeRank": "CHALLENGER"
     },
@@ -1131,9 +1131,9 @@
         "gameName": "Jadominik113",
         "tagLine": "EUNE",
         "region": "EUN1",
-        "score": 26950,
+        "score": 26960,
         "legacyScore": 7990,
-        "challengeRank": "GRANDMASTER"
+        "challengeRank": "MASTER"
     },
     {
         "gameName": "SharkraMa",
@@ -1147,7 +1147,7 @@
         "gameName": "Avril",
         "tagLine": "UwU",
         "region": "LA2",
-        "score": 26935,
+        "score": 26940,
         "legacyScore": 8505,
         "challengeRank": "CHALLENGER"
     },
@@ -1163,9 +1163,9 @@
         "gameName": "cyan",
         "tagLine": "pink",
         "region": "NA1",
-        "score": 26940,
+        "score": 26945,
         "legacyScore": 7790,
-        "challengeRank": "MASTER"
+        "challengeRank": "GRANDMASTER"
     },
     {
         "gameName": "Fel",
@@ -1195,7 +1195,7 @@
         "gameName": "Mania Love",
         "tagLine": "hiep",
         "region": "VN2",
-        "score": 27355,
+        "score": 27395,
         "legacyScore": 7455,
         "challengeRank": "GRANDMASTER"
     },
@@ -1211,15 +1211,15 @@
         "gameName": "RIP Solo Queue",
         "tagLine": "RIPs",
         "region": "EUN1",
-        "score": 26950,
+        "score": 26985,
         "legacyScore": 7225,
-        "challengeRank": "GRANDMASTER"
+        "challengeRank": "MASTER"
     },
     {
         "gameName": "uRxp",
         "tagLine": "NA1",
         "region": "NA1",
-        "score": 26880,
+        "score": 26900,
         "legacyScore": 8035,
         "challengeRank": "MASTER"
     },
@@ -1323,7 +1323,7 @@
         "gameName": "Kroou",
         "tagLine": "bird",
         "region": "EUW1",
-        "score": 27630,
+        "score": 27695,
         "legacyScore": 8360,
         "challengeRank": "GRANDMASTER"
     },
@@ -1427,7 +1427,7 @@
         "gameName": "Le Petit Prince",
         "tagLine": "EUNE",
         "region": "EUN1",
-        "score": 26970,
+        "score": 27010,
         "legacyScore": 8455,
         "challengeRank": "GRANDMASTER"
     },
@@ -1475,7 +1475,7 @@
         "gameName": "Sasara",
         "tagLine": "6666",
         "region": "NA1",
-        "score": 27295,
+        "score": 27355,
         "legacyScore": 5325,
         "challengeRank": "GRANDMASTER"
     },
@@ -1499,7 +1499,7 @@
         "gameName": "Tonelico",
         "tagLine": "Fae",
         "region": "NA1",
-        "score": 27190,
+        "score": 27195,
         "legacyScore": 7495,
         "challengeRank": "GRANDMASTER"
     },
@@ -1515,7 +1515,7 @@
         "gameName": "く う",
         "tagLine": "S8S",
         "region": "LA1",
-        "score": 26775,
+        "score": 26795,
         "legacyScore": 6545,
         "challengeRank": "CHALLENGER"
     },
@@ -1523,7 +1523,7 @@
         "gameName": "Broseidon",
         "tagLine": "Icy",
         "region": "NA1",
-        "score": 26685,
+        "score": 26695,
         "legacyScore": 7200,
         "challengeRank": "MASTER"
     },
@@ -1579,7 +1579,7 @@
         "gameName": "Shynce",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 26435,
+        "score": 26475,
         "legacyScore": 8485,
         "challengeRank": "MASTER"
     },
@@ -1603,7 +1603,7 @@
         "gameName": "魔流劍",
         "tagLine": "TW2",
         "region": "TW2",
-        "score": 26320,
+        "score": 26340,
         "legacyScore": 7905,
         "challengeRank": "MASTER"
     },
@@ -1667,7 +1667,7 @@
         "gameName": "貴女のパンツ何色",
         "tagLine": "JINX",
         "region": "VN2",
-        "score": 27260,
+        "score": 27550,
         "legacyScore": 6950,
         "challengeRank": "GRANDMASTER"
     },
@@ -1675,7 +1675,7 @@
         "gameName": "すいそ",
         "tagLine": "hygen",
         "region": "JP1",
-        "score": 26410,
+        "score": 26425,
         "legacyScore": 7925,
         "challengeRank": "MASTER"
     },
@@ -1747,7 +1747,7 @@
         "gameName": "Xatu",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 26945,
+        "score": 27025,
         "legacyScore": 7415,
         "challengeRank": "GRANDMASTER"
     },
@@ -1755,7 +1755,7 @@
         "gameName": "Agiandor",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 26460,
+        "score": 26580,
         "legacyScore": 7265,
         "challengeRank": "MASTER"
     },
@@ -1763,7 +1763,7 @@
         "gameName": "Mighti1",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 26785,
+        "score": 26825,
         "legacyScore": 8050,
         "challengeRank": "GRANDMASTER"
     },
@@ -1795,7 +1795,7 @@
         "gameName": "max5745",
         "tagLine": "TH2",
         "region": "SG2",
-        "score": 26100,
+        "score": 26110,
         "legacyScore": 5975,
         "challengeRank": "GRANDMASTER"
     },
@@ -1811,7 +1811,7 @@
         "gameName": "Хъючь",
         "tagLine": "wsup",
         "region": "RU",
-        "score": 26495,
+        "score": 26595,
         "legacyScore": 6740,
         "challengeRank": "MASTER"
     },
@@ -1819,7 +1819,7 @@
         "gameName": "Ножки Гвен",
         "tagLine": "Feet",
         "region": "RU",
-        "score": 25980,
+        "score": 25985,
         "legacyScore": 6375,
         "challengeRank": "MASTER"
     },
@@ -1851,7 +1851,7 @@
         "gameName": "Powder was here",
         "tagLine": "JiИﾒ",
         "region": "EUW1",
-        "score": 26525,
+        "score": 26565,
         "legacyScore": 7355,
         "challengeRank": "MASTER"
     },
@@ -1883,7 +1883,7 @@
         "gameName": "もしもし",
         "tagLine": "0710",
         "region": "VN2",
-        "score": 26540,
+        "score": 26580,
         "legacyScore": 7195,
         "challengeRank": "MASTER"
     },
@@ -1891,7 +1891,7 @@
         "gameName": "ｙａｎｉ",
         "tagLine": "0402",
         "region": "VN2",
-        "score": 26485,
+        "score": 26495,
         "legacyScore": 7080,
         "challengeRank": "MASTER"
     },
@@ -1917,7 +1917,7 @@
         "region": "EUW1",
         "score": 26650,
         "legacyScore": 7565,
-        "challengeRank": "MASTER"
+        "challengeRank": "GRANDMASTER"
     },
     {
         "gameName": "Sleepyyvoice",
@@ -1971,7 +1971,7 @@
         "gameName": "킹올챔",
         "tagLine": "KR1",
         "region": "KR",
-        "score": 26385,
+        "score": 26465,
         "legacyScore": 6410,
         "challengeRank": "MASTER"
     },
@@ -2115,7 +2115,7 @@
         "gameName": "JohnVoukou",
         "tagLine": "EUNE",
         "region": "EUN1",
-        "score": 25760,
+        "score": 25765,
         "legacyScore": 7260,
         "challengeRank": "MASTER"
     },
@@ -2155,7 +2155,7 @@
         "gameName": "Vavara50",
         "tagLine": "DÉFI",
         "region": "EUW1",
-        "score": 25850,
+        "score": 25890,
         "legacyScore": 7840,
         "challengeRank": "MASTER"
     },
@@ -2171,7 +2171,7 @@
         "gameName": "Heyss",
         "tagLine": "3009",
         "region": "EUW1",
-        "score": 26040,
+        "score": 26080,
         "legacyScore": 7130,
         "challengeRank": "MASTER"
     },
@@ -2219,7 +2219,7 @@
         "gameName": "jybike",
         "tagLine": "112",
         "region": "EUN1",
-        "score": 26970,
+        "score": 27030,
         "legacyScore": 8350,
         "challengeRank": "GRANDMASTER"
     },
@@ -2235,7 +2235,7 @@
         "gameName": "Akali",
         "tagLine": "102",
         "region": "VN2",
-        "score": 26815,
+        "score": 26840,
         "legacyScore": 6670,
         "challengeRank": "MASTER"
     },
@@ -2243,7 +2243,7 @@
         "gameName": "APeck",
         "tagLine": "Carry",
         "region": "EUW1",
-        "score": 27005,
+        "score": 27135,
         "legacyScore": 7815,
         "challengeRank": "GRANDMASTER"
     },
@@ -2251,7 +2251,7 @@
         "gameName": "snewp",
         "tagLine": "idc",
         "region": "NA1",
-        "score": 26050,
+        "score": 26090,
         "legacyScore": 7785,
         "challengeRank": "MASTER"
     },
@@ -2267,7 +2267,7 @@
         "gameName": "Mr Senuai",
         "tagLine": "1823",
         "region": "EUN1",
-        "score": 25730,
+        "score": 25750,
         "legacyScore": 7650,
         "challengeRank": "MASTER"
     },
@@ -2419,7 +2419,7 @@
         "gameName": "EckeLucas",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 26955,
+        "score": 27125,
         "legacyScore": 7885,
         "challengeRank": "GRANDMASTER"
     },
@@ -2443,7 +2443,7 @@
         "gameName": "AlexRuiz",
         "tagLine": "00001",
         "region": "NA1",
-        "score": 26840,
+        "score": 26915,
         "legacyScore": 7970,
         "challengeRank": "MASTER"
     },
@@ -2467,7 +2467,7 @@
         "gameName": "ViggoEdits",
         "tagLine": "PSA10",
         "region": "EUW1",
-        "score": 26295,
+        "score": 26515,
         "legacyScore": 7825,
         "challengeRank": "MASTER"
     },
@@ -2611,7 +2611,7 @@
         "gameName": "Mina",
         "tagLine": "NPQA",
         "region": "VN2",
-        "score": 26120,
+        "score": 26130,
         "legacyScore": 7525,
         "challengeRank": "MASTER"
     },
@@ -2643,7 +2643,7 @@
         "gameName": "Shoxy",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 25365,
+        "score": 25370,
         "legacyScore": 7020,
         "challengeRank": "MASTER"
     },
@@ -2667,7 +2667,7 @@
         "gameName": "Ninmery",
         "tagLine": "BR1",
         "region": "BR1",
-        "score": 25320,
+        "score": 25360,
         "legacyScore": 7260,
         "challengeRank": "MASTER"
     },
@@ -2739,7 +2739,7 @@
         "gameName": "Sold Pets For RP",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 25225,
+        "score": 25245,
         "legacyScore": 7545,
         "challengeRank": "MASTER"
     },
@@ -2755,7 +2755,7 @@
         "gameName": "Gamb",
         "tagLine": "3544",
         "region": "EUW1",
-        "score": 25845,
+        "score": 26200,
         "legacyScore": 6620,
         "challengeRank": "MASTER"
     },
@@ -2803,7 +2803,7 @@
         "gameName": "Wrong One",
         "tagLine": "Ward",
         "region": "EUN1",
-        "score": 25435,
+        "score": 25455,
         "legacyScore": 7675,
         "challengeRank": "MASTER"
     },
@@ -2811,7 +2811,7 @@
         "gameName": "Pain",
         "tagLine": "Ajna",
         "region": "EUN1",
-        "score": 25425,
+        "score": 25505,
         "legacyScore": 7450,
         "challengeRank": "MASTER"
     },
@@ -2931,7 +2931,7 @@
         "gameName": "iwo",
         "tagLine": "000",
         "region": "EUW1",
-        "score": 25145,
+        "score": 25185,
         "legacyScore": 6615,
         "challengeRank": "MASTER"
     },
@@ -2939,7 +2939,7 @@
         "gameName": "Scraf",
         "tagLine": "2052",
         "region": "NA1",
-        "score": 25385,
+        "score": 25425,
         "legacyScore": 7200,
         "challengeRank": "MASTER"
     },
@@ -2963,7 +2963,7 @@
         "gameName": "Mèo つωつ",
         "tagLine": "Luck",
         "region": "VN2",
-        "score": 25080,
+        "score": 25105,
         "legacyScore": 7000,
         "challengeRank": "MASTER"
     },
@@ -2971,7 +2971,7 @@
         "gameName": "sefje",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 25725,
+        "score": 25775,
         "legacyScore": 7730,
         "challengeRank": "MASTER"
     },
@@ -3011,7 +3011,7 @@
         "gameName": "train to failure",
         "tagLine": "EUNE",
         "region": "EUN1",
-        "score": 25145,
+        "score": 25225,
         "legacyScore": 7750,
         "challengeRank": "MASTER"
     },
@@ -3035,7 +3035,7 @@
         "gameName": "Trần Nhật1",
         "tagLine": "2002",
         "region": "VN2",
-        "score": 25105,
+        "score": 25125,
         "legacyScore": 7530,
         "challengeRank": "MASTER"
     },
@@ -3059,7 +3059,7 @@
         "gameName": "Tyrranoid2410",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 25115,
+        "score": 25155,
         "legacyScore": 7630,
         "challengeRank": "MASTER"
     },
@@ -3091,7 +3091,7 @@
         "gameName": "T7 Alien4Gamer",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 25020,
+        "score": 25035,
         "legacyScore": 7575,
         "challengeRank": "MASTER"
     },
@@ -3171,7 +3171,7 @@
         "gameName": "호 야",
         "tagLine": "3223",
         "region": "KR",
-        "score": 25295,
+        "score": 25300,
         "legacyScore": 7280,
         "challengeRank": "MASTER"
     },
@@ -3203,7 +3203,7 @@
         "gameName": "Gwendo",
         "tagLine": "NQNT",
         "region": "EUW1",
-        "score": 25280,
+        "score": 25360,
         "legacyScore": 7215,
         "challengeRank": "MASTER"
     },
