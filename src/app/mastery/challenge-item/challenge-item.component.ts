@@ -30,8 +30,6 @@ export class ChallengeItemComponent  implements OnInit  {
       return item.id == this.userChallengeData.challengeId;
     });
 
-    console.log(this.userChallengeData.challengeId, this.challengeDetails);
-
     this.challengeDetails.translation.name = this.challengeDetails.translation.name.replace('(Legacy)', '7');
 
     this.getNextUpgrade(this.userChallengeData.level);

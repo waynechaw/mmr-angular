@@ -54,6 +54,8 @@ export class MasteryComponent implements OnInit  {
   public t2ChestsEarned = 0;
   public starToggle = true;
   public showM7Toggle;
+  public top150Mastery;
+  public champsFinished = 0;
 
   constructor(private router: Router, private  appService: AppService,) { 
     this.activeProfileInfo = this.appService.activeProfileInfo;
@@ -76,8 +78,6 @@ export class MasteryComponent implements OnInit  {
 
 
     this.showM7Toggle = localStorage.getItem("showM7Toggle") === 'true';
-
-    console.log(12, this.showM7Toggle);
 
 
     
@@ -320,8 +320,6 @@ export class MasteryComponent implements OnInit  {
 
 
     this.selectedRoles = [];
-
-    console.log(this.userChallengeData);
 
     if (this.userChallengeData.masterFighter.selected || this.userChallengeData.masterFighterLegacy.selected) {
       this.selectedRoles.push('Fighter');
@@ -592,12 +590,17 @@ export class MasteryComponent implements OnInit  {
     top150.forEach(item => {
       let pointsEarned: any = 0;
       if (item.championPoints >= this.catchNextUpgrade) {
+        console.log(item);
         pointsEarned = this.catchNextUpgrade;
+        this.champsFinished++;
+        console.log(this.champsFinished);
       } else {
         pointsEarned = parseInt(item.championPoints);
       }
       currentProgress = currentProgress + pointsEarned;
     })
+
+    this.top150Mastery = currentProgress;
 
 
 
@@ -623,9 +626,12 @@ export class MasteryComponent implements OnInit  {
     } else {
       this.upgradeTimeCatch = Math.floor((totalNeeded - currentProgress) / this.avgPointsPerDay) + ' days';
       this.upgradeTimeEnemy = Math.floor((totalNeededEnemy - currentProgressEnemy) / this.avgPointsPerDay) + ' days';
+      console.log(totalNeededEnemy , currentProgressEnemy);
+      if (totalNeededEnemy == 0) {
+        this.upgradeTimeEnemy = 'Completed';
+      }
     }
 
-    console.log(totalNeededEnemy , currentProgressEnemy)
 
   }
 

@@ -1,3234 +1,3234 @@
 [
-    {
-        "gameName": "imJM",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 28160,
-        "legacyScore": 8775,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "winnie",
-        "tagLine": "xoxo",
-        "region": "NA1",
-        "score": 29055,
-        "legacyScore": 8575,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "이상혁이미래다",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 27295,
-        "legacyScore": 7175,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Zeios",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28320,
-        "legacyScore": 8735,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Itâchi Senpai",
-        "tagLine": "Aka",
-        "region": "EUW1",
-        "score": 28830,
-        "legacyScore": 8735,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Kat Arina",
-        "tagLine": "Kat A",
-        "region": "VN2",
-        "score": 28965,
-        "legacyScore": 7325,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Thường Tài Chính",
-        "tagLine": "MONEY",
-        "region": "VN2",
-        "score": 28750,
-        "legacyScore": 7550,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Kasno1",
-        "tagLine": "Ape",
-        "region": "EUN1",
-        "score": 28625,
-        "legacyScore": 7320,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Gã Du Mục",
-        "tagLine": "GDM",
-        "region": "VN2",
-        "score": 28810,
-        "legacyScore": 7955,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "ponzels",
-        "tagLine": "b21",
-        "region": "EUW1",
-        "score": 28950,
-        "legacyScore": 8310,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Sínister Bláde",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28755,
-        "legacyScore": 8555,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "김경주",
-        "tagLine": "77777",
-        "region": "KR",
-        "score": 28050,
-        "legacyScore": 8670,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "vkie",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28605,
-        "legacyScore": 7940,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Szabikakas",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 28635,
-        "legacyScore": 8600,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Nolife Fynn",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28645,
-        "legacyScore": 6405,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Maliss",
-        "tagLine": "NAM",
-        "region": "VN2",
-        "score": 28600,
-        "legacyScore": 7925,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Miverl",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 28490,
-        "legacyScore": 8370,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Silkan",
-        "tagLine": "Dama",
-        "region": "EUW1",
-        "score": 28430,
-        "legacyScore": 8030,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Kaido",
-        "tagLine": "Rocks",
-        "region": "TR1",
-        "score": 27720,
-        "legacyScore": 5730,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Sonixas",
-        "tagLine": "milk",
-        "region": "EUW1",
-        "score": 28430,
-        "legacyScore": 7310,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Alune",
-        "tagLine": "001",
-        "region": "VN2",
-        "score": 28765,
-        "legacyScore": 7350,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Lam Vong Cơ",
-        "tagLine": "Quìn",
-        "region": "VN2",
-        "score": 28685,
-        "legacyScore": 8520,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "돼지왕",
-        "tagLine": "꿀꿀꿀",
-        "region": "KR",
-        "score": 28345,
-        "legacyScore": 8125,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "황홀한 강타를 쓰는 보석게이",
-        "tagLine": "KR2",
-        "region": "KR",
-        "score": 27300,
-        "legacyScore": 6015,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "tbandee",
-        "tagLine": "old",
-        "region": "EUN1",
-        "score": 28295,
-        "legacyScore": 7405,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Zekor",
-        "tagLine": "000",
-        "region": "EUW1",
-        "score": 28375,
-        "legacyScore": 8685,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "KrisWald",
-        "tagLine": "KWald",
-        "region": "NA1",
-        "score": 28430,
-        "legacyScore": 8205,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Dêmôn",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28265,
-        "legacyScore": 7940,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Fus",
-        "tagLine": "9999",
-        "region": "VN2",
-        "score": 28765,
-        "legacyScore": 7365,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "GS Kaptyn",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 28410,
-        "legacyScore": 7500,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Kasno3",
-        "tagLine": "GOD",
-        "region": "EUN1",
-        "score": 28225,
-        "legacyScore": 8695,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Zarax",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28160,
-        "legacyScore": 8310,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Cillitbang",
-        "tagLine": "ADC",
-        "region": "EUW1",
-        "score": 28135,
-        "legacyScore": 7125,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "皮卡乒乓乒乓乒乓乒乓乒乓乒乓乒乓",
-        "tagLine": "乒乓乓乓乓",
-        "region": "TW2",
-        "score": 28710,
-        "legacyScore": 6885,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Toki",
-        "tagLine": "Ahri",
-        "region": "NA1",
-        "score": 28440,
-        "legacyScore": 8735,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "最美不過õ初相見õ",
-        "tagLine": "TW2",
-        "region": "TW2",
-        "score": 28200,
-        "legacyScore": 7195,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Kheøs",
-        "tagLine": "kheos",
-        "region": "EUW1",
-        "score": 28025,
-        "legacyScore": 5080,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Synicle",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 28260,
-        "legacyScore": 8640,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "fatcat7",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28160,
-        "legacyScore": 8025,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Mental Terrørist",
-        "tagLine": "ZXC",
-        "region": "RU",
-        "score": 28045,
-        "legacyScore": 8310,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Kamastin",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 28150,
-        "legacyScore": 7420,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Hennalan Jeesus",
-        "tagLine": "6940",
-        "region": "EUN1",
-        "score": 28275,
-        "legacyScore": 7785,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Lunariz",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27970,
-        "legacyScore": 7200,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Bardstardo",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28180,
-        "legacyScore": 7950,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Its Zynodor",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27960,
-        "legacyScore": 6595,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "uwu NightVortex",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 28560,
-        "legacyScore": 7935,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "ChocolateCookies",
-        "tagLine": "34202",
-        "region": "VN2",
-        "score": 28020,
-        "legacyScore": 8415,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "FBA War Machine",
-        "tagLine": "0806",
-        "region": "VN2",
-        "score": 28065,
-        "legacyScore": 6595,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Till",
-        "tagLine": "EUW2",
-        "region": "EUW1",
-        "score": 28025,
-        "legacyScore": 8290,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Chiko",
-        "tagLine": "001",
-        "region": "EUW1",
-        "score": 28005,
-        "legacyScore": 7825,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "인간사냥꾼 탈론",
-        "tagLine": "탈 론",
-        "region": "KR",
-        "score": 27870,
-        "legacyScore": 8415,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Dorweee",
-        "tagLine": "Coach",
-        "region": "NA1",
-        "score": 28045,
-        "legacyScore": 7960,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Satori",
-        "tagLine": "WuWei",
-        "region": "EUW1",
-        "score": 28255,
-        "legacyScore": 7700,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "西屯扛霸子",
-        "tagLine": "1224",
-        "region": "TW2",
-        "score": 28125,
-        "legacyScore": 8395,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "NépvàoChymA",
-        "tagLine": "abc12",
-        "region": "VN2",
-        "score": 27995,
-        "legacyScore": 6835,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "babys1tter",
-        "tagLine": "NaDn0",
-        "region": "RU",
-        "score": 27975,
-        "legacyScore": 8315,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Big Romes",
-        "tagLine": "777",
-        "region": "NA1",
-        "score": 27840,
-        "legacyScore": 7805,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "E Z",
-        "tagLine": "999",
-        "region": "VN2",
-        "score": 27840,
-        "legacyScore": 7700,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Thresh Talk",
-        "tagLine": "Flay",
-        "region": "EUW1",
-        "score": 27825,
-        "legacyScore": 8085,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Remove Kebab ",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 27810,
-        "legacyScore": 7695,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "RSW Jo0r",
-        "tagLine": "EUWJP",
-        "region": "EUW1",
-        "score": 27910,
-        "legacyScore": 7805,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Saya",
-        "tagLine": "CAT1",
-        "region": "JP1",
-        "score": 27265,
-        "legacyScore": 7480,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "coman",
-        "tagLine": "1212",
-        "region": "EUW1",
-        "score": 27770,
-        "legacyScore": 8435,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "MrMajoor",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27870,
-        "legacyScore": 7880,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Arnauiih",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28075,
-        "legacyScore": 8375,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Diệu Nguyệt Lan",
-        "tagLine": "DNL",
-        "region": "VN2",
-        "score": 28160,
-        "legacyScore": 8385,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "TS Panda",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27860,
-        "legacyScore": 8305,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "妳不說真心話妳讓我怎麼為妳大冒險",
-        "tagLine": "閣愛妳一擺",
-        "region": "TW2",
-        "score": 27855,
-        "legacyScore": 7290,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Tansa999",
-        "tagLine": "999",
-        "region": "VN2",
-        "score": 27865,
-        "legacyScore": 7445,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Etoli",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27785,
-        "legacyScore": 7910,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Dum",
-        "tagLine": "6789",
-        "region": "VN2",
-        "score": 28035,
-        "legacyScore": 6660,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Ghionova",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27880,
-        "legacyScore": 7810,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "NuKeeezZ",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27835,
-        "legacyScore": 8190,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Cinas",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27980,
-        "legacyScore": 8060,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Forever With Him",
-        "tagLine": "0210",
-        "region": "EUN1",
-        "score": 27895,
-        "legacyScore": 8400,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Monkey",
-        "tagLine": "Twoo",
-        "region": "NA1",
-        "score": 27945,
-        "legacyScore": 7455,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Safa",
-        "tagLine": "4242",
-        "region": "TR1",
-        "score": 27910,
-        "legacyScore": 8195,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Wu Tangs Clan",
-        "tagLine": "lgbm",
-        "region": "EUW1",
-        "score": 27680,
-        "legacyScore": 8215,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "달 빛",
-        "tagLine": "0505",
-        "region": "KR",
-        "score": 27750,
-        "legacyScore": 5500,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Daedelius",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 28045,
-        "legacyScore": 7980,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "한태풍",
-        "tagLine": "kr94",
-        "region": "KR",
-        "score": 27800,
-        "legacyScore": 8255,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Kaido",
-        "tagLine": "Rocks",
-        "region": "TR1",
-        "score": 27720,
-        "legacyScore": 5730,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Xshina",
-        "tagLine": "9527",
-        "region": "TW2",
-        "score": 28000,
-        "legacyScore": 7325,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "RATIRL",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 27685,
-        "legacyScore": 8585,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "My ADC Sucks",
-        "tagLine": "cuel",
-        "region": "EUN1",
-        "score": 27695,
-        "legacyScore": 7865,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "DontTouchMyToy",
-        "tagLine": "love",
-        "region": "RU",
-        "score": 27635,
-        "legacyScore": 8435,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Jun",
-        "tagLine": "342",
-        "region": "VN2",
-        "score": 27865,
-        "legacyScore": 7120,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "쯔와이스 트위",
-        "tagLine": "KR2",
-        "region": "KR",
-        "score": 27520,
-        "legacyScore": 5875,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "BaronMuchi",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 27630,
-        "legacyScore": 7780,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Xiao Zhong Chen",
-        "tagLine": "0907",
-        "region": "VN2",
-        "score": 27940,
-        "legacyScore": 6845,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Dean",
-        "tagLine": "Penta",
-        "region": "EUW1",
-        "score": 27700,
-        "legacyScore": 7780,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "객 기",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 27640,
-        "legacyScore": 8380,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "朝比奈白星",
-        "tagLine": "1345",
-        "region": "TW2",
-        "score": 27925,
-        "legacyScore": 7325,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Ghostility",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27585,
-        "legacyScore": 7260,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "TeemoSoS",
-        "tagLine": "TW2",
-        "region": "TW2",
-        "score": 27635,
-        "legacyScore": 7905,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "파도의 꽃",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 26995,
-        "legacyScore": 8645,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "ALIXLEBGDEOUF",
-        "tagLine": "LEBG",
-        "region": "EUW1",
-        "score": 27695,
-        "legacyScore": 8450,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "BALENCIAGA",
-        "tagLine": "KR2",
-        "region": "KR",
-        "score": 27290,
-        "legacyScore": 5645,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "再見莫妮卡",
-        "tagLine": "2024",
-        "region": "TW2",
-        "score": 27530,
-        "legacyScore": 7095,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Akai Zetsumei",
-        "tagLine": "Zetsu",
-        "region": "NA1",
-        "score": 27575,
-        "legacyScore": 8480,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Luca Perini",
-        "tagLine": "1997",
-        "region": "EUW1",
-        "score": 28310,
-        "legacyScore": 8400,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Slap Bass 1",
-        "tagLine": "awe",
-        "region": "NA1",
-        "score": 27825,
-        "legacyScore": 8140,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "堂本獸",
-        "tagLine": "0808",
-        "region": "TW2",
-        "score": 27690,
-        "legacyScore": 6905,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Kasugunai",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27790,
-        "legacyScore": 7460,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "YunXi",
-        "tagLine": "HiNhi",
-        "region": "VN2",
-        "score": 27500,
-        "legacyScore": 7100,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Anonymous L",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 27485,
-        "legacyScore": 8075,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Happy End",
-        "tagLine": "ฅÒωÓฅ",
-        "region": "KR",
-        "score": 27365,
-        "legacyScore": 7575,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "ฮฮฮ",
-        "tagLine": "ฮ〆ฮ〆ฮ",
-        "region": "NA1",
-        "score": 27410,
-        "legacyScore": 7535,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Vegeta Mentality",
-        "tagLine": "Chall",
-        "region": "TR1",
-        "score": 27075,
-        "legacyScore": 6530,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "KRXX",
-        "tagLine": "024",
-        "region": "EUW1",
-        "score": 27860,
-        "legacyScore": 7370,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Алёночка",
-        "tagLine": "Kha",
-        "region": "RU",
-        "score": 27470,
-        "legacyScore": 7700,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "phunky",
-        "tagLine": "phunk",
-        "region": "NA1",
-        "score": 28050,
-        "legacyScore": 8110,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "STAYWITHYOU",
-        "tagLine": "TW2",
-        "region": "TW2",
-        "score": 27800,
-        "legacyScore": 7060,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Last Remnant",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 27280,
-        "legacyScore": 7680,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "노란풍뎅이",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 27585,
-        "legacyScore": 6370,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "cRUELTYYY",
-        "tagLine": "Jok",
-        "region": "EUW1",
-        "score": 27250,
-        "legacyScore": 7420,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Bluumi",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 27670,
-        "legacyScore": 7270,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Mòe Xám of Hân",
-        "tagLine": "1999",
-        "region": "VN2",
-        "score": 27570,
-        "legacyScore": 7680,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "ReiDosDesafios",
-        "tagLine": "REI10",
-        "region": "BR1",
-        "score": 27480,
-        "legacyScore": 7420,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "しぃば",
-        "tagLine": "ちゃんねる",
-        "region": "JP1",
-        "score": 27470,
-        "legacyScore": 7815,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "TKAN Dragon",
-        "tagLine": "1106",
-        "region": "VN2",
-        "score": 27545,
-        "legacyScore": 6575,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Kronos",
-        "tagLine": "BR3",
-        "region": "BR1",
-        "score": 27285,
-        "legacyScore": 6365,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Wh1te D 3mon",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 27675,
-        "legacyScore": 6460,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Huracanine",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 27470,
-        "legacyScore": 6785,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "rqdovqn",
-        "tagLine": "1808",
-        "region": "EUW1",
-        "score": 27410,
-        "legacyScore": 7405,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "TheJwow",
-        "tagLine": "TUGA",
-        "region": "NA1",
-        "score": 27550,
-        "legacyScore": 7695,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "õü鮮柚學長üõ",
-        "tagLine": "TW2",
-        "region": "TW2",
-        "score": 27715,
-        "legacyScore": 7125,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "shn",
-        "tagLine": "gidle",
-        "region": "BR1",
-        "score": 27030,
-        "legacyScore": 7585,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Chiko",
-        "tagLine": "001",
-        "region": "TR1",
-        "score": 27200,
-        "legacyScore": 6225,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Count Klargus",
-        "tagLine": "Anna",
-        "region": "TR1",
-        "score": 27145,
-        "legacyScore": 7300,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Dr Peid",
-        "tagLine": "15031",
-        "region": "VN2",
-        "score": 27605,
-        "legacyScore": 6990,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "SvetIeishiy",
-        "tagLine": "RU1",
-        "region": "RU",
-        "score": 27140,
-        "legacyScore": 7840,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Vegeta Mentality",
-        "tagLine": "Chall",
-        "region": "TR1",
-        "score": 27075,
-        "legacyScore": 6530,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Eremiso",
-        "tagLine": "PIF",
-        "region": "EUN1",
-        "score": 27045,
-        "legacyScore": 7095,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "StepBro",
-        "tagLine": "WYD",
-        "region": "NA1",
-        "score": 27065,
-        "legacyScore": 7405,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "iFancyName",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 27175,
-        "legacyScore": 7915,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Affienia",
-        "tagLine": "OCE",
-        "region": "OC1",
-        "score": 27240,
-        "legacyScore": 8240,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Moldish Rambo",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 26810,
-        "legacyScore": 6325,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "PAR",
-        "tagLine": "7777",
-        "region": "VN2",
-        "score": 27265,
-        "legacyScore": 6990,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Fun Haver",
-        "tagLine": "ViroQ",
-        "region": "EUN1",
-        "score": 27105,
-        "legacyScore": 7740,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Zarixor",
-        "tagLine": "24242",
-        "region": "EUW1",
-        "score": 26945,
-        "legacyScore": 6715,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Jadominik113",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 26960,
-        "legacyScore": 7990,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "SharkraMa",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 25175,
-        "legacyScore": 4915,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Avril",
-        "tagLine": "UwU",
-        "region": "LA2",
-        "score": 26940,
-        "legacyScore": 8505,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Sebberman",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 26930,
-        "legacyScore": 8310,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "cyan",
-        "tagLine": "pink",
-        "region": "NA1",
-        "score": 26945,
-        "legacyScore": 7790,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Fel",
-        "tagLine": "Fire",
-        "region": "NA1",
-        "score": 26975,
-        "legacyScore": 8360,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Spike Spiegel",
-        "tagLine": "Rogue",
-        "region": "RU",
-        "score": 27180,
-        "legacyScore": 7760,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "its ok to not",
-        "tagLine": "2k10",
-        "region": "VN2",
-        "score": 27060,
-        "legacyScore": 7260,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Mania Love",
-        "tagLine": "hiep",
-        "region": "VN2",
-        "score": 27395,
-        "legacyScore": 7455,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Negan",
-        "tagLine": "Nys",
-        "region": "EUW1",
-        "score": 26990,
-        "legacyScore": 8305,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "RIP Solo Queue",
-        "tagLine": "RIPs",
-        "region": "EUN1",
-        "score": 26985,
-        "legacyScore": 7225,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "uRxp",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 26900,
-        "legacyScore": 8035,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Seal",
-        "tagLine": "Sea",
-        "region": "EUW1",
-        "score": 26880,
-        "legacyScore": 7565,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "TrollTrashRito",
-        "tagLine": "FFS",
-        "region": "EUW1",
-        "score": 26750,
-        "legacyScore": 7955,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "topalov",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27115,
-        "legacyScore": 7695,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "距離回合開始時間",
-        "tagLine": "9527",
-        "region": "TW2",
-        "score": 27030,
-        "legacyScore": 6625,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Stin God",
-        "tagLine": "SWAG",
-        "region": "NA1",
-        "score": 26745,
-        "legacyScore": 8470,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "MårküS Ðęxłørd",
-        "tagLine": "6996",
-        "region": "RU",
-        "score": 26780,
-        "legacyScore": 6955,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "EisohneWaffel",
-        "tagLine": "BIER",
-        "region": "EUW1",
-        "score": 27410,
-        "legacyScore": 7400,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "YIMUZIC",
-        "tagLine": "00001",
-        "region": "TW2",
-        "score": 26770,
-        "legacyScore": 7755,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Cof",
-        "tagLine": "0609",
-        "region": "VN2",
-        "score": 27215,
-        "legacyScore": 7240,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "윤 성",
-        "tagLine": "윤 성",
-        "region": "KR",
-        "score": 26960,
-        "legacyScore": 7280,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "T1 Faker",
-        "tagLine": "12827",
-        "region": "VN2",
-        "score": 27445,
-        "legacyScore": 7240,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "nice3112932",
-        "tagLine": "0811",
-        "region": "TW2",
-        "score": 27085,
-        "legacyScore": 6230,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Kroou",
-        "tagLine": "bird",
-        "region": "EUW1",
-        "score": 27710,
-        "legacyScore": 8360,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "aAa Hazriel",
-        "tagLine": "SPF",
-        "region": "EUW1",
-        "score": 27600,
-        "legacyScore": 8090,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "GH Mikasa",
-        "tagLine": "Lux",
-        "region": "VN2",
-        "score": 27275,
-        "legacyScore": 7170,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "anna",
-        "tagLine": "Heart",
-        "region": "NA1",
-        "score": 26615,
-        "legacyScore": 7375,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Galur",
-        "tagLine": "GLR",
-        "region": "EUW1",
-        "score": 26885,
-        "legacyScore": 8265,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Zapdos",
-        "tagLine": "Wint",
-        "region": "EUW1",
-        "score": 26830,
-        "legacyScore": 8210,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "CrystallinEagle",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 26775,
-        "legacyScore": 7800,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "DedeΒiIas",
-        "tagLine": "00001",
-        "region": "EUW1",
-        "score": 26925,
-        "legacyScore": 7130,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Zargoz",
-        "tagLine": "47337",
-        "region": "RU",
-        "score": 26795,
-        "legacyScore": 7640,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "すーま",
-        "tagLine": "JP1",
-        "region": "JP1",
-        "score": 26710,
-        "legacyScore": 7265,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Maytricksss",
-        "tagLine": "May",
-        "region": "BR1",
-        "score": 26585,
-        "legacyScore": 8120,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Arzmataz",
-        "tagLine": "1712",
-        "region": "EUW1",
-        "score": 26580,
-        "legacyScore": 7855,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "꿀잼룰루",
-        "tagLine": "lulu",
-        "region": "KR",
-        "score": 25505,
-        "legacyScore": 4500,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Le Petit Prince",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 27010,
-        "legacyScore": 8455,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "AI Falocco DVE01",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 26445,
-        "legacyScore": 7130,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Wo Hen Xiang Ta",
-        "tagLine": "FVK",
-        "region": "EUW1",
-        "score": 26525,
-        "legacyScore": 7780,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "d w",
-        "tagLine": "1234",
-        "region": "KR",
-        "score": 26485,
-        "legacyScore": 7810,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "eternum",
-        "tagLine": "няша",
-        "region": "EUW1",
-        "score": 27645,
-        "legacyScore": 7870,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "SzyNa",
-        "tagLine": "Satan",
-        "region": "EUN1",
-        "score": 26605,
-        "legacyScore": 7675,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Sasara",
-        "tagLine": "6666",
-        "region": "NA1",
-        "score": 27355,
-        "legacyScore": 5325,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "tie guan yin",
-        "tagLine": "NA3",
-        "region": "NA1",
-        "score": 26410,
-        "legacyScore": 6920,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Luân rảnh rỗi",
-        "tagLine": "3108",
-        "region": "VN2",
-        "score": 26725,
-        "legacyScore": 7265,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Tonelico",
-        "tagLine": "Fae",
-        "region": "NA1",
-        "score": 27195,
-        "legacyScore": 7495,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Caracal",
-        "tagLine": "277",
-        "region": "EUW1",
-        "score": 26480,
-        "legacyScore": 8150,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "く う",
-        "tagLine": "S8S",
-        "region": "LA1",
-        "score": 26795,
-        "legacyScore": 6545,
-        "challengeRank": "CHALLENGER"
-    },
-    {
-        "gameName": "Broseidon",
-        "tagLine": "Icy",
-        "region": "NA1",
-        "score": 26695,
-        "legacyScore": 7200,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "ZUA LordCapybara",
-        "tagLine": "eeeee",
-        "region": "EUW1",
-        "score": 26480,
-        "legacyScore": 7515,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "ßloczek",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 26440,
-        "legacyScore": 7795,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Usuário do Badoo",
-        "tagLine": "GAREN",
-        "region": "BR1",
-        "score": 26475,
-        "legacyScore": 7460,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "못이기",
-        "tagLine": "0523",
-        "region": "KR",
-        "score": 26385,
-        "legacyScore": 7425,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "78th",
-        "tagLine": "78th",
-        "region": "EUW1",
-        "score": 26460,
-        "legacyScore": 7480,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "UpperBlackVise",
-        "tagLine": "みさき美咲",
-        "region": "NA1",
-        "score": 26875,
-        "legacyScore": 8055,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Shynce",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 26475,
-        "legacyScore": 8485,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Saylan",
-        "tagLine": "EUX",
-        "region": "EUW1",
-        "score": 26320,
-        "legacyScore": 6620,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "내꿈은도전과제챌",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 26310,
-        "legacyScore": 6225,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "魔流劍",
-        "tagLine": "TW2",
-        "region": "TW2",
-        "score": 26340,
-        "legacyScore": 7905,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Rinkutemo",
-        "tagLine": "Prime",
-        "region": "EUN1",
-        "score": 26630,
-        "legacyScore": 7420,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "青い Umi",
-        "tagLine": "1111",
-        "region": "VN2",
-        "score": 26240,
-        "legacyScore": 5740,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "GEN NoiR",
-        "tagLine": "GEN",
-        "region": "EUN1",
-        "score": 26885,
-        "legacyScore": 7700,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Pom",
-        "tagLine": "000",
-        "region": "TR1",
-        "score": 26045,
-        "legacyScore": 6060,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Pucho",
-        "tagLine": "Ayac",
-        "region": "LA1",
-        "score": 26460,
-        "legacyScore": 6710,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "rnlrhdwk97",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 26610,
-        "legacyScore": 8005,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Zerlox",
-        "tagLine": "Baby",
-        "region": "LA2",
-        "score": 26160,
-        "legacyScore": 7570,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "貴女のパンツ何色",
-        "tagLine": "JINX",
-        "region": "VN2",
-        "score": 27590,
-        "legacyScore": 6950,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "すいそ",
-        "tagLine": "hygen",
-        "region": "JP1",
-        "score": 26425,
-        "legacyScore": 7925,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Don Rigoni",
-        "tagLine": "Doni",
-        "region": "EUW1",
-        "score": 26295,
-        "legacyScore": 8240,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "kaisa feet lover",
-        "tagLine": "yuk",
-        "region": "EUW1",
-        "score": 26585,
-        "legacyScore": 8060,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "하늘아 잘 해봐",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 26925,
-        "legacyScore": 5150,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "wave beam",
-        "tagLine": "SR388",
-        "region": "NA1",
-        "score": 26350,
-        "legacyScore": 7875,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Mikethegod9",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 26605,
-        "legacyScore": 7120,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Azar",
-        "tagLine": "0607",
-        "region": "EUW1",
-        "score": 26345,
-        "legacyScore": 7245,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "T1A0",
-        "tagLine": "5241",
-        "region": "TW2",
-        "score": 26250,
-        "legacyScore": 7850,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Jully",
-        "tagLine": "1234",
-        "region": "BR1",
-        "score": 26245,
-        "legacyScore": 6760,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Xatu",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27025,
-        "legacyScore": 7415,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Agiandor",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 26580,
-        "legacyScore": 7265,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Mighti1",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 26825,
-        "legacyScore": 8050,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "별수호자징크스 프레스티지에디션",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 25795,
-        "legacyScore": 7465,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Pom",
-        "tagLine": "000",
-        "region": "TR1",
-        "score": 26045,
-        "legacyScore": 6060,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "黯魔陰帝ü達守羌",
-        "tagLine": "三民權志龍",
-        "region": "TW2",
-        "score": 26065,
-        "legacyScore": 7905,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "max5745",
-        "tagLine": "TH2",
-        "region": "SG2",
-        "score": 26110,
-        "legacyScore": 5975,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "자크는열린문",
-        "tagLine": "러브젤리",
-        "region": "KR",
-        "score": 26645,
-        "legacyScore": 7835,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Хъючь",
-        "tagLine": "wsup",
-        "region": "RU",
-        "score": 26595,
-        "legacyScore": 6740,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Ножки Гвен",
-        "tagLine": "Feet",
-        "region": "RU",
-        "score": 25985,
-        "legacyScore": 6375,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Heismine",
-        "tagLine": "0919",
-        "region": "TW2",
-        "score": 26340,
-        "legacyScore": 7325,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Maroxin",
-        "tagLine": "Maro",
-        "region": "EUW1",
-        "score": 26030,
-        "legacyScore": 7660,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "JoshButterJamal",
-        "tagLine": "Abdo",
-        "region": "NA1",
-        "score": 26855,
-        "legacyScore": 7795,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Powder was here",
-        "tagLine": "JiИﾒ",
-        "region": "EUW1",
-        "score": 26565,
-        "legacyScore": 7355,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Free Palestine",
-        "tagLine": "Jinx",
-        "region": "EUW1",
-        "score": 26105,
-        "legacyScore": 7660,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "ARES",
-        "tagLine": "999X",
-        "region": "EUW1",
-        "score": 26000,
-        "legacyScore": 7755,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "갓블리",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 25580,
-        "legacyScore": 4825,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "もしもし",
-        "tagLine": "0710",
-        "region": "VN2",
-        "score": 26580,
-        "legacyScore": 7195,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "ｙａｎｉ",
-        "tagLine": "0402",
-        "region": "VN2",
-        "score": 26495,
-        "legacyScore": 7080,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "một thời đã xa",
-        "tagLine": "1707",
-        "region": "VN2",
-        "score": 27220,
-        "legacyScore": 6555,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "oro na rurach",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 25945,
-        "legacyScore": 6685,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "free palestine",
-        "tagLine": "xdjk",
-        "region": "EUW1",
-        "score": 26650,
-        "legacyScore": 7565,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Sleepyyvoice",
-        "tagLine": "212",
-        "region": "NA1",
-        "score": 25970,
-        "legacyScore": 7765,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "trauma victim",
-        "tagLine": "soloq",
-        "region": "NA1",
-        "score": 26180,
-        "legacyScore": 7960,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "BXN",
-        "tagLine": "1V9",
-        "region": "EUN1",
-        "score": 25920,
-        "legacyScore": 6815,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "TheRealManiack",
-        "tagLine": "1337",
-        "region": "EUN1",
-        "score": 26015,
-        "legacyScore": 7665,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Ash",
-        "tagLine": "3292",
-        "region": "NA1",
-        "score": 25895,
-        "legacyScore": 7030,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "アライグマ",
-        "tagLine": "5092",
-        "region": "EUW1",
-        "score": 26095,
-        "legacyScore": 7270,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "킹올챔",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 26465,
-        "legacyScore": 6410,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Sayo",
-        "tagLine": "Shady",
-        "region": "EUW1",
-        "score": 25800,
-        "legacyScore": 4865,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "차 방",
-        "tagLine": "차 방",
-        "region": "KR",
-        "score": 25740,
-        "legacyScore": 4260,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "放下前世的記持 化作慈悲的火引",
-        "tagLine": "伴眾生浮沉",
-        "region": "TW2",
-        "score": 25870,
-        "legacyScore": 6630,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Little DiDi",
-        "tagLine": "Dilzi",
-        "region": "NA1",
-        "score": 25605,
-        "legacyScore": 4435,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "고양이",
-        "tagLine": "뚱땡이",
-        "region": "KR",
-        "score": 25830,
-        "legacyScore": 7565,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "秘月期POPOO",
-        "tagLine": "今天波了沒",
-        "region": "TW2",
-        "score": 26220,
-        "legacyScore": 6450,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Thằng Nhỏ",
-        "tagLine": "thanh",
-        "region": "VN2",
-        "score": 25890,
-        "legacyScore": 5800,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "백종팔의홍콩반점",
-        "tagLine": "765",
-        "region": "KR",
-        "score": 25970,
-        "legacyScore": 6820,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "amylee",
-        "tagLine": "doll",
-        "region": "NA1",
-        "score": 25600,
-        "legacyScore": 4425,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Legiloe",
-        "tagLine": "Cait",
-        "region": "EUW1",
-        "score": 25825,
-        "legacyScore": 7825,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "imbut",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 25705,
-        "legacyScore": 7305,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "CrazyGurkä",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25825,
-        "legacyScore": 7065,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Mlatorre1",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25850,
-        "legacyScore": 7400,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Simaniac",
-        "tagLine": "SIM",
-        "region": "NA1",
-        "score": 26995,
-        "legacyScore": 7450,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Sieumeu Tevuri",
-        "tagLine": "PIPU",
-        "region": "EUW1",
-        "score": 27065,
-        "legacyScore": 8000,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Pur3",
-        "tagLine": "11094",
-        "region": "EUN1",
-        "score": 27005,
-        "legacyScore": 7690,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "zdeezy",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 25910,
-        "legacyScore": 7240,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "JohnVoukou",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 25765,
-        "legacyScore": 7260,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "지크 하일",
-        "tagLine": "GER1",
-        "region": "KR",
-        "score": 26040,
-        "legacyScore": 6865,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "XYŁIAN",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25710,
-        "legacyScore": 7135,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Rowan Atkinson",
-        "tagLine": "wpgg",
-        "region": "EUW1",
-        "score": 25840,
-        "legacyScore": 7920,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "BOM7",
-        "tagLine": "TOMÁŠ",
-        "region": "EUN1",
-        "score": 26245,
-        "legacyScore": 7470,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Vavara50",
-        "tagLine": "DÉFI",
-        "region": "EUW1",
-        "score": 25890,
-        "legacyScore": 7840,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "유 니",
-        "tagLine": "ฅÒωÓฅ",
-        "region": "KR",
-        "score": 25485,
-        "legacyScore": 8005,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Heyss",
-        "tagLine": "3009",
-        "region": "EUW1",
-        "score": 26080,
-        "legacyScore": 7130,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Reanimation",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 25710,
-        "legacyScore": 4465,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "삐 컵",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 24520,
-        "legacyScore": 4285,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Micoz",
-        "tagLine": "AARMY",
-        "region": "EUN1",
-        "score": 26005,
-        "legacyScore": 7425,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "HateIovePain",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25835,
-        "legacyScore": 6815,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "FNC KappeX",
-        "tagLine": "LoLko",
-        "region": "EUN1",
-        "score": 25730,
-        "legacyScore": 7975,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "jybike",
-        "tagLine": "112",
-        "region": "EUN1",
-        "score": 27030,
-        "legacyScore": 8350,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Rhio",
-        "tagLine": "69420",
-        "region": "EUW1",
-        "score": 25755,
-        "legacyScore": 7560,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Akali",
-        "tagLine": "102",
-        "region": "VN2",
-        "score": 26840,
-        "legacyScore": 6670,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "APeck",
-        "tagLine": "Carry",
-        "region": "EUW1",
-        "score": 27310,
-        "legacyScore": 7815,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "snewp",
-        "tagLine": "idc",
-        "region": "NA1",
-        "score": 26090,
-        "legacyScore": 7785,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Omar",
-        "tagLine": "Ali",
-        "region": "NA1",
-        "score": 25615,
-        "legacyScore": 7685,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Mr Senuai",
-        "tagLine": "1823",
-        "region": "EUN1",
-        "score": 25750,
-        "legacyScore": 7650,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Little DiDi",
-        "tagLine": "Dilzi",
-        "region": "NA1",
-        "score": 25605,
-        "legacyScore": 4435,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "탱글수현",
-        "tagLine": "탱글수현",
-        "region": "KR",
-        "score": 24990,
-        "legacyScore": 5570,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "GoPlayRandomDice",
-        "tagLine": "Int",
-        "region": "NA1",
-        "score": 25820,
-        "legacyScore": 7770,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "隨風而起Ü又消散",
-        "tagLine": "12190",
-        "region": "TW2",
-        "score": 25695,
-        "legacyScore": 7420,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Yiroy Jenkins",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25660,
-        "legacyScore": 8315,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "El Jambo",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25955,
-        "legacyScore": 7480,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "ŸïÝï Ÿüümï Ýï",
-        "tagLine": "LAS",
-        "region": "LA2",
-        "score": 26300,
-        "legacyScore": 7000,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Dreamy",
-        "tagLine": "4442",
-        "region": "EUW1",
-        "score": 25560,
-        "legacyScore": 6970,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Artas",
-        "tagLine": "artas",
-        "region": "EUN1",
-        "score": 25725,
-        "legacyScore": 7585,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Mantarochen Manu",
-        "tagLine": "JULE",
-        "region": "EUW1",
-        "score": 25730,
-        "legacyScore": 7075,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Pure Epicness",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 27035,
-        "legacyScore": 7530,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "R3nn0",
-        "tagLine": "FURRY",
-        "region": "EUW1",
-        "score": 26060,
-        "legacyScore": 7595,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "NiceEggs",
-        "tagLine": "BALLS",
-        "region": "EUN1",
-        "score": 25655,
-        "legacyScore": 8120,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "TRG",
-        "tagLine": "KRl",
-        "region": "KR",
-        "score": 26015,
-        "legacyScore": 6950,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Hera1527",
-        "tagLine": "1527",
-        "region": "EUW1",
-        "score": 26040,
-        "legacyScore": 6215,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Giraffe Throat",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 25225,
-        "legacyScore": 4480,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Easy",
-        "tagLine": "Bake",
-        "region": "EUW1",
-        "score": 25510,
-        "legacyScore": 6960,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "책임져야하는사람",
-        "tagLine": "0223",
-        "region": "KR",
-        "score": 25705,
-        "legacyScore": 5965,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "EckeLucas",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 27125,
-        "legacyScore": 7885,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Breez",
-        "tagLine": "DANI",
-        "region": "OC1",
-        "score": 25715,
-        "legacyScore": 7630,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "PleaseBeGwentle",
-        "tagLine": "Jng",
-        "region": "EUW1",
-        "score": 25685,
-        "legacyScore": 7030,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "AlexRuiz",
-        "tagLine": "00001",
-        "region": "NA1",
-        "score": 26915,
-        "legacyScore": 7970,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Ewokcore",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 26755,
-        "legacyScore": 8360,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "John Park",
-        "tagLine": "존 박",
-        "region": "KR",
-        "score": 25695,
-        "legacyScore": 7930,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "ViggoEdits",
-        "tagLine": "PSA10",
-        "region": "EUW1",
-        "score": 26515,
-        "legacyScore": 7825,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Roserub",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25665,
-        "legacyScore": 6640,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Mercury",
-        "tagLine": "God",
-        "region": "NA1",
-        "score": 26745,
-        "legacyScore": 7855,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "FLaMeQ",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25655,
-        "legacyScore": 8390,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Slippy",
-        "tagLine": "eeeee",
-        "region": "EUW1",
-        "score": 25775,
-        "legacyScore": 7710,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Happy",
-        "tagLine": "005",
-        "region": "EUW1",
-        "score": 27625,
-        "legacyScore": 7500,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Khang x T",
-        "tagLine": "2212",
-        "region": "VN2",
-        "score": 25500,
-        "legacyScore": 6695,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Jennifer",
-        "tagLine": "KDA",
-        "region": "EUW1",
-        "score": 25295,
-        "legacyScore": 4930,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "SJHaubi",
-        "tagLine": "brum",
-        "region": "EUW1",
-        "score": 25750,
-        "legacyScore": 7930,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "불곰파 인정순",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 25355,
-        "legacyScore": 6000,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "yapper",
-        "tagLine": "ff15",
-        "region": "EUN1",
-        "score": 25450,
-        "legacyScore": 7545,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Yuno",
-        "tagLine": "ONCE",
-        "region": "EUW1",
-        "score": 25540,
-        "legacyScore": 8065,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "ÁKÁ",
-        "tagLine": "MALNA",
-        "region": "EUN1",
-        "score": 25455,
-        "legacyScore": 7030,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Meyer",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25400,
-        "legacyScore": 7275,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "FallenSte",
-        "tagLine": "Kayn",
-        "region": "EUW1",
-        "score": 25540,
-        "legacyScore": 8135,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Massie",
-        "tagLine": "001",
-        "region": "EUW1",
-        "score": 25525,
-        "legacyScore": 7355,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "T1 Hwei",
-        "tagLine": "0000",
-        "region": "EUN1",
-        "score": 25545,
-        "legacyScore": 7635,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "LoneSavage",
-        "tagLine": "67676",
-        "region": "NA1",
-        "score": 25690,
-        "legacyScore": 6815,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Mina",
-        "tagLine": "NPQA",
-        "region": "VN2",
-        "score": 26130,
-        "legacyScore": 7525,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "24 4 24 4",
-        "tagLine": "NOEGO",
-        "region": "EUW1",
-        "score": 25415,
-        "legacyScore": 7310,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Luciƒero Cræmisi",
-        "tagLine": "OUT",
-        "region": "EUW1",
-        "score": 26130,
-        "legacyScore": 7080,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "霍爾ü",
-        "tagLine": "ADC",
-        "region": "TW2",
-        "score": 25375,
-        "legacyScore": 7375,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Shoxy",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25370,
-        "legacyScore": 7020,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "야동고",
-        "tagLine": "000",
-        "region": "EUW1",
-        "score": 26780,
-        "legacyScore": 7565,
-        "challengeRank": "GRANDMASTER"
-    },
-    {
-        "gameName": "Tasty Cull",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25280,
-        "legacyScore": 6845,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Ninmery",
-        "tagLine": "BR1",
-        "region": "BR1",
-        "score": 25360,
-        "legacyScore": 7260,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Samoranski",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 25370,
-        "legacyScore": 7650,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "도 리",
-        "tagLine": "1004",
-        "region": "KR",
-        "score": 25310,
-        "legacyScore": 5745,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Vuk",
-        "tagLine": "zjuuu",
-        "region": "EUN1",
-        "score": 25370,
-        "legacyScore": 7780,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Gerap4",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 25365,
-        "legacyScore": 7815,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Yuno",
-        "tagLine": "ONCE",
-        "region": "TR1",
-        "score": 25210,
-        "legacyScore": 7155,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "VexBezZobowiazan",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 25380,
-        "legacyScore": 6495,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Darkly Fox",
-        "tagLine": "00035",
-        "region": "RU",
-        "score": 25370,
-        "legacyScore": 8540,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "魚魚仔",
-        "tagLine": "1527",
-        "region": "TW2",
-        "score": 25175,
-        "legacyScore": 6845,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Sold Pets For RP",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25245,
-        "legacyScore": 7545,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Libra",
-        "tagLine": "107",
-        "region": "JP1",
-        "score": 25180,
-        "legacyScore": 7585,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Gamb",
-        "tagLine": "3544",
-        "region": "EUW1",
-        "score": 26200,
-        "legacyScore": 6620,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Dictator4life",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 25980,
-        "legacyScore": 6955,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Chief Hyena",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25135,
-        "legacyScore": 7125,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Chị Hằng Độ Bi",
-        "tagLine": "8888",
-        "region": "VN2",
-        "score": 26895,
-        "legacyScore": 4755,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "equanimitY",
-        "tagLine": "MEOW",
-        "region": "OC1",
-        "score": 25130,
-        "legacyScore": 7965,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Bố Rương vĩ đại",
-        "tagLine": "ruong",
-        "region": "VN2",
-        "score": 25230,
-        "legacyScore": 7425,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Wrong One",
-        "tagLine": "Ward",
-        "region": "EUN1",
-        "score": 25465,
-        "legacyScore": 7675,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Pain",
-        "tagLine": "Ajna",
-        "region": "EUN1",
-        "score": 25505,
-        "legacyScore": 7450,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Blitzzer",
-        "tagLine": "1911",
-        "region": "EUN1",
-        "score": 25145,
-        "legacyScore": 8045,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "く う",
-        "tagLine": "S8S",
-        "region": "NA1",
-        "score": 25105,
-        "legacyScore": 5700,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "FPX Doind",
-        "tagLine": "JP1",
-        "region": "JP1",
-        "score": 25200,
-        "legacyScore": 7235,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Vitasoy",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 25485,
-        "legacyScore": 7635,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "jia KR",
-        "tagLine": "OCE",
-        "region": "OC1",
-        "score": 23830,
-        "legacyScore": 4490,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "JohnnyW",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 25230,
-        "legacyScore": 5990,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Get Jinxed",
-        "tagLine": "Meeku",
-        "region": "EUW1",
-        "score": 25145,
-        "legacyScore": 6680,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "PrettyHS",
-        "tagLine": "RU1",
-        "region": "RU",
-        "score": 25440,
-        "legacyScore": 7585,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "RIPChiefAkkiri",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25295,
-        "legacyScore": 7990,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Superjombombo2",
-        "tagLine": "Neeko",
-        "region": "EUW1",
-        "score": 25095,
-        "legacyScore": 8165,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "MerguezOffusquée",
-        "tagLine": "Hyou",
-        "region": "EUW1",
-        "score": 25260,
-        "legacyScore": 6610,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Viya",
-        "tagLine": "IRON4",
-        "region": "NA1",
-        "score": 25090,
-        "legacyScore": 7180,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Robo",
-        "tagLine": "RXTN",
-        "region": "NA1",
-        "score": 25295,
-        "legacyScore": 7760,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Bладик",
-        "tagLine": "RU1",
-        "region": "RU",
-        "score": 25480,
-        "legacyScore": 8140,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "iwo",
-        "tagLine": "000",
-        "region": "EUW1",
-        "score": 25185,
-        "legacyScore": 6615,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Scraf",
-        "tagLine": "2052",
-        "region": "NA1",
-        "score": 25505,
-        "legacyScore": 7200,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "븅딱발",
-        "tagLine": "KR1",
-        "region": "KR",
-        "score": 25090,
-        "legacyScore": 6745,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Cone",
-        "tagLine": "Ferda",
-        "region": "NA1",
-        "score": 25075,
-        "legacyScore": 7695,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Mèo つωつ",
-        "tagLine": "Luck",
-        "region": "VN2",
-        "score": 25105,
-        "legacyScore": 7000,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "sefje",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25775,
-        "legacyScore": 7730,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "David",
-        "tagLine": "CEO",
-        "region": "NA1",
-        "score": 25075,
-        "legacyScore": 6350,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Wish to Dream",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25080,
-        "legacyScore": 7440,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "korro90",
-        "tagLine": "Lili",
-        "region": "EUN1",
-        "score": 25420,
-        "legacyScore": 7650,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Måke",
-        "tagLine": "uwu",
-        "region": "EUN1",
-        "score": 25160,
-        "legacyScore": 7345,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "train to failure",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 25225,
-        "legacyScore": 7750,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "feva",
-        "tagLine": "4241",
-        "region": "JP1",
-        "score": 25470,
-        "legacyScore": 7645,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Vulpix",
-        "tagLine": "Vibes",
-        "region": "EUW1",
-        "score": 25055,
-        "legacyScore": 6920,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Trần Nhật1",
-        "tagLine": "2002",
-        "region": "VN2",
-        "score": 25125,
-        "legacyScore": 7530,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "DBZ Sasorite",
-        "tagLine": "1510",
-        "region": "VN2",
-        "score": 25400,
-        "legacyScore": 6510,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Nawé",
-        "tagLine": "CHILL",
-        "region": "EUW1",
-        "score": 25020,
-        "legacyScore": 7595,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Tyrranoid2410",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25155,
-        "legacyScore": 7630,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Tonelico",
-        "tagLine": "Fae",
-        "region": "JP1",
-        "score": 24960,
-        "legacyScore": 6520,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "melvandras",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 26130,
-        "legacyScore": 7865,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "NotreDan",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25105,
-        "legacyScore": 7535,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "T7 Alien4Gamer",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 25035,
-        "legacyScore": 7575,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "nationality121",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 25140,
-        "legacyScore": 7355,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "That Dunk Master",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 25280,
-        "legacyScore": 8375,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Don Rigoni",
-        "tagLine": "Doni",
-        "region": "TR1",
-        "score": 24945,
-        "legacyScore": 5545,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Edenae",
-        "tagLine": "Ahri",
-        "region": "EUN1",
-        "score": 24975,
-        "legacyScore": 6625,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Prédά",
-        "tagLine": "UWU",
-        "region": "EUW1",
-        "score": 25460,
-        "legacyScore": 6615,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Tobe Tobe",
-        "tagLine": "00000",
-        "region": "VN2",
-        "score": 25260,
-        "legacyScore": 6410,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "健康愛情逆行者",
-        "tagLine": "死去活來",
-        "region": "TW2",
-        "score": 24930,
-        "legacyScore": 6950,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Alecc",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 24960,
-        "legacyScore": 6805,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "EDII",
-        "tagLine": "EUNE",
-        "region": "EUN1",
-        "score": 25515,
-        "legacyScore": 6950,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "호 야",
-        "tagLine": "3223",
-        "region": "KR",
-        "score": 25300,
-        "legacyScore": 7280,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "phenomist",
-        "tagLine": "NA1",
-        "region": "NA1",
-        "score": 24920,
-        "legacyScore": 6305,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Vecna",
-        "tagLine": "NUNU",
-        "region": "BR1",
-        "score": 26305,
-        "legacyScore": 8140,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "0ne Trick Pøny",
-        "tagLine": "EUW",
-        "region": "EUW1",
-        "score": 26515,
-        "legacyScore": 6955,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Gwendo",
-        "tagLine": "NQNT",
-        "region": "EUW1",
-        "score": 25360,
-        "legacyScore": 7215,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Nadrogen",
-        "tagLine": "XFX",
-        "region": "EUW1",
-        "score": 25030,
-        "legacyScore": 7440,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "Lâm Thành",
-        "tagLine": "vn123",
-        "region": "VN2",
-        "score": 24955,
-        "legacyScore": 5875,
-        "challengeRank": "MASTER"
-    },
-    {
-        "gameName": "iOuZo",
-        "tagLine": "0001",
-        "region": "EUW1",
-        "score": 24130,
-        "legacyScore": 4255,
-        "challengeRank": "MASTER"
-    }
+  {
+    "gameName": "imJM",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 28160,
+    "legacyScore": 8775,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "winnie",
+    "tagLine": "xoxo",
+    "region": "NA1",
+    "score": 29055,
+    "legacyScore": 8575,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "이상혁이미래다",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 27295,
+    "legacyScore": 7175,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Zeios",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28320,
+    "legacyScore": 8735,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Itâchi Senpai",
+    "tagLine": "Aka",
+    "region": "EUW1",
+    "score": 28830,
+    "legacyScore": 8735,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Kat Arina",
+    "tagLine": "Kat A",
+    "region": "VN2",
+    "score": 28985,
+    "legacyScore": 7325,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Thường Tài Chính",
+    "tagLine": "MONEY",
+    "region": "VN2",
+    "score": 28750,
+    "legacyScore": 7550,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Kasno1",
+    "tagLine": "Ape",
+    "region": "EUN1",
+    "score": 28635,
+    "legacyScore": 7320,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Gã Du Mục",
+    "tagLine": "GDM",
+    "region": "VN2",
+    "score": 28890,
+    "legacyScore": 7955,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "ponzels",
+    "tagLine": "b21",
+    "region": "EUW1",
+    "score": 28950,
+    "legacyScore": 8310,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Sínister Bláde",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28795,
+    "legacyScore": 8555,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "김경주",
+    "tagLine": "77777",
+    "region": "KR",
+    "score": 28050,
+    "legacyScore": 8670,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "vkie",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28605,
+    "legacyScore": 7940,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Szabikakas",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 28650,
+    "legacyScore": 8600,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Nolife Fynn",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28645,
+    "legacyScore": 6405,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Maliss",
+    "tagLine": "NAM",
+    "region": "VN2",
+    "score": 28600,
+    "legacyScore": 7925,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Miverl",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 28490,
+    "legacyScore": 8370,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Silkan",
+    "tagLine": "Dama",
+    "region": "EUW1",
+    "score": 28430,
+    "legacyScore": 8030,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Kaido",
+    "tagLine": "Rocks",
+    "region": "TR1",
+    "score": 27720,
+    "legacyScore": 5730,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Sonixas",
+    "tagLine": "milk",
+    "region": "EUW1",
+    "score": 28430,
+    "legacyScore": 7310,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Alune",
+    "tagLine": "001",
+    "region": "VN2",
+    "score": 28785,
+    "legacyScore": 7350,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Lam Vong Cơ",
+    "tagLine": "Quìn",
+    "region": "VN2",
+    "score": 28685,
+    "legacyScore": 8520,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "돼지왕",
+    "tagLine": "꿀꿀꿀",
+    "region": "KR",
+    "score": 28385,
+    "legacyScore": 8125,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "황홀한 강타를 쓰는 보석게이",
+    "tagLine": "KR2",
+    "region": "KR",
+    "score": 27300,
+    "legacyScore": 6015,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "tbandee",
+    "tagLine": "old",
+    "region": "EUN1",
+    "score": 28295,
+    "legacyScore": 7405,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Zekor",
+    "tagLine": "000",
+    "region": "EUW1",
+    "score": 28375,
+    "legacyScore": 8685,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "KrisWald",
+    "tagLine": "KWald",
+    "region": "NA1",
+    "score": 28470,
+    "legacyScore": 8205,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Dêmôn",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28265,
+    "legacyScore": 7940,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Fus",
+    "tagLine": "9999",
+    "region": "VN2",
+    "score": 28765,
+    "legacyScore": 7365,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "GS Kaptyn",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 28420,
+    "legacyScore": 7500,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Kasno3",
+    "tagLine": "GOD",
+    "region": "EUN1",
+    "score": 28225,
+    "legacyScore": 8695,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Zarax",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28160,
+    "legacyScore": 8310,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Cillitbang",
+    "tagLine": "ADC",
+    "region": "EUW1",
+    "score": 28135,
+    "legacyScore": 7125,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "皮卡乒乓乒乓乒乓乒乓乒乓乒乓乒乓",
+    "tagLine": "乒乓乓乓乓",
+    "region": "TW2",
+    "score": 28710,
+    "legacyScore": 6885,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Toki",
+    "tagLine": "Ahri",
+    "region": "NA1",
+    "score": 28440,
+    "legacyScore": 8735,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "最美不過õ初相見õ",
+    "tagLine": "TW2",
+    "region": "TW2",
+    "score": 28200,
+    "legacyScore": 7195,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Kheøs",
+    "tagLine": "kheos",
+    "region": "EUW1",
+    "score": 28105,
+    "legacyScore": 5080,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Synicle",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 28360,
+    "legacyScore": 8640,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "fatcat7",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28160,
+    "legacyScore": 8025,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Mental Terrørist",
+    "tagLine": "ZXC",
+    "region": "RU",
+    "score": 28065,
+    "legacyScore": 8310,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Kamastin",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 28150,
+    "legacyScore": 7420,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Hennalan Jeesus",
+    "tagLine": "6940",
+    "region": "EUN1",
+    "score": 28305,
+    "legacyScore": 7785,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Lunariz",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27970,
+    "legacyScore": 7200,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Bardstardo",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28190,
+    "legacyScore": 7950,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Its Zynodor",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27960,
+    "legacyScore": 6595,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "uwu NightVortex",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 28595,
+    "legacyScore": 7935,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "ChocolateCookies",
+    "tagLine": "34202",
+    "region": "VN2",
+    "score": 28020,
+    "legacyScore": 8415,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "FBA War Machine",
+    "tagLine": "0806",
+    "region": "VN2",
+    "score": 28065,
+    "legacyScore": 6595,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Till",
+    "tagLine": "EUW2",
+    "region": "EUW1",
+    "score": 28040,
+    "legacyScore": 8290,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Chiko",
+    "tagLine": "001",
+    "region": "EUW1",
+    "score": 28005,
+    "legacyScore": 7825,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "인간사냥꾼 탈론",
+    "tagLine": "탈 론",
+    "region": "KR",
+    "score": 27900,
+    "legacyScore": 8415,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Dorweee",
+    "tagLine": "Coach",
+    "region": "NA1",
+    "score": 28045,
+    "legacyScore": 7960,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Satori",
+    "tagLine": "WuWei",
+    "region": "EUW1",
+    "score": 28255,
+    "legacyScore": 7700,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "西屯扛霸子",
+    "tagLine": "1224",
+    "region": "TW2",
+    "score": 28125,
+    "legacyScore": 8395,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "NépvàoChymA",
+    "tagLine": "abc12",
+    "region": "VN2",
+    "score": 27995,
+    "legacyScore": 6835,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "babys1tter",
+    "tagLine": "NaDn0",
+    "region": "RU",
+    "score": 27975,
+    "legacyScore": 8315,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Big Romes",
+    "tagLine": "777",
+    "region": "NA1",
+    "score": 27840,
+    "legacyScore": 7805,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "E Z",
+    "tagLine": "999",
+    "region": "VN2",
+    "score": 27860,
+    "legacyScore": 7700,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Thresh Talk",
+    "tagLine": "Flay",
+    "region": "EUW1",
+    "score": 27825,
+    "legacyScore": 8085,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Remove Kebab ",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 27810,
+    "legacyScore": 7695,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "RSW Jo0r",
+    "tagLine": "EUWJP",
+    "region": "EUW1",
+    "score": 27935,
+    "legacyScore": 7805,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Saya",
+    "tagLine": "CAT1",
+    "region": "JP1",
+    "score": 27265,
+    "legacyScore": 7480,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "coman",
+    "tagLine": "1212",
+    "region": "EUW1",
+    "score": 27770,
+    "legacyScore": 8435,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "MrMajoor",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27920,
+    "legacyScore": 7880,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Arnauiih",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28075,
+    "legacyScore": 8375,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Diệu Nguyệt Lan",
+    "tagLine": "DNL",
+    "region": "VN2",
+    "score": 28270,
+    "legacyScore": 8385,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "TS Panda",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28000,
+    "legacyScore": 8305,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "妳不說真心話妳讓我怎麼為妳大冒險",
+    "tagLine": "閣愛妳一擺",
+    "region": "TW2",
+    "score": 27855,
+    "legacyScore": 7290,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Tansa999",
+    "tagLine": "999",
+    "region": "VN2",
+    "score": 27940,
+    "legacyScore": 7445,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Etoli",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27785,
+    "legacyScore": 7910,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Dum",
+    "tagLine": "6789",
+    "region": "VN2",
+    "score": 28035,
+    "legacyScore": 6660,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Ghionova",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27910,
+    "legacyScore": 7810,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "NuKeeezZ",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27850,
+    "legacyScore": 8190,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Cinas",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27980,
+    "legacyScore": 8060,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Forever With Him",
+    "tagLine": "0210",
+    "region": "EUN1",
+    "score": 28035,
+    "legacyScore": 8400,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Monkey",
+    "tagLine": "Twoo",
+    "region": "NA1",
+    "score": 27945,
+    "legacyScore": 7455,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Safa",
+    "tagLine": "4242",
+    "region": "TR1",
+    "score": 27930,
+    "legacyScore": 8195,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Wu Tangs Clan",
+    "tagLine": "lgbm",
+    "region": "EUW1",
+    "score": 27680,
+    "legacyScore": 8215,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "달 빛",
+    "tagLine": "0505",
+    "region": "KR",
+    "score": 27755,
+    "legacyScore": 5500,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Daedelius",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 28045,
+    "legacyScore": 7980,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "한태풍",
+    "tagLine": "kr94",
+    "region": "KR",
+    "score": 27805,
+    "legacyScore": 8255,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Kaido",
+    "tagLine": "Rocks",
+    "region": "TR1",
+    "score": 27720,
+    "legacyScore": 5730,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Xshina",
+    "tagLine": "9527",
+    "region": "TW2",
+    "score": 28000,
+    "legacyScore": 7325,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "RATIRL",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 27685,
+    "legacyScore": 8585,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "My ADC Sucks",
+    "tagLine": "cuel",
+    "region": "EUN1",
+    "score": 27695,
+    "legacyScore": 7865,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "DontTouchMyToy",
+    "tagLine": "love",
+    "region": "RU",
+    "score": 27635,
+    "legacyScore": 8435,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Jun",
+    "tagLine": "342",
+    "region": "VN2",
+    "score": 27865,
+    "legacyScore": 7120,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "쯔와이스 트위",
+    "tagLine": "KR2",
+    "region": "KR",
+    "score": 27520,
+    "legacyScore": 5875,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "BaronMuchi",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 27630,
+    "legacyScore": 7780,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Xiao Zhong Chen",
+    "tagLine": "0907",
+    "region": "VN2",
+    "score": 27950,
+    "legacyScore": 6845,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Dean",
+    "tagLine": "Penta",
+    "region": "EUW1",
+    "score": 27700,
+    "legacyScore": 7780,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "객 기",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 27645,
+    "legacyScore": 8380,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "朝比奈白星",
+    "tagLine": "1345",
+    "region": "TW2",
+    "score": 27955,
+    "legacyScore": 7325,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Ghostility",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27585,
+    "legacyScore": 7260,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "TeemoSoS",
+    "tagLine": "TW2",
+    "region": "TW2",
+    "score": 27720,
+    "legacyScore": 7905,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "파도의 꽃",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 27025,
+    "legacyScore": 8645,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "ALIXLEBGDEOUF",
+    "tagLine": "LEBG",
+    "region": "EUW1",
+    "score": 27715,
+    "legacyScore": 8450,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "BALENCIAGA",
+    "tagLine": "KR2",
+    "region": "KR",
+    "score": 27290,
+    "legacyScore": 5645,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "再見莫妮卡",
+    "tagLine": "2024",
+    "region": "TW2",
+    "score": 27530,
+    "legacyScore": 7095,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Akai Zetsumei",
+    "tagLine": "Zetsu",
+    "region": "NA1",
+    "score": 27575,
+    "legacyScore": 8480,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Luca Perini",
+    "tagLine": "1997",
+    "region": "EUW1",
+    "score": 28330,
+    "legacyScore": 8400,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Slap Bass 1",
+    "tagLine": "awe",
+    "region": "NA1",
+    "score": 27825,
+    "legacyScore": 8140,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "堂本獸",
+    "tagLine": "0808",
+    "region": "TW2",
+    "score": 27690,
+    "legacyScore": 6905,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Kasugunai",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27810,
+    "legacyScore": 7460,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "YunXi",
+    "tagLine": "HiNhi",
+    "region": "VN2",
+    "score": 27500,
+    "legacyScore": 7100,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Anonymous L",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 27485,
+    "legacyScore": 8075,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Happy End",
+    "tagLine": "ฅÒωÓฅ",
+    "region": "KR",
+    "score": 27365,
+    "legacyScore": 7575,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "ฮฮฮ",
+    "tagLine": "ฮ〆ฮ〆ฮ",
+    "region": "NA1",
+    "score": 27445,
+    "legacyScore": 7535,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Vegeta Mentality",
+    "tagLine": "Chall",
+    "region": "TR1",
+    "score": 27075,
+    "legacyScore": 6530,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "KRXX",
+    "tagLine": "024",
+    "region": "EUW1",
+    "score": 27870,
+    "legacyScore": 7370,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Алёночка",
+    "tagLine": "Kha",
+    "region": "RU",
+    "score": 27470,
+    "legacyScore": 7700,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "phunky",
+    "tagLine": "phunk",
+    "region": "NA1",
+    "score": 28050,
+    "legacyScore": 8110,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "STAYWITHYOU",
+    "tagLine": "TW2",
+    "region": "TW2",
+    "score": 27800,
+    "legacyScore": 7060,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Last Remnant",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 27280,
+    "legacyScore": 7680,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "노란풍뎅이",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 27620,
+    "legacyScore": 6370,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "cRUELTYYY",
+    "tagLine": "Jok",
+    "region": "EUW1",
+    "score": 27260,
+    "legacyScore": 7420,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Bluumi",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 27670,
+    "legacyScore": 7270,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Mòe Xám of Hân",
+    "tagLine": "1999",
+    "region": "VN2",
+    "score": 27570,
+    "legacyScore": 7680,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "ReiDosDesafios",
+    "tagLine": "REI10",
+    "region": "BR1",
+    "score": 27505,
+    "legacyScore": 7420,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "しぃば",
+    "tagLine": "ちゃんねる",
+    "region": "JP1",
+    "score": 27470,
+    "legacyScore": 7815,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "TKAN Dragon",
+    "tagLine": "1106",
+    "region": "VN2",
+    "score": 27575,
+    "legacyScore": 6575,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Kronos",
+    "tagLine": "BR3",
+    "region": "BR1",
+    "score": 27285,
+    "legacyScore": 6365,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Wh1te D 3mon",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 27720,
+    "legacyScore": 6460,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Huracanine",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 27500,
+    "legacyScore": 6785,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "rqdovqn",
+    "tagLine": "1808",
+    "region": "EUW1",
+    "score": 27410,
+    "legacyScore": 7405,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "TheJwow",
+    "tagLine": "TUGA",
+    "region": "NA1",
+    "score": 27550,
+    "legacyScore": 7695,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "õü鮮柚學長üõ",
+    "tagLine": "TW2",
+    "region": "TW2",
+    "score": 27715,
+    "legacyScore": 7125,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "shn",
+    "tagLine": "gidle",
+    "region": "BR1",
+    "score": 27030,
+    "legacyScore": 7585,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Chiko",
+    "tagLine": "001",
+    "region": "TR1",
+    "score": 27200,
+    "legacyScore": 6225,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Count Klargus",
+    "tagLine": "Anna",
+    "region": "TR1",
+    "score": 27145,
+    "legacyScore": 7300,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Dr Peid",
+    "tagLine": "15031",
+    "region": "VN2",
+    "score": 27605,
+    "legacyScore": 6990,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "SvetIeishiy",
+    "tagLine": "RU1",
+    "region": "RU",
+    "score": 27140,
+    "legacyScore": 7840,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Vegeta Mentality",
+    "tagLine": "Chall",
+    "region": "TR1",
+    "score": 27075,
+    "legacyScore": 6530,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Eremiso",
+    "tagLine": "PIF",
+    "region": "EUN1",
+    "score": 27045,
+    "legacyScore": 7095,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "StepBro",
+    "tagLine": "WYD",
+    "region": "NA1",
+    "score": 27065,
+    "legacyScore": 7405,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "iFancyName",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 27175,
+    "legacyScore": 7915,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Affienia",
+    "tagLine": "OCE",
+    "region": "OC1",
+    "score": 27240,
+    "legacyScore": 8240,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Moldish Rambo",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 26810,
+    "legacyScore": 6325,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "PAR",
+    "tagLine": "7777",
+    "region": "VN2",
+    "score": 27320,
+    "legacyScore": 6990,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Fun Haver",
+    "tagLine": "ViroQ",
+    "region": "EUN1",
+    "score": 27105,
+    "legacyScore": 7740,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Zarixor",
+    "tagLine": "24242",
+    "region": "EUW1",
+    "score": 26945,
+    "legacyScore": 6715,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Jadominik113",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 27075,
+    "legacyScore": 7990,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "SharkraMa",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 25175,
+    "legacyScore": 4915,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Avril",
+    "tagLine": "UwU",
+    "region": "LA2",
+    "score": 26940,
+    "legacyScore": 8505,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Sebberman",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27015,
+    "legacyScore": 8310,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "cyan",
+    "tagLine": "pink",
+    "region": "NA1",
+    "score": 26950,
+    "legacyScore": 7790,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Fel",
+    "tagLine": "Fire",
+    "region": "NA1",
+    "score": 26975,
+    "legacyScore": 8360,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Spike Spiegel",
+    "tagLine": "Rogue",
+    "region": "RU",
+    "score": 27280,
+    "legacyScore": 7760,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "its ok to not",
+    "tagLine": "2k10",
+    "region": "VN2",
+    "score": 27080,
+    "legacyScore": 7260,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Mania Love",
+    "tagLine": "hiep",
+    "region": "VN2",
+    "score": 27520,
+    "legacyScore": 7455,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Negan",
+    "tagLine": "Nys",
+    "region": "EUW1",
+    "score": 26990,
+    "legacyScore": 8305,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "RIP Solo Queue",
+    "tagLine": "RIPs",
+    "region": "EUN1",
+    "score": 27005,
+    "legacyScore": 7225,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "uRxp",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 26920,
+    "legacyScore": 8035,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Seal",
+    "tagLine": "Sea",
+    "region": "EUW1",
+    "score": 26880,
+    "legacyScore": 7565,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "TrollTrashRito",
+    "tagLine": "FFS",
+    "region": "EUW1",
+    "score": 26750,
+    "legacyScore": 7955,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "topalov",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27120,
+    "legacyScore": 7695,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "距離回合開始時間",
+    "tagLine": "9527",
+    "region": "TW2",
+    "score": 27035,
+    "legacyScore": 6625,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Stin God",
+    "tagLine": "SWAG",
+    "region": "NA1",
+    "score": 26745,
+    "legacyScore": 8470,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "MårküS Ðęxłørd",
+    "tagLine": "6996",
+    "region": "RU",
+    "score": 26780,
+    "legacyScore": 6955,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "EisohneWaffel",
+    "tagLine": "BIER",
+    "region": "EUW1",
+    "score": 27410,
+    "legacyScore": 7400,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "YIMUZIC",
+    "tagLine": "00001",
+    "region": "TW2",
+    "score": 26770,
+    "legacyScore": 7755,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Cof",
+    "tagLine": "0609",
+    "region": "VN2",
+    "score": 27235,
+    "legacyScore": 7240,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "윤 성",
+    "tagLine": "윤 성",
+    "region": "KR",
+    "score": 26960,
+    "legacyScore": 7280,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "T1 Faker",
+    "tagLine": "12827",
+    "region": "VN2",
+    "score": 27500,
+    "legacyScore": 7240,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "nice3112932",
+    "tagLine": "0811",
+    "region": "TW2",
+    "score": 27125,
+    "legacyScore": 6230,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Kroou",
+    "tagLine": "bird",
+    "region": "EUW1",
+    "score": 27750,
+    "legacyScore": 8360,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "aAa Hazriel",
+    "tagLine": "SPF",
+    "region": "EUW1",
+    "score": 27655,
+    "legacyScore": 8090,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "GH Mikasa",
+    "tagLine": "Lux",
+    "region": "VN2",
+    "score": 27275,
+    "legacyScore": 7170,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "anna",
+    "tagLine": "Heart",
+    "region": "NA1",
+    "score": 26615,
+    "legacyScore": 7375,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Galur",
+    "tagLine": "GLR",
+    "region": "EUW1",
+    "score": 26965,
+    "legacyScore": 8265,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Zapdos",
+    "tagLine": "Wint",
+    "region": "EUW1",
+    "score": 26855,
+    "legacyScore": 8210,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "CrystallinEagle",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 26885,
+    "legacyScore": 7800,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "DedeΒiIas",
+    "tagLine": "00001",
+    "region": "EUW1",
+    "score": 27005,
+    "legacyScore": 7130,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Zargoz",
+    "tagLine": "47337",
+    "region": "RU",
+    "score": 26795,
+    "legacyScore": 7640,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "すーま",
+    "tagLine": "JP1",
+    "region": "JP1",
+    "score": 26710,
+    "legacyScore": 7265,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Maytricksss",
+    "tagLine": "May",
+    "region": "BR1",
+    "score": 26630,
+    "legacyScore": 8120,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Arzmataz",
+    "tagLine": "1712",
+    "region": "EUW1",
+    "score": 26635,
+    "legacyScore": 7855,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "꿀잼룰루",
+    "tagLine": "lulu",
+    "region": "KR",
+    "score": 25505,
+    "legacyScore": 4500,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Le Petit Prince",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 27065,
+    "legacyScore": 8455,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "AI Falocco DVE01",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 26445,
+    "legacyScore": 7130,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Wo Hen Xiang Ta",
+    "tagLine": "FVK",
+    "region": "EUW1",
+    "score": 26525,
+    "legacyScore": 7780,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "d w",
+    "tagLine": "1234",
+    "region": "KR",
+    "score": 26485,
+    "legacyScore": 7810,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "eternum",
+    "tagLine": "няша",
+    "region": "EUW1",
+    "score": 27645,
+    "legacyScore": 7870,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "SzyNa",
+    "tagLine": "Satan",
+    "region": "EUN1",
+    "score": 26605,
+    "legacyScore": 7675,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Sasara",
+    "tagLine": "6666",
+    "region": "NA1",
+    "score": 27405,
+    "legacyScore": 5325,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "tie guan yin",
+    "tagLine": "NA3",
+    "region": "NA1",
+    "score": 26480,
+    "legacyScore": 6920,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Luân rảnh rỗi",
+    "tagLine": "3108",
+    "region": "VN2",
+    "score": 26725,
+    "legacyScore": 7265,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Tonelico",
+    "tagLine": "Fae",
+    "region": "NA1",
+    "score": 27195,
+    "legacyScore": 7495,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Caracal",
+    "tagLine": "277",
+    "region": "EUW1",
+    "score": 26480,
+    "legacyScore": 8150,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "く う",
+    "tagLine": "S8S",
+    "region": "LA1",
+    "score": 26800,
+    "legacyScore": 6545,
+    "challengeRank": "CHALLENGER"
+  },
+  {
+    "gameName": "Broseidon",
+    "tagLine": "Icy",
+    "region": "NA1",
+    "score": 26695,
+    "legacyScore": 7200,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "ZUA LordCapybara",
+    "tagLine": "eeeee",
+    "region": "EUW1",
+    "score": 26480,
+    "legacyScore": 7515,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "ßloczek",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 26470,
+    "legacyScore": 7795,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Usuário do Badoo",
+    "tagLine": "GAREN",
+    "region": "BR1",
+    "score": 26475,
+    "legacyScore": 7460,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "못이기",
+    "tagLine": "0523",
+    "region": "KR",
+    "score": 26420,
+    "legacyScore": 7425,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "78th",
+    "tagLine": "78th",
+    "region": "EUW1",
+    "score": 26460,
+    "legacyScore": 7480,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "UpperBlackVise",
+    "tagLine": "みさき美咲",
+    "region": "NA1",
+    "score": 26875,
+    "legacyScore": 8055,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Shynce",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 26475,
+    "legacyScore": 8485,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Saylan",
+    "tagLine": "EUX",
+    "region": "EUW1",
+    "score": 26320,
+    "legacyScore": 6620,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "내꿈은도전과제챌",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 26310,
+    "legacyScore": 6225,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "魔流劍",
+    "tagLine": "TW2",
+    "region": "TW2",
+    "score": 26360,
+    "legacyScore": 7905,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Rinkutemo",
+    "tagLine": "Prime",
+    "region": "EUN1",
+    "score": 26630,
+    "legacyScore": 7420,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "青い Umi",
+    "tagLine": "1111",
+    "region": "VN2",
+    "score": 26240,
+    "legacyScore": 5740,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "GEN NoiR",
+    "tagLine": "GEN",
+    "region": "EUN1",
+    "score": 26885,
+    "legacyScore": 7700,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Pom",
+    "tagLine": "000",
+    "region": "TR1",
+    "score": 26045,
+    "legacyScore": 6060,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Pucho",
+    "tagLine": "Ayac",
+    "region": "LA1",
+    "score": 26480,
+    "legacyScore": 6710,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "rnlrhdwk97",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 26610,
+    "legacyScore": 8005,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Zerlox",
+    "tagLine": "Baby",
+    "region": "LA2",
+    "score": 26160,
+    "legacyScore": 7570,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "貴女のパンツ何色",
+    "tagLine": "JINX",
+    "region": "VN2",
+    "score": 27650,
+    "legacyScore": 6950,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "すいそ",
+    "tagLine": "hygen",
+    "region": "JP1",
+    "score": 26470,
+    "legacyScore": 7925,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Don Rigoni",
+    "tagLine": "Doni",
+    "region": "EUW1",
+    "score": 26295,
+    "legacyScore": 8240,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "kaisa feet lover",
+    "tagLine": "yuk",
+    "region": "EUW1",
+    "score": 26725,
+    "legacyScore": 8060,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "하늘아 잘 해봐",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 26965,
+    "legacyScore": 5150,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "wave beam",
+    "tagLine": "SR388",
+    "region": "NA1",
+    "score": 26365,
+    "legacyScore": 7875,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Mikethegod9",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 26605,
+    "legacyScore": 7120,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Azar",
+    "tagLine": "0607",
+    "region": "EUW1",
+    "score": 26345,
+    "legacyScore": 7245,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "T1A0",
+    "tagLine": "5241",
+    "region": "TW2",
+    "score": 26255,
+    "legacyScore": 7850,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Jully",
+    "tagLine": "1234",
+    "region": "BR1",
+    "score": 26245,
+    "legacyScore": 6760,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Xatu",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27025,
+    "legacyScore": 7415,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Agiandor",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 26580,
+    "legacyScore": 7265,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Mighti1",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 26825,
+    "legacyScore": 8050,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "별수호자징크스 프레스티지에디션",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 25795,
+    "legacyScore": 7465,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Pom",
+    "tagLine": "000",
+    "region": "TR1",
+    "score": 26045,
+    "legacyScore": 6060,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "黯魔陰帝ü達守羌",
+    "tagLine": "三民權志龍",
+    "region": "TW2",
+    "score": 26065,
+    "legacyScore": 7905,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "max5745",
+    "tagLine": "TH2",
+    "region": "SG2",
+    "score": 26115,
+    "legacyScore": 5975,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "자크는열린문",
+    "tagLine": "러브젤리",
+    "region": "KR",
+    "score": 26645,
+    "legacyScore": 7835,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Хъючь",
+    "tagLine": "wsup",
+    "region": "RU",
+    "score": 26705,
+    "legacyScore": 6740,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Ножки Гвен",
+    "tagLine": "Feet",
+    "region": "RU",
+    "score": 25985,
+    "legacyScore": 6375,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Heismine",
+    "tagLine": "0919",
+    "region": "TW2",
+    "score": 26340,
+    "legacyScore": 7325,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Maroxin",
+    "tagLine": "Maro",
+    "region": "EUW1",
+    "score": 26030,
+    "legacyScore": 7660,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "JoshButterJamal",
+    "tagLine": "Abdo",
+    "region": "NA1",
+    "score": 26855,
+    "legacyScore": 7795,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Powder was here",
+    "tagLine": "JiИﾒ",
+    "region": "EUW1",
+    "score": 26585,
+    "legacyScore": 7355,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Free Palestine",
+    "tagLine": "Jinx",
+    "region": "EUW1",
+    "score": 26130,
+    "legacyScore": 7660,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "ARES",
+    "tagLine": "999X",
+    "region": "EUW1",
+    "score": 26000,
+    "legacyScore": 7755,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "갓블리",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 25580,
+    "legacyScore": 4825,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "もしもし",
+    "tagLine": "0710",
+    "region": "VN2",
+    "score": 26640,
+    "legacyScore": 7195,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "ｙａｎｉ",
+    "tagLine": "0402",
+    "region": "VN2",
+    "score": 26505,
+    "legacyScore": 7080,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "một thời đã xa",
+    "tagLine": "1707",
+    "region": "VN2",
+    "score": 27295,
+    "legacyScore": 6555,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "oro na rurach",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 25945,
+    "legacyScore": 6685,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "free palestine",
+    "tagLine": "xdjk",
+    "region": "EUW1",
+    "score": 26650,
+    "legacyScore": 7565,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Sleepyyvoice",
+    "tagLine": "212",
+    "region": "NA1",
+    "score": 25970,
+    "legacyScore": 7765,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "trauma victim",
+    "tagLine": "soloq",
+    "region": "NA1",
+    "score": 26185,
+    "legacyScore": 7960,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "BXN",
+    "tagLine": "1V9",
+    "region": "EUN1",
+    "score": 25930,
+    "legacyScore": 6815,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "TheRealManiack",
+    "tagLine": "1337",
+    "region": "EUN1",
+    "score": 26065,
+    "legacyScore": 7665,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Ash",
+    "tagLine": "3292",
+    "region": "NA1",
+    "score": 25895,
+    "legacyScore": 7030,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "アライグマ",
+    "tagLine": "5092",
+    "region": "EUW1",
+    "score": 26095,
+    "legacyScore": 7270,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "킹올챔",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 26505,
+    "legacyScore": 6410,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Sayo",
+    "tagLine": "Shady",
+    "region": "EUW1",
+    "score": 25800,
+    "legacyScore": 4865,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "차 방",
+    "tagLine": "차 방",
+    "region": "KR",
+    "score": 25740,
+    "legacyScore": 4260,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "放下前世的記持 化作慈悲的火引",
+    "tagLine": "伴眾生浮沉",
+    "region": "TW2",
+    "score": 25870,
+    "legacyScore": 6630,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Little DiDi",
+    "tagLine": "Dilzi",
+    "region": "NA1",
+    "score": 25605,
+    "legacyScore": 4435,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "고양이",
+    "tagLine": "뚱땡이",
+    "region": "KR",
+    "score": 25865,
+    "legacyScore": 7565,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "秘月期POPOO",
+    "tagLine": "今天波了沒",
+    "region": "TW2",
+    "score": 26220,
+    "legacyScore": 6450,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Thằng Nhỏ",
+    "tagLine": "thanh",
+    "region": "VN2",
+    "score": 25890,
+    "legacyScore": 5800,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "백종팔의홍콩반점",
+    "tagLine": "765",
+    "region": "KR",
+    "score": 26000,
+    "legacyScore": 6820,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "amylee",
+    "tagLine": "doll",
+    "region": "NA1",
+    "score": 25600,
+    "legacyScore": 4425,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Legiloe",
+    "tagLine": "Cait",
+    "region": "EUW1",
+    "score": 25825,
+    "legacyScore": 7825,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "imbut",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 25705,
+    "legacyScore": 7305,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "CrazyGurkä",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25825,
+    "legacyScore": 7065,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Mlatorre1",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25860,
+    "legacyScore": 7400,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Simaniac",
+    "tagLine": "SIM",
+    "region": "NA1",
+    "score": 26995,
+    "legacyScore": 7450,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Sieumeu Tevuri",
+    "tagLine": "PIPU",
+    "region": "EUW1",
+    "score": 27105,
+    "legacyScore": 8000,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Pur3",
+    "tagLine": "11094",
+    "region": "EUN1",
+    "score": 27100,
+    "legacyScore": 7690,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "zdeezy",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 25910,
+    "legacyScore": 7240,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "JohnVoukou",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 25805,
+    "legacyScore": 7260,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "지크 하일",
+    "tagLine": "GER1",
+    "region": "KR",
+    "score": 26040,
+    "legacyScore": 6865,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "XYŁIAN",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25720,
+    "legacyScore": 7135,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Rowan Atkinson",
+    "tagLine": "wpgg",
+    "region": "EUW1",
+    "score": 25855,
+    "legacyScore": 7960,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "BOM7",
+    "tagLine": "TOMÁŠ",
+    "region": "EUN1",
+    "score": 26245,
+    "legacyScore": 7470,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Vavara50",
+    "tagLine": "DÉFI",
+    "region": "EUW1",
+    "score": 25890,
+    "legacyScore": 7840,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "유 니",
+    "tagLine": "ฅÒωÓฅ",
+    "region": "KR",
+    "score": 25485,
+    "legacyScore": 8005,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Heyss",
+    "tagLine": "3009",
+    "region": "EUW1",
+    "score": 26080,
+    "legacyScore": 7130,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Reanimation",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 25710,
+    "legacyScore": 4465,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "삐 컵",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 24520,
+    "legacyScore": 4285,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Micoz",
+    "tagLine": "AARMY",
+    "region": "EUN1",
+    "score": 26005,
+    "legacyScore": 7425,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "HateIovePain",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25835,
+    "legacyScore": 6815,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "FNC KappeX",
+    "tagLine": "LoLko",
+    "region": "EUN1",
+    "score": 25730,
+    "legacyScore": 7975,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "jybike",
+    "tagLine": "112",
+    "region": "EUN1",
+    "score": 27080,
+    "legacyScore": 8350,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Rhio",
+    "tagLine": "69420",
+    "region": "EUW1",
+    "score": 25790,
+    "legacyScore": 7560,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Akali",
+    "tagLine": "102",
+    "region": "VN2",
+    "score": 26920,
+    "legacyScore": 6670,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "APeck",
+    "tagLine": "Carry",
+    "region": "EUW1",
+    "score": 27470,
+    "legacyScore": 7815,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "snewp",
+    "tagLine": "idc",
+    "region": "NA1",
+    "score": 26100,
+    "legacyScore": 7785,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Omar",
+    "tagLine": "Ali",
+    "region": "NA1",
+    "score": 25615,
+    "legacyScore": 7685,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Mr Senuai",
+    "tagLine": "1823",
+    "region": "EUN1",
+    "score": 25830,
+    "legacyScore": 7650,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Little DiDi",
+    "tagLine": "Dilzi",
+    "region": "NA1",
+    "score": 25605,
+    "legacyScore": 4435,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "탱글수현",
+    "tagLine": "탱글수현",
+    "region": "KR",
+    "score": 24990,
+    "legacyScore": 5570,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "GoPlayRandomDice",
+    "tagLine": "Int",
+    "region": "NA1",
+    "score": 25840,
+    "legacyScore": 7770,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "隨風而起Ü又消散",
+    "tagLine": "12190",
+    "region": "TW2",
+    "score": 25695,
+    "legacyScore": 7420,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Yiroy Jenkins",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25660,
+    "legacyScore": 8315,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "El Jambo",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25955,
+    "legacyScore": 7480,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "ŸïÝï Ÿüümï Ýï",
+    "tagLine": "LAS",
+    "region": "LA2",
+    "score": 26400,
+    "legacyScore": 7040,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Dreamy",
+    "tagLine": "4442",
+    "region": "EUW1",
+    "score": 25560,
+    "legacyScore": 6970,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Artas",
+    "tagLine": "artas",
+    "region": "EUN1",
+    "score": 25725,
+    "legacyScore": 7585,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Mantarochen Manu",
+    "tagLine": "JULE",
+    "region": "EUW1",
+    "score": 25730,
+    "legacyScore": 7075,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Pure Epicness",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 27035,
+    "legacyScore": 7530,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "R3nn0",
+    "tagLine": "FURRY",
+    "region": "EUW1",
+    "score": 26060,
+    "legacyScore": 7595,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "NiceEggs",
+    "tagLine": "BALLS",
+    "region": "EUN1",
+    "score": 25655,
+    "legacyScore": 8120,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "TRG",
+    "tagLine": "KRl",
+    "region": "KR",
+    "score": 26015,
+    "legacyScore": 6950,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Hera1527",
+    "tagLine": "1527",
+    "region": "EUW1",
+    "score": 26045,
+    "legacyScore": 6215,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Giraffe Throat",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 25225,
+    "legacyScore": 4480,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Easy",
+    "tagLine": "Bake",
+    "region": "EUW1",
+    "score": 25525,
+    "legacyScore": 6960,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "책임져야하는사람",
+    "tagLine": "0223",
+    "region": "KR",
+    "score": 25705,
+    "legacyScore": 5965,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "EckeLucas",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 27290,
+    "legacyScore": 7885,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Breez",
+    "tagLine": "DANI",
+    "region": "OC1",
+    "score": 25715,
+    "legacyScore": 7630,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "PleaseBeGwentle",
+    "tagLine": "Jng",
+    "region": "EUW1",
+    "score": 25685,
+    "legacyScore": 7030,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "AlexRuiz",
+    "tagLine": "00001",
+    "region": "NA1",
+    "score": 27035,
+    "legacyScore": 7970,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Ewokcore",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 26875,
+    "legacyScore": 8360,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "John Park",
+    "tagLine": "존 박",
+    "region": "KR",
+    "score": 25695,
+    "legacyScore": 7930,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "ViggoEdits",
+    "tagLine": "PSA10",
+    "region": "EUW1",
+    "score": 26515,
+    "legacyScore": 7825,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Roserub",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25665,
+    "legacyScore": 6640,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Mercury",
+    "tagLine": "God",
+    "region": "NA1",
+    "score": 26785,
+    "legacyScore": 7855,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "FLaMeQ",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25655,
+    "legacyScore": 8390,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Slippy",
+    "tagLine": "eeeee",
+    "region": "EUW1",
+    "score": 25775,
+    "legacyScore": 7710,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Happy",
+    "tagLine": "005",
+    "region": "EUW1",
+    "score": 27625,
+    "legacyScore": 7500,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Khang x T",
+    "tagLine": "2212",
+    "region": "VN2",
+    "score": 25500,
+    "legacyScore": 6695,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Jennifer",
+    "tagLine": "KDA",
+    "region": "EUW1",
+    "score": 25295,
+    "legacyScore": 4930,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "SJHaubi",
+    "tagLine": "brum",
+    "region": "EUW1",
+    "score": 25750,
+    "legacyScore": 7930,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "불곰파 인정순",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 25355,
+    "legacyScore": 6000,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "yapper",
+    "tagLine": "ff15",
+    "region": "EUN1",
+    "score": 25465,
+    "legacyScore": 7545,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Yuno",
+    "tagLine": "ONCE",
+    "region": "EUW1",
+    "score": 25545,
+    "legacyScore": 8065,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "ÁKÁ",
+    "tagLine": "MALNA",
+    "region": "EUN1",
+    "score": 25455,
+    "legacyScore": 7030,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Meyer",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25400,
+    "legacyScore": 7275,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "FallenSte",
+    "tagLine": "Kayn",
+    "region": "EUW1",
+    "score": 25540,
+    "legacyScore": 8135,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Massie",
+    "tagLine": "001",
+    "region": "EUW1",
+    "score": 25525,
+    "legacyScore": 7355,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "T1 Hwei",
+    "tagLine": "0000",
+    "region": "EUN1",
+    "score": 25585,
+    "legacyScore": 7635,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "LoneSavage",
+    "tagLine": "67676",
+    "region": "NA1",
+    "score": 25690,
+    "legacyScore": 6815,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Mina",
+    "tagLine": "NPQA",
+    "region": "VN2",
+    "score": 26170,
+    "legacyScore": 7525,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "24 4 24 4",
+    "tagLine": "NOEGO",
+    "region": "EUW1",
+    "score": 25415,
+    "legacyScore": 7310,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Luciƒero Cræmisi",
+    "tagLine": "OUT",
+    "region": "EUW1",
+    "score": 26130,
+    "legacyScore": 7080,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "霍爾ü",
+    "tagLine": "ADC",
+    "region": "TW2",
+    "score": 25375,
+    "legacyScore": 7375,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Shoxy",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25385,
+    "legacyScore": 7020,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "야동고",
+    "tagLine": "000",
+    "region": "EUW1",
+    "score": 26780,
+    "legacyScore": 7565,
+    "challengeRank": "GRANDMASTER"
+  },
+  {
+    "gameName": "Tasty Cull",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25280,
+    "legacyScore": 6845,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Ninmery",
+    "tagLine": "BR1",
+    "region": "BR1",
+    "score": 25360,
+    "legacyScore": 7260,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Samoranski",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 25370,
+    "legacyScore": 7650,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "도 리",
+    "tagLine": "1004",
+    "region": "KR",
+    "score": 25310,
+    "legacyScore": 5745,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Vuk",
+    "tagLine": "zjuuu",
+    "region": "EUN1",
+    "score": 25375,
+    "legacyScore": 7780,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Gerap4",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 25365,
+    "legacyScore": 7815,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Yuno",
+    "tagLine": "ONCE",
+    "region": "TR1",
+    "score": 25210,
+    "legacyScore": 7155,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "VexBezZobowiazan",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 25380,
+    "legacyScore": 6495,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Darkly Fox",
+    "tagLine": "00035",
+    "region": "RU",
+    "score": 25405,
+    "legacyScore": 8540,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "魚魚仔",
+    "tagLine": "1527",
+    "region": "TW2",
+    "score": 25175,
+    "legacyScore": 6845,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Sold Pets For RP",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25245,
+    "legacyScore": 7545,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Libra",
+    "tagLine": "107",
+    "region": "JP1",
+    "score": 25200,
+    "legacyScore": 7585,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Gamb",
+    "tagLine": "3544",
+    "region": "EUW1",
+    "score": 26300,
+    "legacyScore": 6620,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Dictator4life",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 25980,
+    "legacyScore": 6955,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Chief Hyena",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25135,
+    "legacyScore": 7125,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Chị Hằng Độ Bi",
+    "tagLine": "8888",
+    "region": "VN2",
+    "score": 26945,
+    "legacyScore": 4755,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "equanimitY",
+    "tagLine": "MEOW",
+    "region": "OC1",
+    "score": 25130,
+    "legacyScore": 7965,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Bố Rương vĩ đại",
+    "tagLine": "ruong",
+    "region": "VN2",
+    "score": 25230,
+    "legacyScore": 7425,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Wrong One",
+    "tagLine": "Ward",
+    "region": "EUN1",
+    "score": 25465,
+    "legacyScore": 7675,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Pain",
+    "tagLine": "Ajna",
+    "region": "EUN1",
+    "score": 25650,
+    "legacyScore": 7450,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Blitzzer",
+    "tagLine": "1911",
+    "region": "EUN1",
+    "score": 25145,
+    "legacyScore": 8045,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "く う",
+    "tagLine": "S8S",
+    "region": "NA1",
+    "score": 25105,
+    "legacyScore": 5700,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "FPX Doind",
+    "tagLine": "JP1",
+    "region": "JP1",
+    "score": 25200,
+    "legacyScore": 7235,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Vitasoy",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 25485,
+    "legacyScore": 7635,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "jia KR",
+    "tagLine": "OCE",
+    "region": "OC1",
+    "score": 23830,
+    "legacyScore": 4490,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "JohnnyW",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 25230,
+    "legacyScore": 5990,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Get Jinxed",
+    "tagLine": "Meeku",
+    "region": "EUW1",
+    "score": 25145,
+    "legacyScore": 6680,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "PrettyHS",
+    "tagLine": "RU1",
+    "region": "RU",
+    "score": 25440,
+    "legacyScore": 7585,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "RIPChiefAkkiri",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25295,
+    "legacyScore": 7990,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Superjombombo2",
+    "tagLine": "Neeko",
+    "region": "EUW1",
+    "score": 25095,
+    "legacyScore": 8165,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "MerguezOffusquée",
+    "tagLine": "Hyou",
+    "region": "EUW1",
+    "score": 25260,
+    "legacyScore": 6610,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Viya",
+    "tagLine": "IRON4",
+    "region": "NA1",
+    "score": 25090,
+    "legacyScore": 7180,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Robo",
+    "tagLine": "RXTN",
+    "region": "NA1",
+    "score": 25295,
+    "legacyScore": 7760,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Bладик",
+    "tagLine": "RU1",
+    "region": "RU",
+    "score": 25480,
+    "legacyScore": 8140,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "iwo",
+    "tagLine": "000",
+    "region": "EUW1",
+    "score": 25195,
+    "legacyScore": 6615,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Scraf",
+    "tagLine": "2052",
+    "region": "NA1",
+    "score": 25505,
+    "legacyScore": 7200,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "븅딱발",
+    "tagLine": "KR1",
+    "region": "KR",
+    "score": 25090,
+    "legacyScore": 6745,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Cone",
+    "tagLine": "Ferda",
+    "region": "NA1",
+    "score": 25120,
+    "legacyScore": 7695,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Mèo つωつ",
+    "tagLine": "Luck",
+    "region": "VN2",
+    "score": 25105,
+    "legacyScore": 7000,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "sefje",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25975,
+    "legacyScore": 7770,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "David",
+    "tagLine": "CEO",
+    "region": "NA1",
+    "score": 25075,
+    "legacyScore": 6350,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Wish to Dream",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25080,
+    "legacyScore": 7440,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "korro90",
+    "tagLine": "Lili",
+    "region": "EUN1",
+    "score": 25420,
+    "legacyScore": 7650,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Måke",
+    "tagLine": "uwu",
+    "region": "EUN1",
+    "score": 25160,
+    "legacyScore": 7345,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "train to failure",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 25225,
+    "legacyScore": 7750,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "feva",
+    "tagLine": "4241",
+    "region": "JP1",
+    "score": 25470,
+    "legacyScore": 7645,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Vulpix",
+    "tagLine": "Vibes",
+    "region": "EUW1",
+    "score": 25055,
+    "legacyScore": 6920,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Trần Nhật1",
+    "tagLine": "2002",
+    "region": "VN2",
+    "score": 25165,
+    "legacyScore": 7530,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "DBZ Sasorite",
+    "tagLine": "1510",
+    "region": "VN2",
+    "score": 25400,
+    "legacyScore": 6510,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Nawé",
+    "tagLine": "CHILL",
+    "region": "EUW1",
+    "score": 25020,
+    "legacyScore": 7595,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Tyrranoid2410",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25175,
+    "legacyScore": 7630,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Tonelico",
+    "tagLine": "Fae",
+    "region": "JP1",
+    "score": 24960,
+    "legacyScore": 6520,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "melvandras",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 26130,
+    "legacyScore": 7865,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "NotreDan",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25105,
+    "legacyScore": 7535,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "T7 Alien4Gamer",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 25055,
+    "legacyScore": 7575,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "nationality121",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 25140,
+    "legacyScore": 7355,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "That Dunk Master",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 25285,
+    "legacyScore": 8375,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Don Rigoni",
+    "tagLine": "Doni",
+    "region": "TR1",
+    "score": 24945,
+    "legacyScore": 5545,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Edenae",
+    "tagLine": "Ahri",
+    "region": "EUN1",
+    "score": 24985,
+    "legacyScore": 6625,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Prédά",
+    "tagLine": "UWU",
+    "region": "EUW1",
+    "score": 25460,
+    "legacyScore": 6615,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Tobe Tobe",
+    "tagLine": "00000",
+    "region": "VN2",
+    "score": 25260,
+    "legacyScore": 6410,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "健康愛情逆行者",
+    "tagLine": "死去活來",
+    "region": "TW2",
+    "score": 24930,
+    "legacyScore": 6950,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Alecc",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 24960,
+    "legacyScore": 6805,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "EDII",
+    "tagLine": "EUNE",
+    "region": "EUN1",
+    "score": 25515,
+    "legacyScore": 6950,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "호 야",
+    "tagLine": "3223",
+    "region": "KR",
+    "score": 25340,
+    "legacyScore": 7280,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "phenomist",
+    "tagLine": "NA1",
+    "region": "NA1",
+    "score": 24920,
+    "legacyScore": 6305,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Vecna",
+    "tagLine": "NUNU",
+    "region": "BR1",
+    "score": 26365,
+    "legacyScore": 8140,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "0ne Trick Pøny",
+    "tagLine": "EUW",
+    "region": "EUW1",
+    "score": 26545,
+    "legacyScore": 6955,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Gwendo",
+    "tagLine": "NQNT",
+    "region": "EUW1",
+    "score": 25380,
+    "legacyScore": 7215,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Nadrogen",
+    "tagLine": "XFX",
+    "region": "EUW1",
+    "score": 25030,
+    "legacyScore": 7440,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "Lâm Thành",
+    "tagLine": "vn123",
+    "region": "VN2",
+    "score": 24955,
+    "legacyScore": 5875,
+    "challengeRank": "MASTER"
+  },
+  {
+    "gameName": "iOuZo",
+    "tagLine": "0001",
+    "region": "EUW1",
+    "score": 24130,
+    "legacyScore": 4255,
+    "challengeRank": "MASTER"
+  }
 ]

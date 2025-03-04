@@ -19,7 +19,25 @@
 
             </div>
          </div>
-         <div class="user-stats">
+         <div *ngIf="catchemAllMode" class="user-stats catch-stats">
+            <div>
+               <h6>Champions Completed</h6>
+               <h5>{{champsFinished}}/150</h5>
+            </div>
+            <div>
+               <h6>Mastery Requirement</h6>
+               <h5>{{top150Mastery.toLocaleString()}} / {{(catchNextUpgrade * 150).toLocaleString()}}</h5>
+            </div>
+            <div>
+               <h6>Completion Percentage</h6>
+               <h5>{{(top150Mastery / (catchNextUpgrade * 150)) | percent: '1.2-2' }}</h5>
+            </div>
+            <div>
+               <h6>Catch'em All Upgrade Time</h6>
+               <h5 class="upgrade-time">{{upgradeTimeCatch}}</h5>
+            </div>
+         </div>
+         <div *ngIf="!catchemAllMode"class="user-stats">
             <div>
                <h6>Total Mastery Points</h6>
                <h5>{{totalPoints.toLocaleString()}}</h5>
@@ -28,15 +46,12 @@
                <h6>Average Mastery Points / Day</h6>
                <h5>{{avgPointsPerDay | number: '1.0-0'}}</h5>
             </div>
-            <div *ngIf="catchemAllMode">
-               <h6>Catch'em All Upgrade Time</h6>
-               <h5 class="upgrade-time">{{upgradeTimeCatch}}</h5>
-            </div>
-            <div *ngIf="!catchemAllMode">
+            <div>
                <h6>Master The Enemy Upgrade Time</h6>
                <h5 class="upgrade-time">{{upgradeTimeEnemy}}</h5>
             </div>
          </div>
+
       </div>
       <div *ngIf="!showM7Toggle" class="challenges-buttons">
          <challenge-item (challengeClickedEvent)="challengeClicked($event)" [userChallengeData]="userChallengeData.masterYourself"></challenge-item>
