@@ -112,7 +112,7 @@ export class MasteryItemComponent implements OnInit  {
     }
 
 
-    if (this.item.championPointsSinceLastLevel == 0) {
+    if (this.item.championPointsUntilNextLevel > 11000) {
       this.pointsRequired = this.item.championPoints + this.item.championPointsUntilNextLevel;
       this.item.championPointsSinceLastLevel = this.item.championPoints;
     }
