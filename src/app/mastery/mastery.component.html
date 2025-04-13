@@ -169,6 +169,9 @@
                   }
                </button>
                <div ngbDropdownMenu aria-labelledby="globeFilter">
+                    <button (click)="changeGlobe(null)" ngbDropdownItem>
+                      All Regions
+                    </button>
                   @for (globe of globes; track globe) {
                     <button (click)="changeGlobe(globe)" ngbDropdownItem>
                       {{ globe }}
