@@ -6,6 +6,7 @@ import { ChallengeItemComponent }  from './challenge-item/challenge-item.compone
 import { MasteryItemComponent }  from './mastery-item/mastery-item.component';
 import championData2 from '../data/championData2.json';
 import champLaneData from '../data/champLaneData.json';
+import globesData from '../data/globesData.json';
 import { NgbDropdownModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import {
   Router,
@@ -56,12 +57,16 @@ export class MasteryComponent implements OnInit  {
   public showM7Toggle;
   public top150Mastery;
   public champsFinished = 0;
+  public globesFilter;
+  public globes: string[] = [];
 
   constructor(private router: Router, private  appService: AppService,) { 
     this.activeProfileInfo = this.appService.activeProfileInfo;
   }
 
   ngOnInit() {
+
+    this.globes = Object.keys(globesData);
 
     this.hideM5 = localStorage.getItem("hideM5");
     this.hideM6 = localStorage.getItem("hideM6");
@@ -91,6 +96,11 @@ export class MasteryComponent implements OnInit  {
     }
     this.getProfilePic();
     this.getMastery();
+  }
+
+  changeGlobe(globe) {
+    this.globesFilter = globe;
+    this.sort();
   }
 
   restart() {
@@ -221,6 +231,7 @@ export class MasteryComponent implements OnInit  {
         }
 
         this.masteryData.push(unplayedChamp);
+
       }
 
     }
@@ -551,14 +562,27 @@ export class MasteryComponent implements OnInit  {
   applyLanesFilter() {
 
     if (!this.selectedLane) {
-      return this.applyCatchemAllFilter();
+      return this.applyGlobesFilter();
     } else {
       this.filteredData = this.filteredData.filter(item => {
         return item.lanes.indexOf(this.selectedLane) > -1;
       })
     }
+    this.applyGlobesFilter();
+  }
+
+  applyGlobesFilter() {
+
+    if (!this.globesFilter) {
+      return this.applyCatchemAllFilter();
+    } else {
+      this.filteredData = this.filteredData.filter(item => {
+        return globesData[this.globesFilter].indexOf(item.name) > -1
+      })
+    }
     this.applyCatchemAllFilter();
   }
+
 
   applyCatchemAllFilter() {
     if (!this.catchemAllMode) {
@@ -590,10 +614,8 @@ export class MasteryComponent implements OnInit  {
     top150.forEach(item => {
       let pointsEarned: any = 0;
       if (item.championPoints >= this.catchNextUpgrade) {
-        console.log(item);
         pointsEarned = this.catchNextUpgrade;
         this.champsFinished++;
-        console.log(this.champsFinished);
       } else {
         pointsEarned = parseInt(item.championPoints);
       }
@@ -626,7 +648,6 @@ export class MasteryComponent implements OnInit  {
     } else {
       this.upgradeTimeCatch = Math.floor((totalNeeded - currentProgress) / this.avgPointsPerDay) + ' days';
       this.upgradeTimeEnemy = Math.floor((totalNeededEnemy - currentProgressEnemy) / this.avgPointsPerDay) + ' days';
-      console.log(totalNeededEnemy , currentProgressEnemy);
       if (totalNeededEnemy == 0) {
         this.upgradeTimeEnemy = 'Completed';
       }
