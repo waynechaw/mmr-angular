@@ -75,7 +75,7 @@
         "gameName": "ponzels",
         "tagLine": "b21",
         "region": "EUW1",
-        "score": 29030,
+        "score": 29070,
         "legacyScore": 8310,
         "challengeRank": "CHALLENGER"
     },
@@ -235,7 +235,7 @@
         "gameName": "GS Kaptyn",
         "tagLine": "EUNE",
         "region": "EUN1",
-        "score": 28600,
+        "score": 28640,
         "legacyScore": 7575,
         "challengeRank": "CHALLENGER"
     },
@@ -275,7 +275,7 @@
         "gameName": "Toki",
         "tagLine": "Ahri",
         "region": "NA1",
-        "score": 28575,
+        "score": 28615,
         "legacyScore": 8735,
         "challengeRank": "CHALLENGER"
     },
@@ -293,7 +293,7 @@
         "region": "EUW1",
         "score": 28305,
         "legacyScore": 5855,
-        "challengeRank": "CHALLENGER"
+        "challengeRank": "GRANDMASTER"
     },
     {
         "gameName": "Synicle",
@@ -413,7 +413,7 @@
         "region": "NA1",
         "score": 28125,
         "legacyScore": 8000,
-        "challengeRank": "GRANDMASTER"
+        "challengeRank": "CHALLENGER"
     },
     {
         "gameName": "Satori",
@@ -563,7 +563,7 @@
         "gameName": "Dum",
         "tagLine": "6789",
         "region": "VN2",
-        "score": 28220,
+        "score": 28260,
         "legacyScore": 6660,
         "challengeRank": "GRANDMASTER"
     },
@@ -851,7 +851,7 @@
         "gameName": "Happy End",
         "tagLine": "ฅÒωÓฅ",
         "region": "KR",
-        "score": 27395,
+        "score": 27450,
         "legacyScore": 7595,
         "challengeRank": "GRANDMASTER"
     },
@@ -963,7 +963,7 @@
         "gameName": "TKAN Dragon",
         "tagLine": "1106",
         "region": "VN2",
-        "score": 27660,
+        "score": 27675,
         "legacyScore": 6605,
         "challengeRank": "GRANDMASTER"
     },
@@ -1371,7 +1371,7 @@
         "gameName": "CrystallinEagle",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 26925,
+        "score": 26940,
         "legacyScore": 8045,
         "challengeRank": "GRANDMASTER"
     },
@@ -1387,7 +1387,7 @@
         "gameName": "Zargoz",
         "tagLine": "47337",
         "region": "RU",
-        "score": 26890,
+        "score": 26910,
         "legacyScore": 7825,
         "challengeRank": "MASTER"
     },
@@ -1395,7 +1395,7 @@
         "gameName": "すーま",
         "tagLine": "JP1",
         "region": "JP1",
-        "score": 26860,
+        "score": 26880,
         "legacyScore": 7430,
         "challengeRank": "GRANDMASTER"
     },
@@ -1515,7 +1515,7 @@
         "gameName": "く う",
         "tagLine": "S8S",
         "region": "LA1",
-        "score": 26945,
+        "score": 27025,
         "legacyScore": 6625,
         "challengeRank": "CHALLENGER"
     },
@@ -1611,7 +1611,7 @@
         "gameName": "Rinkutemo",
         "tagLine": "Prime",
         "region": "EUN1",
-        "score": 27235,
+        "score": 27275,
         "legacyScore": 7420,
         "challengeRank": "GRANDMASTER"
     },
@@ -1755,7 +1755,7 @@
         "gameName": "Agiandor",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 26795,
+        "score": 26815,
         "legacyScore": 7505,
         "challengeRank": "GRANDMASTER"
     },
@@ -1845,7 +1845,7 @@
         "region": "NA1",
         "score": 27055,
         "legacyScore": 7855,
-        "challengeRank": "MASTER"
+        "challengeRank": "GRANDMASTER"
     },
     {
         "gameName": "Powder was here",
@@ -1932,7 +1932,7 @@
         "tagLine": "soloq",
         "region": "NA1",
         "score": 26235,
-        "legacyScore": 8015,
+        "legacyScore": 8055,
         "challengeRank": "MASTER"
     },
     {
@@ -2083,7 +2083,7 @@
         "gameName": "Simaniac",
         "tagLine": "SIM",
         "region": "NA1",
-        "score": 27145,
+        "score": 27185,
         "legacyScore": 7570,
         "challengeRank": "GRANDMASTER"
     },
@@ -2219,7 +2219,7 @@
         "gameName": "jybike",
         "tagLine": "112",
         "region": "EUN1",
-        "score": 27400,
+        "score": 27410,
         "legacyScore": 8350,
         "challengeRank": "GRANDMASTER"
     },
@@ -2453,7 +2453,7 @@
         "region": "NA1",
         "score": 27000,
         "legacyScore": 8360,
-        "challengeRank": "MASTER"
+        "challengeRank": "GRANDMASTER"
     },
     {
         "gameName": "John Park",
@@ -2531,7 +2531,7 @@
         "gameName": "SJHaubi",
         "tagLine": "brum",
         "region": "EUW1",
-        "score": 26085,
+        "score": 26160,
         "legacyScore": 7940,
         "challengeRank": "MASTER"
     },
@@ -2571,7 +2571,7 @@
         "gameName": "Meyer",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 25625,
+        "score": 25665,
         "legacyScore": 7295,
         "challengeRank": "MASTER"
     },
@@ -2675,7 +2675,7 @@
         "gameName": "Samoranski",
         "tagLine": "NA1",
         "region": "NA1",
-        "score": 25495,
+        "score": 25500,
         "legacyScore": 7650,
         "challengeRank": "MASTER"
     },
@@ -2683,7 +2683,7 @@
         "gameName": "도 리",
         "tagLine": "1004",
         "region": "KR",
-        "score": 25395,
+        "score": 25405,
         "legacyScore": 6155,
         "challengeRank": "MASTER"
     },
@@ -2803,7 +2803,7 @@
         "gameName": "Wrong One",
         "tagLine": "Ward",
         "region": "EUN1",
-        "score": 25935,
+        "score": 25975,
         "legacyScore": 7840,
         "challengeRank": "MASTER"
     },
@@ -2811,7 +2811,7 @@
         "gameName": "Pain",
         "tagLine": "Ajna",
         "region": "EUN1",
-        "score": 26550,
+        "score": 26605,
         "legacyScore": 7450,
         "challengeRank": "MASTER"
     },
@@ -2867,7 +2867,7 @@
         "gameName": "Get Jinxed",
         "tagLine": "Meeku",
         "region": "EUW1",
-        "score": 25265,
+        "score": 25325,
         "legacyScore": 6680,
         "challengeRank": "MASTER"
     },
@@ -2875,7 +2875,7 @@
         "gameName": "PrettyHS",
         "tagLine": "RU1",
         "region": "RU",
-        "score": 26135,
+        "score": 26230,
         "legacyScore": 7585,
         "challengeRank": "MASTER"
     },
@@ -2987,7 +2987,7 @@
         "gameName": "Wish to Dream",
         "tagLine": "EUW",
         "region": "EUW1",
-        "score": 25165,
+        "score": 25185,
         "legacyScore": 7525,
         "challengeRank": "MASTER"
     },
@@ -3100,7 +3100,7 @@
         "tagLine": "EUNE",
         "region": "EUN1",
         "score": 25640,
-        "legacyScore": 7355,
+        "legacyScore": 7395,
         "challengeRank": "MASTER"
     },
     {
@@ -3163,7 +3163,7 @@
         "gameName": "EDII",
         "tagLine": "EUNE",
         "region": "EUN1",
-        "score": 25765,
+        "score": 25805,
         "legacyScore": 6990,
         "challengeRank": "MASTER"
     },
