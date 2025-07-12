@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -14,6 +14,9 @@ import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 export class AppComponent implements OnInit {
 
   isCollapsed = true;
+  darkMode = false;
+
+  constructor(private renderer: Renderer2) {}
 
   ngOnInit() {
 
@@ -59,17 +62,25 @@ export class AppComponent implements OnInit {
       "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-266.jpg",
       "https://www.iamag.co/wp-content/uploads/2019/11/legends-runeterra-sixmorevodka-019.jpg",
       "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-169.jpg"
-
-
-
-
-
-
-
-
     ];
     var random = backgrounds[Math.floor(Math.random() * backgrounds.length)];
     document.body.style.backgroundImage = `url('${random}')`;
 
+    const darkMode = localStorage.getItem('darkMode');
+    if (darkMode === 'true') {
+      this.darkMode = true;
+      this.renderer.addClass(document.body, 'dark-mode');
+    }
+  }
+
+  toggleDarkMode() {
+    this.darkMode = !this.darkMode;
+    if (this.darkMode) {
+      this.renderer.addClass(document.body, 'dark-mode');
+      localStorage.setItem('darkMode', 'true');
+    } else {
+      this.renderer.removeClass(document.body, 'dark-mode');
+      localStorage.setItem('darkMode', 'false');
+    }
   }
 }

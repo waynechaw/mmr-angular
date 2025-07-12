@@ -13,6 +13,24 @@ body {
     background-position: 0px 50px;
 }
 
+.dark-mode {
+  background: #000 !important;
+  color: #fff !important;
+
+  .compare-search-container, .table thead th, .table tbody tr:nth-child(even) td, .table tbody tr:nth-child(odd) td, .challenges-container, .champions-container {
+    background: #1a1a1a !important;
+    color: #fff !important;
+  }
+
+  .challenge-item {
+    background-color: #2c2c2c !important;
+  }
+
+  .champion-item-container {
+    background: #2c2c2c !important;
+  }
+}
+
 @font-face {
     font-family: 'ff';
     src: url('./assets/FontFont_FF.Mark.Pro.Medium.otf') format('opentype');
