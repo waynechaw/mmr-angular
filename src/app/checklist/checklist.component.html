@@ -104,7 +104,7 @@
 	    @for (item of championsChecklistData[selectedChallenge].data | championFilter:searchText:selectedLane; track item) {
 	    	<div [hidden]="toggleHideChecked && item.checked" [ngClass]="{'checked': item.checked}" (click)="champClicked(item)" class="position-relative champion-item">
 	    		<i class="bi bi-check-circle-fill position-absolute"></i>
-	    		<img src="https://ddragon.leagueoflegends.com/cdn/15.2.1/img/champion/{{item.id}}.png"/>
+	    		<img src="https://ddragon.leagueoflegends.com/cdn/15.14.1/img/champion/{{item.id}}.png"/>
 	    		<h5>{{ item.name }}</h5>
 
 	    	</div>

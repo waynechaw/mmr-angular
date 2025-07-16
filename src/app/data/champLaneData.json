@@ -1260,5 +1260,12 @@
             "MID"
         ],
         "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 804,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
     }
 ]

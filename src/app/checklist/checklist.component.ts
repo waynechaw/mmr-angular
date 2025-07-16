@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbDropdownModule, NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
-import champData from './championData.json';
 import challengeData from '../data/challengeData.json';
 import { CommonModule } from "@angular/common";
 import { FormsModule } from '@angular/forms';
