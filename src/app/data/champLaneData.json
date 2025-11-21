@@ -1,4 +1,12 @@
 [
+
+    {
+        "id": 904,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },    
     {
         "id": 1,
         "roles": [
