@@ -1,5 +1,11 @@
 [
-
+    {
+        "id": 805,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },  
     {
         "id": 904,
         "roles": [
