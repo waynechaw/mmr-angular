@@ -59,6 +59,7 @@ export class MasteryComponent implements OnInit  {
   public champsFinished = 0;
   public globesFilter;
   public globes: string[] = [];
+  public maxPointsFilter = 0;
 
   constructor(private router: Router, private  appService: AppService,) { 
     this.activeProfileInfo = this.appService.activeProfileInfo;
@@ -74,6 +75,8 @@ export class MasteryComponent implements OnInit  {
     this.hideM8 = localStorage.getItem("hideM8");
     this.hideM9 = localStorage.getItem("hideM9");
     this.hideM10 = localStorage.getItem("hideM10");
+
+    this.maxPointsFilter = Number(localStorage.getItem("maxPointsFilter")) || 0;
 
     if (localStorage.getItem("starToggle") === 'false') {
       this.starToggle = false;
@@ -100,6 +103,12 @@ export class MasteryComponent implements OnInit  {
 
   changeGlobe(globe) {
     this.globesFilter = globe;
+    this.sort();
+  }
+
+  changeMaxPointsFilter(points) {
+    this.maxPointsFilter = points;
+    localStorage.setItem("maxPointsFilter", String(points));
     this.sort();
   }
 
@@ -574,10 +583,21 @@ export class MasteryComponent implements OnInit  {
   applyGlobesFilter() {
 
     if (!this.globesFilter) {
-      return this.applyCatchemAllFilter();
+      return this.applyMaxPointsFilter();
     } else {
       this.filteredData = this.filteredData.filter(item => {
         return globesData[this.globesFilter].indexOf(item.name) > -1
+      })
+    }
+    this.applyMaxPointsFilter();
+  }
+
+  applyMaxPointsFilter() {
+    if (!this.maxPointsFilter) {
+      return this.applyCatchemAllFilter();
+    } else {
+      this.filteredData = this.filteredData.filter(item => {
+        return item.championPoints < this.maxPointsFilter;
       })
     }
     this.applyCatchemAllFilter();

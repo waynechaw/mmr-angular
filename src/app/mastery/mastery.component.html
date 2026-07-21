@@ -181,36 +181,61 @@
             </div>
 
 
+            <div ngbDropdown class="me-2 mastery-filter d-inline-block">
+               <button type="button" class="btn btn-light" id="pointsFilter" ngbDropdownToggle>
+                  @if (!maxPointsFilter) {
+                    All Points
+                  } @else {
+                    &lt;{{maxPointsFilter / 1000}}k
+                  }
+               </button>
+               <div ngbDropdownMenu aria-labelledby="pointsFilter">
+                    <button (click)="changeMaxPointsFilter(0)" ngbDropdownItem>
+                      All Points
+                    </button>
+                    <button (click)="changeMaxPointsFilter(10000)" ngbDropdownItem>
+                      &lt;10k
+                    </button>
+                    <button (click)="changeMaxPointsFilter(50000)" ngbDropdownItem>
+                      &lt;50k
+                    </button>
+                    <button (click)="changeMaxPointsFilter(100000)" ngbDropdownItem>
+                      &lt;100k
+                    </button>
+               </div>
+            </div>
+
+
             <div ngbDropdown class="mastery-filter d-inline-block">
-               	<button type="button" class="btn btn-light" id="dropdownBasic2" ngbDropdownToggle>
-									@if (sortMethod == 'level-down') {
-									  Sort: Level <i class="bi bi-arrow-down-short"></i>
-									} @else if (sortMethod == 'level-up') {
-									  Sort: Level <i class="bi bi-arrow-up-short"></i>
-									} @else if (sortMethod == 'points-down') {
-									  Sort: Points <i class="bi bi-arrow-down-short"></i>
-									} @else if (sortMethod == 'points-up') {
-									  Sort: Points <i class="bi bi-arrow-up-short"></i>
-									} @else if (sortMethod == 'alphabetically-down') {
-									  Sort: Alphabetically <i class="bi bi-arrow-down-short"></i>
-									} @else if (sortMethod == 'alphabetically-up') {
-									  Sort: Alphabetically <i class="bi bi-arrow-up-short"></i>
-									} @else if (sortMethod == 'lastplayed-down') {
-									  Sort: Last Played <i class="bi bi-arrow-down-short"></i>
-									} @else if (sortMethod == 'lastplayed-up') {
-									  Sort: Last Played <i class="bi bi-arrow-up-short"></i>
-									} @else if (sortMethod == 'milestones-down') {
-									  Sort: Milestones<i class="bi bi-arrow-down-short"></i>
-									} @else if (sortMethod == 'milestones-up') {
-									  Sort: Milestones <i class="milestones bi-arrow-up-short"></i>
-									} @else if (sortMethod == 'grades-down') {
-									  Sort: Grades<i class="bi bi-arrow-down-short"></i>
-									} @else if (sortMethod == 'grades-up') {
-									  Sort: Grades<i class="bi bi-arrow-up-short"></i>
-									} @else if (sortMethod == 'smart') {
+                  <button type="button" class="btn btn-light" id="dropdownBasic2" ngbDropdownToggle>
+                           @if (sortMethod == 'level-down') {
+                             Sort: Level <i class="bi bi-arrow-down-short"></i>
+                           } @else if (sortMethod == 'level-up') {
+                             Sort: Level <i class="bi bi-arrow-up-short"></i>
+                           } @else if (sortMethod == 'points-down') {
+                             Sort: Points <i class="bi bi-arrow-down-short"></i>
+                           } @else if (sortMethod == 'points-up') {
+                             Sort: Points <i class="bi bi-arrow-up-short"></i>
+                           } @else if (sortMethod == 'alphabetically-down') {
+                             Sort: Alphabetically <i class="bi bi-arrow-down-short"></i>
+                           } @else if (sortMethod == 'alphabetically-up') {
+                             Sort: Alphabetically <i class="bi bi-arrow-up-short"></i>
+                           } @else if (sortMethod == 'lastplayed-down') {
+                             Sort: Last Played <i class="bi bi-arrow-down-short"></i>
+                           } @else if (sortMethod == 'lastplayed-up') {
+                             Sort: Last Played <i class="bi bi-arrow-up-short"></i>
+                           } @else if (sortMethod == 'milestones-down') {
+                             Sort: Milestones<i class="bi bi-arrow-down-short"></i>
+                           } @else if (sortMethod == 'milestones-up') {
+                             Sort: Milestones <i class="milestones bi-arrow-up-short"></i>
+                           } @else if (sortMethod == 'grades-down') {
+                             Sort: Grades<i class="bi bi-arrow-down-short"></i>
+                           } @else if (sortMethod == 'grades-up') {
+                             Sort: Grades<i class="bi bi-arrow-up-short"></i>
+                           } @else if (sortMethod == 'smart') {
                              Sort: Smart
                            }
-								</button>
+                        </button>
                 <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
 
                   <button (click)="changeSort('smart')" ngbDropdownItem>
