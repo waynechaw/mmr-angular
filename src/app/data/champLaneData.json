@@ -5,14 +5,14 @@
             "MID"
         ],
         "__typename": "LolChampionsListItem"
-    },  
+    },
     {
         "id": 904,
         "roles": [
             "TOP"
         ],
         "__typename": "LolChampionsListItem"
-    },    
+    },
     {
         "id": 1,
         "roles": [
@@ -1277,6 +1277,1289 @@
     },
     {
         "id": 804,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60805,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60904,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60001,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60002,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60003,
+        "roles": [
+            "MID",
+            "SUPPORT",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60004,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60005,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60006,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60007,
+        "roles": [
+            "MID",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60008,
+        "roles": [
+            "MID",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60009,
+        "roles": [
+            "JUNGLE",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60010,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60011,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60012,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60013,
+        "roles": [
+            "MID",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60014,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60015,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60016,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60017,
+        "roles": [
+            "TOP",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60018,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60019,
+        "roles": [
+            "TOP",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60020,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60021,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60022,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60023,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60024,
+        "roles": [
+            "TOP",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60025,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60026,
+        "roles": [
+            "SUPPORT",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60027,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60028,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60029,
+        "roles": [
+            "ADC",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60030,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60031,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60032,
+        "roles": [
+            "JUNGLE",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60033,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60034,
+        "roles": [
+            "MID",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60035,
+        "roles": [
+            "JUNGLE",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60036,
+        "roles": [
+            "TOP",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60037,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60038,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60039,
+        "roles": [
+            "TOP",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60040,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60041,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60042,
+        "roles": [
+            "ADC",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60043,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60044,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60045,
+        "roles": [
+            "MID",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60048,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60050,
+        "roles": [
+            "MID",
+            "SUPPORT",
+            "ADC",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60051,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60053,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60054,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60055,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60056,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60057,
+        "roles": [
+            "SUPPORT",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60058,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60059,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60060,
+        "roles": [
+            "SUPPORT",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60061,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60062,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60063,
+        "roles": [
+            "SUPPORT",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60064,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60067,
+        "roles": [
+            "ADC",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60068,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60069,
+        "roles": [
+            "MID",
+            "TOP",
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60072,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60074,
+        "roles": [
+            "TOP",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60075,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60076,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60077,
+        "roles": [
+            "JUNGLE",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60078,
+        "roles": [
+            "SUPPORT",
+            "TOP",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60079,
+        "roles": [
+            "TOP",
+            "JUNGLE",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60080,
+        "roles": [
+            "TOP",
+            "SUPPORT",
+            "JUNGLE",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60081,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60082,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60083,
+        "roles": [
+            "TOP",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60084,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60085,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60086,
+        "roles": [
+            "TOP",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60089,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60090,
+        "roles": [
+            "MID",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60091,
+        "roles": [
+            "JUNGLE",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60092,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60096,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60098,
+        "roles": [
+            "TOP",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60099,
+        "roles": [
+            "SUPPORT",
+            "MID",
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60101,
+        "roles": [
+            "MID",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60102,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60103,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60104,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60105,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60106,
+        "roles": [
+            "TOP",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60107,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60110,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60111,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60112,
+        "roles": [
+            "MID",
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60113,
+        "roles": [
+            "JUNGLE",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60114,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60115,
+        "roles": [
+            "ADC",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60117,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60119,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60120,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60121,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60122,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60126,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60127,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60131,
+        "roles": [
+            "JUNGLE",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60133,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60134,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60136,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60141,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60142,
+        "roles": [
+            "MID",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60143,
+        "roles": [
+            "SUPPORT",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60145,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60147,
+        "roles": [
+            "SUPPORT",
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60150,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60154,
+        "roles": [
+            "JUNGLE",
+            "TOP",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60157,
+        "roles": [
+            "MID",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60161,
+        "roles": [
+            "SUPPORT",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60163,
+        "roles": [
+            "MID",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60164,
+        "roles": [
+            "TOP",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60166,
+        "roles": [
+            "MID",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60200,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60201,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60202,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60203,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60221,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60222,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60223,
+        "roles": [
+            "SUPPORT",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60233,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60234,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60235,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60236,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60238,
+        "roles": [
+            "MID",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60240,
+        "roles": [
+            "TOP",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60245,
+        "roles": [
+            "JUNGLE",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60246,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60254,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60266,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60267,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60268,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60350,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60360,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60412,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60420,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60421,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60427,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60429,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60432,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60497,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60498,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60516,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60517,
+        "roles": [
+            "MID",
+            "TOP",
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60518,
+        "roles": [
+            "SUPPORT",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60523,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60526,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60555,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60711,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60777,
+        "roles": [
+            "MID",
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60799,
+        "roles": [
+            "TOP",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60800,
+        "roles": [
+            "MID",
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60875,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60876,
+        "roles": [
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60887,
+        "roles": [
+            "TOP",
+            "JUNGLE"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60888,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60893,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60895,
+        "roles": [
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60897,
+        "roles": [
+            "TOP"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60901,
+        "roles": [
+            "ADC",
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60902,
+        "roles": [
+            "SUPPORT"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60910,
+        "roles": [
+            "MID",
+            "ADC"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60950,
+        "roles": [
+            "MID"
+        ],
+        "__typename": "LolChampionsListItem"
+    },
+    {
+        "id": 60804,
         "roles": [
             "ADC"
         ],

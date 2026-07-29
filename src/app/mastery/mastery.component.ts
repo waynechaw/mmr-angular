@@ -54,6 +54,7 @@ export class MasteryComponent implements OnInit  {
   public t1ChestsEarned = 0;
   public t2ChestsEarned = 0;
   public starToggle = true;
+  public classicToggle = false;
   public showM7Toggle;
   public top150Mastery;
   public champsFinished = 0;
@@ -83,6 +84,8 @@ export class MasteryComponent implements OnInit  {
     } else {
       this.starToggle = true;
     }
+
+    this.classicToggle = localStorage.getItem("classicToggle") === 'true';
 
 
     this.showM7Toggle = localStorage.getItem("showM7Toggle") === 'true';
@@ -393,6 +396,12 @@ export class MasteryComponent implements OnInit  {
     localStorage.setItem('starToggle', JSON.stringify(this.starToggle));
   }
 
+  classicToggleChanged() {
+
+    this.sort();
+    localStorage.setItem('classicToggle', JSON.stringify(this.classicToggle));
+  }
+
   showM7ToggleChanged() {
     localStorage.setItem('showM7Toggle', JSON.stringify(this.showM7Toggle));
   }
@@ -545,8 +554,18 @@ export class MasteryComponent implements OnInit  {
 
 
 
-    this.applyRolesFilter();
+    this.applyClassicFilter();
 
+  }
+
+  applyClassicFilter() {
+    if (this.classicToggle) {
+      this.filteredData = this.filteredData.filter(item => {
+        return Number(item.championId) >= 60000;
+      })
+    }
+
+    this.applyRolesFilter();
   }
 
   applyRolesFilter() {

@@ -2,7 +2,7 @@
    <div class="challenges-container d-flex">
       <div class="user-section d-flex">
          <div class="user-info">
-            <img src="https://ddragon.leagueoflegends.com/cdn/16.13.1/img/profileicon/{{profileIcon}}.png"/>
+            <img src="https://ddragon.leagueoflegends.com/cdn/16.15.1/img/profileicon/{{profileIcon}}.png"/>
             <h1>{{activeProfileInfo.name}}#{{activeProfileInfo.tag}}</h1>
             <h6>Tracking Start Date</h6>
             <h5> {{activeProfileInfo.dateStarted | date:'shortDate'}} </h5>
@@ -138,6 +138,14 @@
               <input style="cursor: pointer;" (change)="starToggleChanged()"  [(ngModel)]="starToggle" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
               <label class="form-check-label" for="flexSwitchCheckDefault"><i style="color: gold;" class="bi bi-star-fill"></i></label>
             </div>
+
+            <div triggers="hover hover" ngbTooltip="Show classic only" style="margin-left: 12px;" class="form-check form-switch">
+              <input style="cursor: pointer;" (change)="classicToggleChanged()"  [(ngModel)]="classicToggle" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckClassic">
+              <label class="form-check-label" for="flexSwitchCheckClassic">
+               <img width="18" src="/assets/images/classic.png"/>
+              </label>
+            </div>
+
 
          </div>
          <div class="role-container">
