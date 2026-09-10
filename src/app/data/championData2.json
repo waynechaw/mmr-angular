@@ -11745,7 +11745,6 @@
       "attackspeed": 0.751
     }
   },
-  {
   "Jade_Fiora": {
     "version": "16.15.1",
     "id": "Jade_Fiora",
@@ -11981,5 +11980,4 @@
       "attackspeed": 0.645
     }
   }
-}
 }
