@@ -1958,5 +1958,45 @@
     "name": "Fizz",
     "title": "The Tidal Trickster",
     "tags": ["Assassin", "Fighter"]
+  },
+  "Jade_Aatrox": {
+    "version": "16.15.1",
+    "id": "Jade_Aatrox",
+    "key": "60266",
+    "name": "Aatrox",
+    "title": "The Darkin Blade",
+    "tags": ["Fighter"]
+  },
+  "Jade_Caitlyn": {
+    "version": "16.15.1",
+    "id": "Jade_Caitlyn",
+    "key": "60051",
+    "name": "Caitlyn",
+    "title": "The Sheriff of Piltover",
+    "tags": ["Marksman"]
+  },
+  "Jade_Irelia": {
+    "version": "16.15.1",
+    "id": "Jade_Irelia",
+    "key": "60039",
+    "name": "Irelia",
+    "title": "The Blade Dancer",
+    "tags": ["Fighter", "Assassin"]
+  },
+  "Jade_Karma": {
+    "version": "16.15.1",
+    "id": "Jade_Karma",
+    "key": "60043",
+    "name": "Karma",
+    "title": "The Enlightened One",
+    "tags": ["Mage", "Support"]
+  },
+  "Jade_Quinn": {
+    "version": "16.15.1",
+    "id": "Jade_Quinn",
+    "key": "60133",
+    "name": "Quinn",
+    "title": "Demacia's Wings",
+    "tags": ["Marksman", "Assassin"]
   }
 }
