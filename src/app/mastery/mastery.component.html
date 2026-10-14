@@ -135,16 +135,26 @@
             </div>
 
             <div triggers="hover hover" ngbTooltip="Move starred champions to the top" style="margin-left: 12px;" class="form-check form-switch">
-              <input style="cursor: pointer;" (change)="starToggleChanged()"  [(ngModel)]="starToggle" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-              <label class="form-check-label" for="flexSwitchCheckDefault"><i style="color: gold;" class="bi bi-star-fill"></i></label>
+              <input style="cursor: pointer;" (change)="starToggleChanged()"  [(ngModel)]="starToggle" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault3">
+              <label class="form-check-label" for="flexSwitchCheckDefault3"><i style="color: gold;" class="bi bi-star-fill"></i></label>
             </div>
 
-            <div triggers="hover hover" ngbTooltip="Show classic only" style="margin-left: 12px;" class="form-check form-switch">
-              <input style="cursor: pointer;" (change)="classicToggleChanged()"  [(ngModel)]="classicToggle" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckClassic">
-              <label class="form-check-label" for="flexSwitchCheckClassic">
-               <img width="18" src="/assets/images/classic.png"/>
-              </label>
-            </div>
+<div ngbDropdown class="ms-3 mastery-filter d-inline-block">
+   <button type="button" class="btn btn-light" id="classicFilter" ngbDropdownToggle>
+      @if (classicFilter == 'classic') {
+        <img width="18" src="/assets/images/classic.png"/> Classic
+      } @else if (classicFilter == 'modern') {
+        Modern
+      } @else {
+        All Modes
+      }
+   </button>
+   <div ngbDropdownMenu aria-labelledby="classicFilter">
+      <button (click)="changeClassicFilter('all')" ngbDropdownItem>Show All</button>
+      <button (click)="changeClassicFilter('classic')" ngbDropdownItem>Classic</button>
+      <button (click)="changeClassicFilter('modern')" ngbDropdownItem>Modern</button>
+   </div>
+</div>
 
 
          </div>
